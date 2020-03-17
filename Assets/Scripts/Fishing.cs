@@ -6,12 +6,17 @@ using UnityEngine.EventSystems;
 
 public class Fishing : MonoBehaviour
 {
-    public GameObject fishCaught;
+    [SerializeField] public GameObject fishCaught;
     public GameObject questionBox;
     public GameObject buttonYes;
     public GameObject buttonNo;
     public GameObject Another;
     public bool playerInRange;
+
+    private void Start()
+    {
+        StartCoroutine(Catch());
+    }
     private void Update()
     {
         if (Input.GetKeyDown(KeyCode.Space) && playerInRange)
@@ -28,11 +33,14 @@ public class Fishing : MonoBehaviour
             }
         }
     }
-
-    public void Catch()
+    public IEnumerator Catch()
     {
-        //Invoke("Catch", 11f);
+        yield return new WaitForSeconds(8);
         fishCaught.SetActive(true);
+        
+    }
+    public void Delay()
+    {
         buttonYes.SetActive(false);
         buttonNo.SetActive(false);
         questionBox.SetActive(false);
