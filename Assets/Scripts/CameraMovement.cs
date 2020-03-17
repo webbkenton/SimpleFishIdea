@@ -31,21 +31,21 @@ public class CameraMovement : MonoBehaviour
             targetPosition.x = Mathf.Clamp(targetPosition.x, minPosition.x, maxPosition.x);
             targetPosition.y = Mathf.Clamp(targetPosition.y, minPosition.y, maxPosition.y);
             transform.position = Vector3.Lerp(transform.position, targetPosition, smoothing);
-            if (minPosition.x > -4.4f)
-            {
-                minPosition.x = 28.45f;
-                minPosition.y = -2.6f;
-                maxPosition.x = 36.6f;
-                maxPosition.y = 2.3f;
-                targetPosition = new Vector3(target.position.x, targetPosition.y, transform.position.z);
-            }
-            if (targetPosition.x < 20.45f)
-            {
-                minPosition.x =-4.4f;
-                minPosition.y =-6f;
-                maxPosition.x =4.45f;
-                maxPosition.y =4.85f;
-            }
+            //if (minPosition.x > -4.4f)
+            //{
+             //   minPosition.x = 28.45f;
+               // minPosition.y = -2.6f;
+                //maxPosition.x = 36.6f;
+                //maxPosition.y = 2.3f;
+                //targetPosition = new Vector3(target.position.x, targetPosition.y, transform.position.z);
+           // }
+            //if (targetPosition.x < 20.45f)
+            //{
+              //  minPosition.x =-4.4f;
+               // minPosition.y =-6f;
+                //maxPosition.x =4.45f;
+                //maxPosition.y =4.85f;
+            //}
         }
     }
 }

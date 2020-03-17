@@ -10,6 +10,9 @@ public class Sign : MonoBehaviour
     public Text dialogText;
     public string dialog;
     public bool playerInRange;
+    public GameObject fishingButtonYes;
+    public GameObject fishingButtonNo;
+    public bool Buttons;
 
     // Start is called before the first frame update
     void Start()
@@ -25,19 +28,23 @@ public class Sign : MonoBehaviour
             if (dialogBox.activeInHierarchy)
             {
                 dialogBox.SetActive(false);
+                //fishingButton.SetActive(false);
             }
             else
             {
                 dialogBox.SetActive(true);
                 dialogText.text = dialog;
+                //fishingButton.SetActive(true);
             }
         }
-        
+
+      
     }
     private void OnTriggerEnter2D(Collider2D other)
     {
         if (other.CompareTag("Player"));
         playerInRange = true;
+                    
     }
 
     private void OnTriggerExit2D(Collider2D collision)
