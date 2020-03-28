@@ -35,8 +35,12 @@ public class Fishing : MonoBehaviour
     }
     public IEnumerator Catch()
     {
-        yield return new WaitForSeconds(8);
+        yield return new WaitForSeconds(1f - 5f);
         fishCaught.SetActive(true);
+        if (fishCaught == true)
+        {
+            
+        }
         
     }
     public void Delay()
