@@ -18,9 +18,18 @@ public class FutureFishing : MonoBehaviour
     // Update is called once per frame
     void Update()
     {
-        if (Input.GetButtonDown("CatchFish"))
+        if (Input.GetButtonDown("CatchFish") && CompareTag("FishingSpot"))
         {
-            exclamationMark.SetActive(false);
+            if (InRange == true)
+            {
+                var allAddFish = GetComponentsInChildren<AddFish>();
+                var selectedIndex = Random.Range(0, allAddFish.Length);
+                AddFish selectedObject = allAddFish[selectedIndex];
+                selectedObject.CatchFish();
+                //Inventory.instance.AddFish(selectedObject);
+
+                exclamationMark.SetActive(false);
+            }
         }
         if (Input.GetButtonDown("Fishing"))
         {
@@ -52,4 +61,9 @@ public class FutureFishing : MonoBehaviour
     {
         FishingPrompt.SetActive(false);
     }
+//    public void FreeFish()
+//    {
+//        Debug.Log("You Caught A " + fish.name);
+//        Inventory.instance.addfish(fish);
+//    }
 }

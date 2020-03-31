@@ -8,7 +8,7 @@ public class InventorySlot : MonoBehaviour
     public Button removeButton;
 
     Item item;
-    Item fish;
+    //Item fish;
 
     public void AddItem(Item newItem)
     {
@@ -20,13 +20,13 @@ public class InventorySlot : MonoBehaviour
 
     }
 
-    public void CatchFish(Item newFish)
-    {
-        fish = newFish;
-        icon.sprite = fish.icon;
-        icon.enabled = true;
-        removeButton.interactable = true;
-    }
+    //public void CatchFish(Item newFish)
+    //{
+    //    fish = newFish;
+    //    icon.sprite = fish.icon;
+    //    icon.enabled = true;
+    //    removeButton.interactable = true;
+    //}
 
     public void ClearSlot()
     {

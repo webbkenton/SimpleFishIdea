@@ -25,7 +25,7 @@ public class Inventory : MonoBehaviour
 
     public int space = 12;
     public List<Item> items = new List<Item>();
-    public List<Fish> fish = new List<Fish>();
+    public List<Fish> fishs = new List<Fish>();
 
     public bool add(Item item)
     {
@@ -46,22 +46,18 @@ public class Inventory : MonoBehaviour
 
         return true;
     }
-    public bool addfish(Fish fishies)
+    public bool AddFish(Fish fish)
     {
-        if (!fishies.isDefaultItem)
-        {
-            if (fish.Count >= space)
+        if (items.Count >= space)
             {
                 Debug.Log("Not enough space");
                 return false;
             }
-            fish.Add(fishies);
-            if (onItemChangedCallBack != null)
-            {
-                onItemChangedCallBack.Invoke();
-            }
-
-        }
+            fishs.Add(fish);
+        //if (onItemChangedCallBack != null)
+        //    {
+        //        onItemChangedCallBack.Invoke();
+        //    }
 
         return true;
     }
