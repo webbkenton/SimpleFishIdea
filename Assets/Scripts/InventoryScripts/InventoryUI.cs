@@ -38,11 +38,20 @@ public class InventoryUI : MonoBehaviour
             if (i < inventory.items.Count)
             {
                 slots[i].AddItem(inventory.items[i]);
+                //slots[i].newFish(inventory.fishs[i]);
             }
             else
             {
                 slots[i].ClearSlot();
             }
+        }
+        for (int i = 0; i < slots.Length; i++)
+        {
+            if (i < inventory.fishs.Count)
+            {
+                slots[i].newFish(inventory.fishs[i]);
+            }
+
         }
         
     }

@@ -26,7 +26,6 @@ public class FutureFishing : MonoBehaviour
                 var selectedIndex = Random.Range(0, allAddFish.Length);
                 AddFish selectedObject = allAddFish[selectedIndex];
                 selectedObject.CatchFish();
-                //Inventory.instance.AddFish(selectedObject);
 
                 exclamationMark.SetActive(false);
             }

@@ -48,16 +48,16 @@ public class Inventory : MonoBehaviour
     }
     public bool AddFish(Fish fish)
     {
-        if (items.Count >= space)
+        if (fishs.Count >= space)
             {
                 Debug.Log("Not enough space");
                 return false;
             }
-            fishs.Add(fish);
-        //if (onItemChangedCallBack != null)
-        //    {
-        //        onItemChangedCallBack.Invoke();
-        //    }
+        fishs.Add(fish);
+        if (onItemChangedCallBack != null)
+            {
+                onItemChangedCallBack.Invoke();
+            }
 
         return true;
     }
@@ -65,6 +65,15 @@ public class Inventory : MonoBehaviour
     public void remove(Item item)
     {
         items.Remove(item);
+        if (onItemChangedCallBack != null)
+        {
+            onItemChangedCallBack.Invoke();
+        }
+    }
+    public void fishRemove(Fish fish)
+    {
+        fishs.Remove(fish);
+
         if (onItemChangedCallBack != null)
         {
             onItemChangedCallBack.Invoke();
