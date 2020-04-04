@@ -8,8 +8,10 @@ public class AddFish : MonoBehaviour
     {
         Object();
         Debug.Log("You Caught A " + fish.name);
-        //var newfish = GetComponents<Fish>(fish.FishName, fish.FishDescription, fish.FishWeight, fish.icon);
         Inventory.instance.AddFish(fish);
+        
+        //var newfish = GetComponents<Fish>(fish.FishName, fish.FishDescription, fish.FishWeight, fish.icon);
+        
         //var smallfish = GetComponentsInChildren<Fish>();
         //Inventory.instance.AddFish(smallfish);
         ////Inventory.instance.AddFish(fish);
