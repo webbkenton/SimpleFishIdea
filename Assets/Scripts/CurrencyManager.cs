@@ -5,8 +5,22 @@ using UnityEngine.UI;
 using TMPro;
 public class CurrencyManager : MonoBehaviour
 {
+    #region Singleton
+    public static CurrencyManager instance;
+
+    private void Awake()
+    {
+        if (instance != null)
+        {
+            Debug.Log("More than 1 Currency Manger!");
+            return;
+        }
+        instance = this;
+    }
+    #endregion
 
     public TMP_Text CurrencyText;
+    
     public int CurrentGold;
 
     public int MaximumGold = 9999999;
@@ -45,8 +59,4 @@ public class CurrencyManager : MonoBehaviour
         }
         
     }
-    //public void AddGold(int goldToAdd)
-    //{
-    //    CurrentGold += goldToAdd;
-    //}
 }

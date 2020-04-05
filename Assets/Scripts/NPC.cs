@@ -4,10 +4,11 @@ using UnityEngine;
 using UnityEngine.UI;
 using TMPro;
 
-public class Sign : MonoBehaviour
+public class NPC : MonoBehaviour
 {
 
     public GameObject dialogBox;
+    public GameObject questDialog;
     public TMP_Text dialogText;
     public string dialog;
     public bool playerInRange;
@@ -26,6 +27,7 @@ public class Sign : MonoBehaviour
             if (dialogBox.activeInHierarchy)
             {
                 dialogBox.SetActive(false);
+                questDialog.SetActive(false);
                 //fishingButton.SetActive(false);
             }
             else
@@ -50,5 +52,13 @@ public class Sign : MonoBehaviour
         if (collision.CompareTag("Player"))
         playerInRange = false;
         dialogBox.SetActive(false);
+    }
+    public void QuestDialog()
+    {
+        if (Inventory.instance.fishs != null)
+        {
+            dialogBox.SetActive(false);
+            questDialog.SetActive(true);
+        }
     }
 }
