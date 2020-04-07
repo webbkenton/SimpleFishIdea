@@ -11,7 +11,6 @@ GameObject:
   - component: {fileID: 8664580500693264445}
   - component: {fileID: 8664580500693264444}
   - component: {fileID: 8664580500693264443}
-  - component: {fileID: 8664580500693264416}
   - component: {fileID: 8664580500693264447}
   - component: {fileID: 8664580500693264446}
   - component: {fileID: 8664580500693264417}
@@ -103,25 +102,6 @@ Animator:
   m_HasTransformHierarchy: 1
   m_AllowConstantClipSamplingOptimization: 1
   m_KeepAnimatorControllerStateOnDisable: 0
---- !u!114 &8664580500693264416
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 8664580500693264442}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 5f3dc00ca944f0e479dc0df6c50638e9, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  dialogBox: {fileID: 0}
-  dialogText: {fileID: 0}
-  dialog: I'm Jerry, See You Around!
-  playerInRange: 0
-  fishingButtonYes: {fileID: 0}
-  fishingButtonNo: {fileID: 0}
-  Buttons: 0
 --- !u!61 &8664580500693264447
 BoxCollider2D:
   m_ObjectHideFlags: 0

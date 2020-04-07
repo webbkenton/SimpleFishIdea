@@ -20,4 +20,7 @@ EditorBuildSettings:
   - enabled: 1
     path: Assets/Scenes/PlayerHudUI.unity
     guid: 1c02637b6cf9b894c8cae0f693f2ea43
+  - enabled: 1
+    path: Assets/Scenes/FullScaleWalkAround.unity
+    guid: 1fbefbbda3dee584f947c5101c82207f
   m_configObjects: {}

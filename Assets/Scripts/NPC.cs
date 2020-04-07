@@ -33,6 +33,7 @@ public class NPC : MonoBehaviour
             else
             {
                 dialogBox.SetActive(true);
+                questDialog.SetActive(false);
                 dialogText.text = dialog;
                 //fishingButton.SetActive(true);
             }
