@@ -407,7 +407,6 @@ GameObject:
   - component: {fileID: 1310527425003200330}
   - component: {fileID: 1310527425003200325}
   - component: {fileID: 1310527425003200324}
-  - component: {fileID: 1310527425003200327}
   - component: {fileID: 1310527425003200331}
   m_Layer: 0
   m_Name: SmallTestFishSpot
@@ -492,29 +491,6 @@ BoxCollider2D:
   serializedVersion: 2
   m_Size: {x: 1.6846412, y: 1}
   m_EdgeRadius: 0
---- !u!114 &1310527425003200327
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1310527425003200326}
-  m_Enabled: 0
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 3edde89f5b72c494d95e1dfb560cf729, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  SmallFish:
-  - {fileID: 1310527423951763343}
-  - {fileID: 1310527424551157431}
-  - {fileID: 1310527425107347018}
-  - {fileID: 1310527424343271664}
-  - {fileID: 1310527424675528317}
-  - {fileID: 1310527424714633695}
-  - {fileID: 1310527424506037816}
-  - {fileID: 1310527423375628807}
-  - {fileID: 1310527424490845501}
-  - {fileID: 1310527423489403520}
 --- !u!114 &1310527425003200331
 MonoBehaviour:
   m_ObjectHideFlags: 0

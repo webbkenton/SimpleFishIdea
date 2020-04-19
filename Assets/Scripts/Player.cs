@@ -6,11 +6,29 @@ public class Player : MonoBehaviour
 {
     public int currency;
     public GameObject inventory;
+    public Quest quest;
 
 
     private void Update()
     {
         currency = CurrencyManager.instance.CurrentGold;
+        quest.goal.currentAmount = Inventory.instance.fishs.Count;
+        Gofishing();
+        
+    }
+
+    public void Gofishing()
+    {
+        if (quest.isActive)
+        {
+            quest.goal.FishCaught();
+            if (quest.goal.isReached())
+            {
+                CurrencyManager.instance.CurrentGold += quest.goldReward;
+                quest.Complete();
+            }
+        }
+
     }
     public void SavePlayer()
     {

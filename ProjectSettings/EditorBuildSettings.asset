@@ -23,4 +23,7 @@ EditorBuildSettings:
   - enabled: 1
     path: Assets/Scenes/FullScaleWalkAround.unity
     guid: 1fbefbbda3dee584f947c5101c82207f
+  - enabled: 1
+    path: Assets/Scenes/LakePier.unity
+    guid: 1d3af8b46069f0e41971d5f084f13a18
   m_configObjects: {}

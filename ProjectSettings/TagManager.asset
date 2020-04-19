@@ -6,6 +6,7 @@ TagManager:
   tags:
   - FishIcon
   - FishingSpot
+  - NPC
   layers:
   - Default
   - TransparentFX

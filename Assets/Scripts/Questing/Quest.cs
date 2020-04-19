@@ -10,4 +10,15 @@ public class Quest
     public string description;
     public int goldReward;
     public string requiredItem;
+
+    public QuestGoal goal;
+
+
+    public void Complete()
+    {
+        isActive = false;
+        Debug.Log(title + " Completed");
+
+    }
 }
+

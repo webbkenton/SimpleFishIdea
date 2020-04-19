@@ -6,8 +6,8 @@ using UnityEngine.UI;
 public class FutureFishing : MonoBehaviour
 {
 
-    public GameObject exclamationMark;
-    public GameObject FishingPrompt;
+    //public GameObject exclamationMark;
+    //public GameObject FishingPrompt;
     public bool InRange;
     // Start is called before the first frame update
     void Start()
@@ -27,14 +27,14 @@ public class FutureFishing : MonoBehaviour
                 AddFish selectedObject = allAddFish[selectedIndex];
                 selectedObject.CatchFish();
 
-                exclamationMark.SetActive(false);
+                //exclamationMark.SetActive(false);
             }
         }
         if (Input.GetButtonDown("Fishing"))
         {
             if (InRange == true)
             {
-                FishingPrompt.SetActive(true);
+                //FishingPrompt.SetActive(true);
             }
         }
     }
@@ -52,14 +52,14 @@ public class FutureFishing : MonoBehaviour
         if (collision.CompareTag("Player"))
         {
             InRange = false;
-            FishingPrompt.SetActive(false);
+            //FishingPrompt.SetActive(false);
         }
     }
 
-    public void FishingPrompter()
-    {
-        FishingPrompt.SetActive(false);
-    }
+    //public void FishingPrompter()
+    //{
+    //    //FishingPrompt.SetActive(false);
+    //}
 //    public void FreeFish()
 //    {
 //        Debug.Log("You Caught A " + fish.name);

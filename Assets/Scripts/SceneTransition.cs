@@ -10,24 +10,25 @@ public class SceneTransition : MonoBehaviour
     public Vector2 PlayerPosition;
     public VectorValue PlayerLocale;
     public float Transitiontime = 3f;
-    public Animator transition;
+    public Animator TransitionAnimation;
 
     private void OnTriggerEnter2D(Collider2D collision)
     {
         if (collision.CompareTag("Player"))
         {
+            TransitionAnimation.SetTrigger("Start");
             PlayerLocale.initalValue = PlayerPosition;
-            SceneManager.LoadScene(sceneToLoad);
-            //StartCoroutine(LoadLevel(1));
+            //SceneManager.LoadScene(sceneToLoad);
+            StartCoroutine(LoadLevel());
         }
     }
-    //IEnumerator LoadLevel(int sceneToLoad)
-    //{
-    //    transition.SetTrigger("Start");
+    IEnumerator LoadLevel()
+    {
+       TransitionAnimation.SetTrigger("Start");
 
-    //    yield return new WaitForSeconds(Transitiontime);
-    //    SceneManager.LoadScene(sceneToLoad);
+       yield return new WaitForSeconds(Transitiontime);
+       SceneManager.LoadScene(sceneToLoad);
 
-    //}
+    }
 
 }

@@ -7,7 +7,9 @@ public class AddFish : MonoBehaviour
     public void CatchFish()
     {
         Object();
-        Debug.Log("You Caught A " + fish.name);
+        Debug.Log("You Caught A " + fish.name + " This fish weighs " + fish.FishWeight + "LB");
+        fish.FishWeight = Random.Range(0, 200);
+
         Inventory.instance.AddFish(fish);
         
         //var newfish = GetComponents<Fish>(fish.FishName, fish.FishDescription, fish.FishWeight, fish.icon);

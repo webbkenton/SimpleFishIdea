@@ -15,11 +15,33 @@ public class QuestGiver : MonoBehaviour
     public TMP_Text DescriptionText;
     public TMP_Text GoldText;
     public TMP_Text RequiredItemText;
+    public bool PlayerInRange;
 
 
+
+    private void OnTriggerEnter2D(Collider2D collision)
+    {
+        if (collision.CompareTag("Player"))
+        {
+            PlayerInRange = true;
+        }
+        else 
+        {
+            PlayerInRange = false;
+        }
+    }
+
+    private void OnTriggerExit2D(Collider2D collision)
+    {
+        if (collision.CompareTag("Player"))
+        {
+            Questwindow.SetActive(false);
+            PlayerInRange = false;
+        }
+    }
     private void Update()
     {
-        if (Input.GetKeyDown(KeyCode.Q))
+        if (Input.GetKeyDown(KeyCode.Q) && PlayerInRange)
         {
             OpenQuestWindow();
         }
@@ -32,6 +54,12 @@ public class QuestGiver : MonoBehaviour
         GoldText.text = quest.goldReward.ToString();
         RequiredItemText.text = quest.requiredItem;
 
+    }
+    public void AcceptQuest()
+    {
+        Questwindow.SetActive(false);
+        quest.isActive = true;
+        player.quest = quest;
     }
 
 }
