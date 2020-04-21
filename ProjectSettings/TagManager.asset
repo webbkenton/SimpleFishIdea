@@ -7,6 +7,12 @@ TagManager:
   - FishIcon
   - FishingSpot
   - NPC
+  - Furniture
+  - Wall
+  - GroundFurniture
+  - Accessory
+  - Floor
+  - WallFurniture
   layers:
   - Default
   - TransparentFX
@@ -59,6 +65,21 @@ TagManager:
   - name: Signs
     uniqueID: 1699584531
     locked: 0
+  - name: FurnitureFloor
+    uniqueID: 716811379
+    locked: 0
+  - name: FurnitureWall
+    uniqueID: 2143549861
+    locked: 0
   - name: Player
     uniqueID: 1426864667
+    locked: 0
+  - name: GroundFurniture
+    uniqueID: 1005056471
+    locked: 0
+  - name: WallFurniture
+    uniqueID: 3260350313
+    locked: 0
+  - name: Accessories
+    uniqueID: 3180065211
     locked: 0

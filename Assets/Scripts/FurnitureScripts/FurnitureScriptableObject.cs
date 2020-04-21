@@ -7,5 +7,15 @@ public class FurnitureScriptableObject : ScriptableObject
 {
     public string FurnitureName = "Furniture Name";
     public Sprite Sprite = null;
-    
+    public FurnitureType furnitureType;
+
+
+    public enum FurnitureType
+    {
+        Floor,
+        Wall,
+        GroundFurniture,
+        WallFurniture,
+        Accessories
+    }
 }

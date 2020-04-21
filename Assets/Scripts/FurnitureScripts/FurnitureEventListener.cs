@@ -6,7 +6,7 @@ public class FurnitureEventListener : MonoBehaviour
 {
 
     public GameObject Furniture;
-    public Transform PlayerParent;
+    public Transform mouseParent;
 
     void Start()
     {
@@ -24,7 +24,7 @@ public class FurnitureEventListener : MonoBehaviour
 
     private void OnFurniturePickup()
     {
-        Furniture.transform.SetParent(PlayerParent);
-        Furniture.transform.localPosition = new Vector2(1, 0);
+        Furniture.transform.SetParent(mouseParent);
+        Furniture.transform.localPosition = new Vector2(0, 0);
     }
 }
