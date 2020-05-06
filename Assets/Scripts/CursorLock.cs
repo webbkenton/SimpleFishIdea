@@ -21,7 +21,7 @@ public class CursorLock : MonoBehaviour
         if (transform.childCount > 0)
         {
             holdingItem = true;
-            //cursorObject.SetActive(true);
+            
             mousePosition = Camera.main.ScreenToWorldPoint(Input.mousePosition);
             mousePosition.x = Mathf.Round(mousePosition.x);
             mousePosition.y = Mathf.Round(mousePosition.y);

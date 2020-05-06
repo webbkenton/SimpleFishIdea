@@ -12,6 +12,6 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: f6f3428307f3eb84285a1b48111c7a56, type: 3}
   m_Name: Rug
   m_EditorClassIdentifier: 
-  FurnitureName: TestRug
-  Sprite: {fileID: 21300160, guid: ef3a5ff462d14354f98c9b5b5ddbddc1, type: 3}
+  FurnitureName: Rug
+  Sprite: {fileID: 21300262, guid: fb27f47558754cc48ae629bba0952e36, type: 3}
   furnitureType: 0
