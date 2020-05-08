@@ -5,7 +5,8 @@ using UnityEngine;
 public class FloorGrid : MonoBehaviour
 {
     public float xStart, yStart;
-    public int collumnLength, rowLength, gridSpace;
+    public int collumnLength, rowLength;
+    private int gridSpace;
     public float xSpace, ySpace;
     public GameObject prefab;
     // Start is called before the first frame update
@@ -21,7 +22,7 @@ public class FloorGrid : MonoBehaviour
     // Update is called once per frame
     void Update()
     {
-        UpdateFloor();
+        //UpdateFloor();
         if (Input.GetMouseButtonDown(0))
         {
             
