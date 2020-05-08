@@ -13,6 +13,7 @@ TagManager:
   - Accessory
   - Floor
   - WallFurniture
+  - PlacedFloor
   layers:
   - Default
   - TransparentFX
@@ -49,6 +50,9 @@ TagManager:
   m_SortingLayers:
   - name: Default
     uniqueID: 0
+    locked: 0
+  - name: FloorPattern
+    uniqueID: 3136792627
     locked: 0
   - name: Path
     uniqueID: 2799936525

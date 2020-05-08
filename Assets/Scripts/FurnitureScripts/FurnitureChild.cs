@@ -25,7 +25,7 @@ public class FurnitureChild : MonoBehaviour
         if (furniture.furnitureType == FurnitureScriptableObject.FurnitureType.Floor)
         {
             //transform.position = new Vector2(0, 0);
-            sR.sortingLayerName = ("FurnitureFloor");
+            sR.sortingLayerName = ("FloorPattern");
 
         }
         if (furniture.furnitureType == FurnitureScriptableObject.FurnitureType.Wall)

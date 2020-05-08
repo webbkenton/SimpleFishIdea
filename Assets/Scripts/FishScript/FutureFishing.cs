@@ -9,34 +9,22 @@ public class FutureFishing : MonoBehaviour
     //public GameObject exclamationMark;
     //public GameObject FishingPrompt;
     public bool InRange;
-    // Start is called before the first frame update
-    void Start()
-    {
-        
-    }
-
-    // Update is called once per frame
+    public GameObject FishingSlider;
     void Update()
     {
-        if (Input.GetButtonDown("CatchFish") && CompareTag("FishingSpot"))
+        if (Input.GetButtonDown("CatchFish") && InRange == true)
         {
-            if (InRange == true)
-            {
-                var allAddFish = GetComponentsInChildren<AddFish>();
-                var selectedIndex = Random.Range(0, allAddFish.Length);
-                AddFish selectedObject = allAddFish[selectedIndex];
-                selectedObject.CatchFish();
+            FishingSlider.SetActive(true);
+        }
+        if (Input.GetMouseButtonDown(0) && FishSlider.instance.ReelIn == true)
+        {
+            var allAddFish = GetComponentsInChildren<AddFish>();
+            var selectedIndex = Random.Range(0, allAddFish.Length);
+            AddFish selectedObject = allAddFish[selectedIndex];
+            selectedObject.CatchFish();
+            FishingSlider.SetActive(false);
+        }
 
-                //exclamationMark.SetActive(false);
-            }
-        }
-        if (Input.GetButtonDown("Fishing"))
-        {
-            if (InRange == true)
-            {
-                //FishingPrompt.SetActive(true);
-            }
-        }
     }
 
     private void OnTriggerEnter2D(Collider2D collision)
@@ -52,17 +40,21 @@ public class FutureFishing : MonoBehaviour
         if (collision.CompareTag("Player"))
         {
             InRange = false;
-            //FishingPrompt.SetActive(false);
+            FishingSlider.SetActive(false);
         }
     }
 
-    //public void FishingPrompter()
+    //public void FishCaught()
     //{
-    //    //FishingPrompt.SetActive(false);
+    //    if (FishSlider.instance.ReelIn == true)
+    //    {   
+    //        var allAddFish = GetComponentsInChildren<AddFish>();
+    //        var selectedIndex = Random.Range(0, allAddFish.Length);
+    //        AddFish selectedObject = allAddFish[selectedIndex];
+    //        selectedObject.CatchFish();
+    //    }
+        
+
+    //    FishingSlider.SetActive(false);
     //}
-//    public void FreeFish()
-//    {
-//        Debug.Log("You Caught A " + fish.name);
-//        Inventory.instance.addfish(fish);
-//    }
 }

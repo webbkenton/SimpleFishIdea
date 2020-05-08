@@ -8,9 +8,13 @@ public class FurnitureInteractable : MonoBehaviour
     public bool interactable = false;
     public bool CarryingFurniture = false;
     public bool Placeable;
+    public bool floorPattern;
     public SpriteRenderer SL;
+    public FloorGrid floorPrefabSprite;
+    private BoxCollider2D floorCollider;
     public GameObject Furniture;
     public Transform MouseParent;
+    public GameObject floorPrefab;
 
     //Check If Object is interactable
     //if Interactable is true allow object to be PICKEDUP
@@ -21,6 +25,10 @@ public class FurnitureInteractable : MonoBehaviour
     {
         if (Input.GetMouseButtonDown(0) && interactable == true)
         {
+            if (SL.sortingLayerName == "FloorPattern")
+            {
+                floorPattern = true;
+            }
             if (MouseParent.transform.childCount >= 1)
             {
                 if (SL.sortingLayerName == "Accessories")
@@ -83,12 +91,25 @@ public class FurnitureInteractable : MonoBehaviour
     {
         if (Placeable == true)
         {
+            if (floorPattern == true)
+            {
+                floorPrefab = GameObject.Find("FloorPatternHolder");
+                floorPrefabSprite = floorPrefab.GetComponent<FloorGrid>();
+                floorPrefabSprite.prefab = Furniture;
+                floorCollider = Furniture.GetComponent<BoxCollider2D>();
+                floorCollider.enabled = false;
+            }
             Furniture.transform.SetParent(null);
         }
+    
         else
         {
             Debug.Log("Cannot Place This Furniture Here");
         }
+        
+        CarryingFurniture = false;
+        floorPattern = false;
+        Placeable = false;
         
         
     }
