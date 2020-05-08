@@ -32,10 +32,10 @@ public class FurnitureInteractable : MonoBehaviour
             {
                 Debug.Log("Cannot Carry Another Peice Of Furniture");
             }
-            else
-            {
-                AttachFurniture();
-                CarryingFurniture = true;
+           else
+           {
+               AttachFurniture();
+               CarryingFurniture = true;
             }
             
         }
