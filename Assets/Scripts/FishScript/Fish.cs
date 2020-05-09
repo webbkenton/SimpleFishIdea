@@ -7,9 +7,10 @@ public class Fish : ScriptableObject
 {
     public string FishName = "Fish Title";
     public string FishDescription = "Description";
-    public float FishWeight = 10f;
+    public float FishWeight = 0.00f;
+    public bool small, medium, large;
     public Sprite icon = null;
-    public bool isDefaultItem = false;
+    public bool Legendary= false;
 
     public virtual void Use()
     {

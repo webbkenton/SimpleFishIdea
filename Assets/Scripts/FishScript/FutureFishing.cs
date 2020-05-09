@@ -10,38 +10,35 @@ public class FutureFishing : MonoBehaviour
     //public GameObject FishingPrompt;
     public bool InRange;
     public GameObject FishingSlider;
+    public GameObject FishPool;
+    //public float RandomPoolDecision;
+
+
     void Update()
     {
-        if (Input.GetButtonDown("CatchFish") && InRange == true)
+        if (FishPool.activeInHierarchy)
         {
-            FishingSlider.SetActive(true);
+            InRange = true;
         }
-        if (Input.GetMouseButtonDown(0) && FishSlider.instance.ReelIn == true)
+        else
+        {
+            InRange = false;
+        }
+            //Play the fishing game
+            //OnLastClick choose a number (0-1)
+            //#>.25 pull fish from common pull
+            //if #<.25 but #>.1 pull from uncommon pull
+            
+        if (Input.GetMouseButtonDown(0) && FishSlider.instance.ReelIn == true && InRange == true)
         {
             var allAddFish = GetComponentsInChildren<AddFish>();
             var selectedIndex = Random.Range(0, allAddFish.Length);
             AddFish selectedObject = allAddFish[selectedIndex];
             selectedObject.CatchFish();
             FishingSlider.SetActive(false);
+            FishPool.SetActive(false);
         }
 
-    }
-
-    private void OnTriggerEnter2D(Collider2D collision)
-    {
-        if (collision.CompareTag("Player"))
-        {
-            InRange = true;
-        }
-    }
-
-    private void OnTriggerExit2D(Collider2D collision)
-    {
-        if (collision.CompareTag("Player"))
-        {
-            InRange = false;
-            FishingSlider.SetActive(false);
-        }
     }
 
     //public void FishCaught()

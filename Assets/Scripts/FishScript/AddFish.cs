@@ -7,13 +7,23 @@ public class AddFish : MonoBehaviour
     public void CatchFish()
     {
         Object();
-        Debug.Log("You Caught A " + fish.name + " This fish weighs " + fish.FishWeight + "LB");
-        fish.FishWeight = Random.Range(0, 200);
-
+        if (fish.small == true)
+        {
+            fish.FishWeight = Random.Range(1.00f, 6.00f);
+        }
+        if (fish.medium == true)
+        {
+            fish.FishWeight = Random.Range(5.00f, 21.00f);
+        }
+        if (fish.large == true)
+        {
+            fish.FishWeight = Random.Range(21.00f, 101.00f);
+        }
         Inventory.instance.AddFish(fish);
-        
+        Debug.Log("You Caught A " + fish.name + " This fish weighs " + fish.FishWeight.ToString("F2") + "LB");
+
         //var newfish = GetComponents<Fish>(fish.FishName, fish.FishDescription, fish.FishWeight, fish.icon);
-        
+
         //var smallfish = GetComponentsInChildren<Fish>();
         //Inventory.instance.AddFish(smallfish);
         ////Inventory.instance.AddFish(fish);

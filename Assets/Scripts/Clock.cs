@@ -4,15 +4,21 @@ using UnityEngine;
 
 public class Clock : MonoBehaviour
 {
+
+    #region Singleton
+    public static Clock instance;
+
+    #endregion
     private Transform clockHourHandTransfrom;
     private Transform clockMinuteHandTransfrom;
 
     private const float Real_Seconds = 720f;
 
-    private float day;
+    public float day;
 
     private void Awake()
     {
+        instance = this;
         clockHourHandTransfrom = transform.Find("HourHand");
         clockMinuteHandTransfrom = transform.Find("MinuteHand");
     }
