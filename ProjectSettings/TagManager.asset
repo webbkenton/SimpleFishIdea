@@ -54,8 +54,17 @@ TagManager:
   - name: FloorPattern
     uniqueID: 3136792627
     locked: 0
+  - name: Water_Base
+    uniqueID: 2524454795
+    locked: 0
+  - name: Water_Objects
+    uniqueID: 3821520461
+    locked: 0
   - name: Path
     uniqueID: 2799936525
+    locked: 0
+  - name: Ground_Objects
+    uniqueID: 3021909721
     locked: 0
   - name: Tree Wall
     uniqueID: 1491910489
