@@ -1,0 +1,23 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 4bc446366b6a10744b01b4091d6ea618, type: 3}
+  m_Name: Minimouth Bass
+  m_EditorClassIdentifier: 
+  FishName: Minimouth Bass
+  FishDescription: This small fish only comes out at night, and has an itty-bitty
+    mouth. How does it even eat?
+  FishWeight: 10
+  small: 1
+  medium: 0
+  large: 0
+  icon: {fileID: 0}
+  Legendary: 0
