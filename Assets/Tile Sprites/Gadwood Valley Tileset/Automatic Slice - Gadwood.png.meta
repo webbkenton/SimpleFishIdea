@@ -1,0 +1,1376 @@
+fileFormatVersion: 2
+guid: d928d3b9157c0164a8b1edda0fe39c5c
+TextureImporter:
+  internalIDToNameTable:
+  - first:
+      213: 6721725659405060964
+    second: Automatic Slice - Gadwood_0
+  - first:
+      213: 2846050075275530904
+    second: Automatic Slice - Gadwood_1
+  - first:
+      213: 5167236300235399758
+    second: Automatic Slice - Gadwood_2
+  - first:
+      213: -3706885253195975925
+    second: Automatic Slice - Gadwood_3
+  - first:
+      213: 6575111834376404462
+    second: Automatic Slice - Gadwood_4
+  - first:
+      213: 4902317806615111830
+    second: Automatic Slice - Gadwood_5
+  - first:
+      213: 2480288053317131449
+    second: Automatic Slice - Gadwood_6
+  - first:
+      213: -3664408492820568092
+    second: Automatic Slice - Gadwood_7
+  - first:
+      213: 3607544989195740244
+    second: Automatic Slice - Gadwood_8
+  - first:
+      213: -1425181446094229202
+    second: Automatic Slice - Gadwood_9
+  - first:
+      213: 7975487688177606725
+    second: Automatic Slice - Gadwood_10
+  - first:
+      213: 5269647226086866842
+    second: Automatic Slice - Gadwood_11
+  - first:
+      213: 1809601534992212815
+    second: Automatic Slice - Gadwood_12
+  - first:
+      213: 64209713058281916
+    second: Automatic Slice - Gadwood_13
+  - first:
+      213: -6894092566156658478
+    second: Automatic Slice - Gadwood_14
+  - first:
+      213: -8455624940490950057
+    second: Automatic Slice - Gadwood_15
+  - first:
+      213: -5390519398813053731
+    second: Automatic Slice - Gadwood_16
+  - first:
+      213: 5273505378393768069
+    second: Automatic Slice - Gadwood_17
+  - first:
+      213: 5702911209125213777
+    second: Automatic Slice - Gadwood_18
+  - first:
+      213: -8108150884887853378
+    second: Automatic Slice - Gadwood_19
+  - first:
+      213: -7466419247800396232
+    second: Automatic Slice - Gadwood_20
+  - first:
+      213: -933737152004416155
+    second: Automatic Slice - Gadwood_21
+  - first:
+      213: 7971392795180747201
+    second: Automatic Slice - Gadwood_22
+  - first:
+      213: -3509314889870294571
+    second: Automatic Slice - Gadwood_23
+  - first:
+      213: 8322022446595481874
+    second: Automatic Slice - Gadwood_24
+  - first:
+      213: -8568154120645571108
+    second: Automatic Slice - Gadwood_25
+  - first:
+      213: -863126449894051411
+    second: Automatic Slice - Gadwood_26
+  - first:
+      213: 4656946107547551249
+    second: Automatic Slice - Gadwood_27
+  - first:
+      213: -923046227390082143
+    second: Automatic Slice - Gadwood_28
+  - first:
+      213: -562147130710121601
+    second: Automatic Slice - Gadwood_29
+  - first:
+      213: -3470346279865460045
+    second: Automatic Slice - Gadwood_30
+  - first:
+      213: -5632251931991565101
+    second: Automatic Slice - Gadwood_31
+  - first:
+      213: -5378170882546213701
+    second: Automatic Slice - Gadwood_32
+  - first:
+      213: 1692463631385570958
+    second: Automatic Slice - Gadwood_33
+  - first:
+      213: 2331415900742758144
+    second: Automatic Slice - Gadwood_34
+  - first:
+      213: -4992720045242501156
+    second: Automatic Slice - Gadwood_35
+  - first:
+      213: -2296428543791942941
+    second: Automatic Slice - Gadwood_36
+  - first:
+      213: 7797730355203960393
+    second: Automatic Slice - Gadwood_37
+  - first:
+      213: -6918705670874278685
+    second: Automatic Slice - Gadwood_38
+  - first:
+      213: 5940055773498318767
+    second: Automatic Slice - Gadwood_39
+  - first:
+      213: 5379476031448524170
+    second: Automatic Slice - Gadwood_40
+  - first:
+      213: -4493333869975481032
+    second: Automatic Slice - Gadwood_41
+  - first:
+      213: 5553903445704699231
+    second: Automatic Slice - Gadwood_42
+  - first:
+      213: 3854766474244725601
+    second: Automatic Slice - Gadwood_43
+  - first:
+      213: 8324269402022373196
+    second: Automatic Slice - Gadwood_44
+  - first:
+      213: 1349753607918885925
+    second: Automatic Slice - Gadwood_45
+  - first:
+      213: 2461852195920843545
+    second: Automatic Slice - Gadwood_46
+  - first:
+      213: 2447386358447947748
+    second: Automatic Slice - Gadwood_47
+  - first:
+      213: 2346040590212045394
+    second: Automatic Slice - Gadwood_0
+  - first:
+      213: -6952430737277313383
+    second: Automatic Slice - Gadwood_1
+  - first:
+      213: 8936401399514071129
+    second: Automatic Slice - Gadwood_2
+  - first:
+      213: -6556396843367660412
+    second: Automatic Slice - Gadwood_3
+  - first:
+      213: 3976360242001997803
+    second: Automatic Slice - Gadwood_4
+  - first:
+      213: -4682460436973365881
+    second: Automatic Slice - Gadwood_5
+  - first:
+      213: 8333343633247215959
+    second: Automatic Slice - Gadwood_6
+  - first:
+      213: 8119149670073357872
+    second: Automatic Slice - Gadwood_7
+  - first:
+      213: -5160239610917626209
+    second: Automatic Slice - Gadwood_8
+  - first:
+      213: 5847454548110763987
+    second: Automatic Slice - Gadwood_9
+  - first:
+      213: -8692257755115280250
+    second: Automatic Slice - Gadwood_10
+  - first:
+      213: 86362579949286711
+    second: Automatic Slice - Gadwood_11
+  - first:
+      213: 2305865468813859246
+    second: Automatic Slice - Gadwood_12
+  - first:
+      213: 7329452731471344390
+    second: Automatic Slice - Gadwood_13
+  - first:
+      213: 6462996011507490644
+    second: Automatic Slice - Gadwood_14
+  - first:
+      213: 3226203562986534925
+    second: Automatic Slice - Gadwood_15
+  - first:
+      213: -6134507968340208418
+    second: Automatic Slice - Gadwood_16
+  - first:
+      213: 22078686169602944
+    second: Automatic Slice - Gadwood_17
+  - first:
+      213: 8880172954864285409
+    second: Automatic Slice - Gadwood_18
+  - first:
+      213: -5483325005372222118
+    second: Automatic Slice - Gadwood_19
+  - first:
+      213: 1514592752947669373
+    second: Automatic Slice - Gadwood_20
+  - first:
+      213: -7809737194479098598
+    second: Automatic Slice - Gadwood_21
+  - first:
+      213: -1710885579755926908
+    second: Automatic Slice - Gadwood_22
+  - first:
+      213: -8551578222878769384
+    second: Automatic Slice - Gadwood_23
+  - first:
+      213: -241359298378851046
+    second: Automatic Slice - Gadwood_24
+  - first:
+      213: 2293676040518384411
+    second: Automatic Slice - Gadwood_25
+  - first:
+      213: -790329911258621852
+    second: Automatic Slice - Gadwood_26
+  - first:
+      213: -7341985969625678565
+    second: Automatic Slice - Gadwood_27
+  - first:
+      213: 3143755382093543637
+    second: Automatic Slice - Gadwood_28
+  - first:
+      213: -4289503532889884129
+    second: Automatic Slice - Gadwood_29
+  - first:
+      213: -3914803438685781341
+    second: Automatic Slice - Gadwood_30
+  - first:
+      213: 1424868078434786528
+    second: Automatic Slice - Gadwood_31
+  - first:
+      213: -1181444654816970004
+    second: Automatic Slice - Gadwood_32
+  - first:
+      213: -5024623905510507247
+    second: Automatic Slice - Gadwood_33
+  - first:
+      213: 516775484066320848
+    second: Automatic Slice - Gadwood_34
+  - first:
+      213: 5352582737586807933
+    second: Automatic Slice - Gadwood_35
+  - first:
+      213: -507692519647543350
+    second: Automatic Slice - Gadwood_36
+  - first:
+      213: -8431539043468763733
+    second: Automatic Slice - Gadwood_37
+  - first:
+      213: 5279388154673551803
+    second: Automatic Slice - Gadwood_38
+  - first:
+      213: 7968350139838856282
+    second: Automatic Slice - Gadwood_39
+  - first:
+      213: -6941812367697458824
+    second: Automatic Slice - Gadwood_40
+  - first:
+      213: -1072758137228398776
+    second: Automatic Slice - Gadwood_41
+  - first:
+      213: -6017029314725881160
+    second: Automatic Slice - Gadwood_42
+  - first:
+      213: -3679093257656168311
+    second: Automatic Slice - Gadwood_43
+  - first:
+      213: -5719048518267063928
+    second: Automatic Slice - Gadwood_44
+  - first:
+      213: -7234081903523424351
+    second: Automatic Slice - Gadwood_45
+  - first:
+      213: 5150670161380067794
+    second: Automatic Slice - Gadwood_46
+  externalObjects: {}
+  serializedVersion: 11
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+  isReadable: 0
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: 0
+    aniso: -1
+    mipBias: -100
+    wrapU: 1
+    wrapV: 1
+    wrapW: 1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 32
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 1
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  singleChannelComponent: 0
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  applyGammaDecoding: 0
+  platformSettings:
+  - serializedVersion: 3
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 0
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: Standalone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 0
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: Automatic Slice - Gadwood_0
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 886
+        width: 32
+        height: 115
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 25a9c38ac7fce8020800000000000000
+      internalID: 2346040590212045394
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Automatic Slice - Gadwood_1
+      rect:
+        serializedVersion: 2
+        x: 64
+        y: 879
+        width: 128
+        height: 123
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 99e141b7411048f90800000000000000
+      internalID: -6952430737277313383
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Automatic Slice - Gadwood_2
+      rect:
+        serializedVersion: 2
+        x: 224
+        y: 879
+        width: 32
+        height: 123
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 950075cc9b9740c70800000000000000
+      internalID: 8936401399514071129
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Automatic Slice - Gadwood_3
+      rect:
+        serializedVersion: 2
+        x: 288
+        y: 879
+        width: 256
+        height: 123
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4840498eecff205a0800000000000000
+      internalID: -6556396843367660412
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Automatic Slice - Gadwood_4
+      rect:
+        serializedVersion: 2
+        x: 576
+        y: 879
+        width: 46
+        height: 123
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: befe38b829ede2730800000000000000
+      internalID: 3976360242001997803
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Automatic Slice - Gadwood_5
+      rect:
+        serializedVersion: 2
+        x: 643
+        y: 993
+        width: 29
+        height: 7
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 785d1639a0f840fb0800000000000000
+      internalID: -4682460436973365881
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Automatic Slice - Gadwood_6
+      rect:
+        serializedVersion: 2
+        x: 677
+        y: 952
+        width: 48
+        height: 46
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 751a6fae1ebf5a370800000000000000
+      internalID: 8333343633247215959
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Automatic Slice - Gadwood_7
+      rect:
+        serializedVersion: 2
+        x: 736
+        y: 859
+        width: 128
+        height: 146
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 036d3fa9b930da070800000000000000
+      internalID: 8119149670073357872
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Automatic Slice - Gadwood_8
+      rect:
+        serializedVersion: 2
+        x: 28
+        y: 880
+        width: 4
+        height: 7
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f9eda5bf9652368b0800000000000000
+      internalID: -5160239610917626209
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Automatic Slice - Gadwood_9
+      rect:
+        serializedVersion: 2
+        x: 620
+        y: 880
+        width: 52
+        height: 109
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3d7626c2ee4562150800000000000000
+      internalID: 5847454548110763987
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Automatic Slice - Gadwood_10
+      rect:
+        serializedVersion: 2
+        x: 686
+        y: 854
+        width: 35
+        height: 43
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 688283210a5ee5780800000000000000
+      internalID: -8692257755115280250
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Automatic Slice - Gadwood_11
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 755
+        width: 32
+        height: 110
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 73573c31f42d23100800000000000000
+      internalID: 86362579949286711
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Automatic Slice - Gadwood_12
+      rect:
+        serializedVersion: 2
+        x: 64
+        y: 754
+        width: 128
+        height: 111
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ea95d784d64100020800000000000000
+      internalID: 2305865468813859246
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Automatic Slice - Gadwood_13
+      rect:
+        serializedVersion: 2
+        x: 224
+        y: 755
+        width: 32
+        height: 110
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 603bd591d6277b560800000000000000
+      internalID: 7329452731471344390
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Automatic Slice - Gadwood_14
+      rect:
+        serializedVersion: 2
+        x: 288
+        y: 754
+        width: 256
+        height: 111
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 45f9baa41ac21b950800000000000000
+      internalID: 6462996011507490644
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Automatic Slice - Gadwood_15
+      rect:
+        serializedVersion: 2
+        x: 576
+        y: 755
+        width: 50
+        height: 110
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d0879e02c07c5cc20800000000000000
+      internalID: 3226203562986534925
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Automatic Slice - Gadwood_16
+      rect:
+        serializedVersion: 2
+        x: 614
+        y: 754
+        width: 58
+        height: 111
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ed4574b3189dddaa0800000000000000
+      internalID: -6134507968340208418
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Automatic Slice - Gadwood_17
+      rect:
+        serializedVersion: 2
+        x: 678
+        y: 757
+        width: 54
+        height: 48
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 08b1f36b2707e4000800000000000000
+      internalID: 22078686169602944
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Automatic Slice - Gadwood_18
+      rect:
+        serializedVersion: 2
+        x: 736
+        y: 692
+        width: 160
+        height: 114
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1e677b6d046bc3b70800000000000000
+      internalID: 8880172954864285409
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Automatic Slice - Gadwood_19
+      rect:
+        serializedVersion: 2
+        x: 3
+        y: 690
+        width: 55
+        height: 54
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a5595c2a5f057e3b0800000000000000
+      internalID: -5483325005372222118
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Automatic Slice - Gadwood_20
+      rect:
+        serializedVersion: 2
+        x: 64
+        y: 685
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d79a3da851ae40510800000000000000
+      internalID: 1514592752947669373
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Automatic Slice - Gadwood_21
+      rect:
+        serializedVersion: 2
+        x: 133
+        y: 688
+        width: 54
+        height: 56
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a15eaed366d3e9390800000000000000
+      internalID: -7809737194479098598
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Automatic Slice - Gadwood_22
+      rect:
+        serializedVersion: 2
+        x: 192
+        y: 685
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 48a4f4f31a6b148e0800000000000000
+      internalID: -1710885579755926908
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Automatic Slice - Gadwood_23
+      rect:
+        serializedVersion: 2
+        x: 266
+        y: 719
+        width: 43
+        height: 28
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 81f385c1ae0b25980800000000000000
+      internalID: -8551578222878769384
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Automatic Slice - Gadwood_24
+      rect:
+        serializedVersion: 2
+        x: 327
+        y: 696
+        width: 48
+        height: 42
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a1d14e43ff486acf0800000000000000
+      internalID: -241359298378851046
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Automatic Slice - Gadwood_25
+      rect:
+        serializedVersion: 2
+        x: 395
+        y: 696
+        width: 41
+        height: 34
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b1b3ce8d436c4df10800000000000000
+      internalID: 2293676040518384411
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Automatic Slice - Gadwood_26
+      rect:
+        serializedVersion: 2
+        x: 403
+        y: 726
+        width: 20
+        height: 15
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4685010122f2805f0800000000000000
+      internalID: -790329911258621852
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Automatic Slice - Gadwood_27
+      rect:
+        serializedVersion: 2
+        x: 456
+        y: 694
+        width: 42
+        height: 34
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b1d3f8ef8a60c1a90800000000000000
+      internalID: -7341985969625678565
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Automatic Slice - Gadwood_28
+      rect:
+        serializedVersion: 2
+        x: 470
+        y: 724
+        width: 20
+        height: 15
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5d8786a1ddcd0ab20800000000000000
+      internalID: 3143755382093543637
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Automatic Slice - Gadwood_29
+      rect:
+        serializedVersion: 2
+        x: 516
+        y: 688
+        width: 55
+        height: 54
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f1ab05b734f9874c0800000000000000
+      internalID: -4289503532889884129
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Automatic Slice - Gadwood_30
+      rect:
+        serializedVersion: 2
+        x: 581
+        y: 694
+        width: 23
+        height: 48
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3a208a79303dba9c0800000000000000
+      internalID: -3914803438685781341
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Automatic Slice - Gadwood_31
+      rect:
+        serializedVersion: 2
+        x: 617
+        y: 696
+        width: 45
+        height: 41
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0ec16e2d7f526c310800000000000000
+      internalID: 1424868078434786528
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Automatic Slice - Gadwood_32
+      rect:
+        serializedVersion: 2
+        x: 1
+        y: 500
+        width: 158
+        height: 152
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ceab9d3985aaa9fe0800000000000000
+      internalID: -1181444654816970004
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Automatic Slice - Gadwood_33
+      rect:
+        serializedVersion: 2
+        x: 166
+        y: 500
+        width: 149
+        height: 147
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 11d3c16fd23f44ab0800000000000000
+      internalID: -5024623905510507247
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Automatic Slice - Gadwood_34
+      rect:
+        serializedVersion: 2
+        x: 329
+        y: 558
+        width: 78
+        height: 93
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0d157649094fb2700800000000000000
+      internalID: 516775484066320848
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Automatic Slice - Gadwood_35
+      rect:
+        serializedVersion: 2
+        x: 424
+        y: 558
+        width: 78
+        height: 93
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d74efb004a1384a40800000000000000
+      internalID: 5352582737586807933
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Automatic Slice - Gadwood_36
+      rect:
+        serializedVersion: 2
+        x: 515
+        y: 530
+        width: 208
+        height: 153
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: acff84fd75054f8f0800000000000000
+      internalID: -507692519647543350
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Automatic Slice - Gadwood_37
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 298
+        width: 129
+        height: 195
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: bad153489e72dfa80800000000000000
+      internalID: -8431539043468763733
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Automatic Slice - Gadwood_38
+      rect:
+        serializedVersion: 2
+        x: 320
+        y: 462
+        width: 64
+        height: 95
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: bb9d8b62e87244940800000000000000
+      internalID: 5279388154673551803
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Automatic Slice - Gadwood_39
+      rect:
+        serializedVersion: 2
+        x: 416
+        y: 462
+        width: 64
+        height: 95
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a5c770beb34459e60800000000000000
+      internalID: 7968350139838856282
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Automatic Slice - Gadwood_40
+      rect:
+        serializedVersion: 2
+        x: 611
+        y: 355
+        width: 132
+        height: 153
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 879cafd4e6ab9af90800000000000000
+      internalID: -6941812367697458824
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Automatic Slice - Gadwood_41
+      rect:
+        serializedVersion: 2
+        x: 777
+        y: 339
+        width: 190
+        height: 204
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 84f679c682ccc11f0800000000000000
+      internalID: -1072758137228398776
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Automatic Slice - Gadwood_42
+      rect:
+        serializedVersion: 2
+        x: 7
+        y: 103
+        width: 85
+        height: 166
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8bad6a4c7b73f7ca0800000000000000
+      internalID: -6017029314725881160
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Automatic Slice - Gadwood_43
+      rect:
+        serializedVersion: 2
+        x: 160
+        y: 266
+        width: 181
+        height: 195
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9809ed1cc2c31fcc0800000000000000
+      internalID: -3679093257656168311
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Automatic Slice - Gadwood_44
+      rect:
+        serializedVersion: 2
+        x: 355
+        y: 234
+        width: 234
+        height: 195
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 881b7776cabd1a0b0800000000000000
+      internalID: -5719048518267063928
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Automatic Slice - Gadwood_45
+      rect:
+        serializedVersion: 2
+        x: 616
+        y: 210
+        width: 185
+        height: 134
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1a7976826d06b9b90800000000000000
+      internalID: -7234081903523424351
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Automatic Slice - Gadwood_46
+      rect:
+        serializedVersion: 2
+        x: 829
+        y: 203
+        width: 128
+        height: 134
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2d9434ce83bda7740800000000000000
+      internalID: 5150670161380067794
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    outline: []
+    physicsShape: []
+    bones: []
+    spriteID: 5e97eb03825dee720800000000000000
+    internalID: 0
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+    secondaryTextures: []
+  spritePackingTag: 
+  pSDRemoveMatte: 0
+  pSDShowRemoveMatteOption: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

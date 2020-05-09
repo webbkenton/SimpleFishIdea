@@ -1,0 +1,4364 @@
+fileFormatVersion: 2
+guid: 5b14681fe82f1014b9fe17d086786438
+TextureImporter:
+  internalIDToNameTable:
+  - first:
+      213: 1229918924557695803
+    second: AF_FUS_Gadwood_Valley_Map_Tiles_0
+  - first:
+      213: -6616100590084960054
+    second: AF_FUS_Gadwood_Valley_Map_Tiles_1
+  - first:
+      213: 5154206197643531444
+    second: AF_FUS_Gadwood_Valley_Map_Tiles_2
+  - first:
+      213: 7201454190821794647
+    second: AF_FUS_Gadwood_Valley_Map_Tiles_3
+  - first:
+      213: -7477300570627040537
+    second: AF_FUS_Gadwood_Valley_Map_Tiles_4
+  - first:
+      213: -835663385990842005
+    second: AF_FUS_Gadwood_Valley_Map_Tiles_5
+  - first:
+      213: -6108287495746723857
+    second: AF_FUS_Gadwood_Valley_Map_Tiles_6
+  - first:
+      213: 4038498991164496718
+    second: AF_FUS_Gadwood_Valley_Map_Tiles_7
+  - first:
+      213: 8910845751209136314
+    second: AF_FUS_Gadwood_Valley_Map_Tiles_8
+  - first:
+      213: -4779151771328084961
+    second: AF_FUS_Gadwood_Valley_Map_Tiles_9
+  - first:
+      213: -134583157957191875
+    second: AF_FUS_Gadwood_Valley_Map_Tiles_10
+  - first:
+      213: 1229150472340584031
+    second: AF_FUS_Gadwood_Valley_Map_Tiles_11
+  - first:
+      213: 8049674795793444645
+    second: AF_FUS_Gadwood_Valley_Map_Tiles_12
+  - first:
+      213: 4847612070461373001
+    second: AF_FUS_Gadwood_Valley_Map_Tiles_13
+  - first:
+      213: 6199642136010147463
+    second: AF_FUS_Gadwood_Valley_Map_Tiles_14
+  - first:
+      213: 8031777107800681008
+    second: AF_FUS_Gadwood_Valley_Map_Tiles_15
+  - first:
+      213: -8098366836846385619
+    second: AF_FUS_Gadwood_Valley_Map_Tiles_16
+  - first:
+      213: 289164524651316221
+    second: AF_FUS_Gadwood_Valley_Map_Tiles_17
+  - first:
+      213: 8113562304212535974
+    second: AF_FUS_Gadwood_Valley_Map_Tiles_18
+  - first:
+      213: -302221401866475736
+    second: AF_FUS_Gadwood_Valley_Map_Tiles_19
+  - first:
+      213: -3741507969432103856
+    second: AF_FUS_Gadwood_Valley_Map_Tiles_20
+  - first:
+      213: -5816214092383439088
+    second: AF_FUS_Gadwood_Valley_Map_Tiles_21
+  - first:
+      213: -7646563415478394975
+    second: AF_FUS_Gadwood_Valley_Map_Tiles_22
+  - first:
+      213: 9103401826590824323
+    second: AF_FUS_Gadwood_Valley_Map_Tiles_23
+  - first:
+      213: 7611147532859204266
+    second: AF_FUS_Gadwood_Valley_Map_Tiles_24
+  - first:
+      213: -1288411368957357773
+    second: AF_FUS_Gadwood_Valley_Map_Tiles_25
+  - first:
+      213: -578738039513430765
+    second: AF_FUS_Gadwood_Valley_Map_Tiles_26
+  - first:
+      213: 3601313104105723481
+    second: AF_FUS_Gadwood_Valley_Map_Tiles_27
+  - first:
+      213: -8812429293596195195
+    second: AF_FUS_Gadwood_Valley_Map_Tiles_28
+  - first:
+      213: -6912504021142741761
+    second: AF_FUS_Gadwood_Valley_Map_Tiles_29
+  - first:
+      213: -3103252334965276707
+    second: AF_FUS_Gadwood_Valley_Map_Tiles_30
+  - first:
+      213: 113744043465760868
+    second: AF_FUS_Gadwood_Valley_Map_Tiles_31
+  - first:
+      213: -8606230721081277177
+    second: AF_FUS_Gadwood_Valley_Map_Tiles_32
+  - first:
+      213: 8257976511437904495
+    second: AF_FUS_Gadwood_Valley_Map_Tiles_33
+  - first:
+      213: -4981903224801178321
+    second: AF_FUS_Gadwood_Valley_Map_Tiles_34
+  - first:
+      213: 5658762951821453167
+    second: AF_FUS_Gadwood_Valley_Map_Tiles_35
+  - first:
+      213: 7104531566655136982
+    second: AF_FUS_Gadwood_Valley_Map_Tiles_36
+  - first:
+      213: -6286386873877042411
+    second: AF_FUS_Gadwood_Valley_Map_Tiles_37
+  - first:
+      213: -2504706494699825851
+    second: AF_FUS_Gadwood_Valley_Map_Tiles_38
+  - first:
+      213: 2380904709103546413
+    second: AF_FUS_Gadwood_Valley_Map_Tiles_39
+  - first:
+      213: -5707979137093717473
+    second: AF_FUS_Gadwood_Valley_Map_Tiles_40
+  - first:
+      213: -893241376105894700
+    second: AF_FUS_Gadwood_Valley_Map_Tiles_41
+  - first:
+      213: -7013612315267920838
+    second: AF_FUS_Gadwood_Valley_Map_Tiles_42
+  - first:
+      213: -8391089427010190092
+    second: AF_FUS_Gadwood_Valley_Map_Tiles_43
+  - first:
+      213: -776596975643848254
+    second: AF_FUS_Gadwood_Valley_Map_Tiles_44
+  - first:
+      213: 6119791548248831911
+    second: AF_FUS_Gadwood_Valley_Map_Tiles_45
+  - first:
+      213: 2657961722298461957
+    second: AF_FUS_Gadwood_Valley_Map_Tiles_46
+  - first:
+      213: -259194687298133438
+    second: AF_FUS_Gadwood_Valley_Map_Tiles_47
+  - first:
+      213: -7453471699784190811
+    second: AF_FUS_Gadwood_Valley_Map_Tiles_48
+  - first:
+      213: 4991846521627803792
+    second: AF_FUS_Gadwood_Valley_Map_Tiles_49
+  - first:
+      213: -2249187823321021716
+    second: AF_FUS_Gadwood_Valley_Map_Tiles_50
+  - first:
+      213: -6999398242483046925
+    second: AF_FUS_Gadwood_Valley_Map_Tiles_51
+  - first:
+      213: 4440914169423832927
+    second: AF_FUS_Gadwood_Valley_Map_Tiles_52
+  - first:
+      213: 827505487602292101
+    second: AF_FUS_Gadwood_Valley_Map_Tiles_53
+  - first:
+      213: 8412716337174173799
+    second: AF_FUS_Gadwood_Valley_Map_Tiles_54
+  - first:
+      213: 7144715540276538047
+    second: AF_FUS_Gadwood_Valley_Map_Tiles_55
+  - first:
+      213: 1065955964769786834
+    second: AF_FUS_Gadwood_Valley_Map_Tiles_56
+  - first:
+      213: -4680525008025970018
+    second: AF_FUS_Gadwood_Valley_Map_Tiles_57
+  - first:
+      213: -2499143786818055926
+    second: AF_FUS_Gadwood_Valley_Map_Tiles_58
+  - first:
+      213: -4509247493160815003
+    second: AF_FUS_Gadwood_Valley_Map_Tiles_59
+  - first:
+      213: -1202373301232296167
+    second: AF_FUS_Gadwood_Valley_Map_Tiles_60
+  - first:
+      213: -474363668841617678
+    second: AF_FUS_Gadwood_Valley_Map_Tiles_61
+  - first:
+      213: 8560682715066374737
+    second: AF_FUS_Gadwood_Valley_Map_Tiles_62
+  - first:
+      213: -4331174552235864374
+    second: AF_FUS_Gadwood_Valley_Map_Tiles_63
+  - first:
+      213: -3358662195686348793
+    second: AF_FUS_Gadwood_Valley_Map_Tiles_64
+  - first:
+      213: -4653245504248252229
+    second: AF_FUS_Gadwood_Valley_Map_Tiles_65
+  - first:
+      213: 5542729899487442480
+    second: AF_FUS_Gadwood_Valley_Map_Tiles_66
+  - first:
+      213: -4521138996105430423
+    second: AF_FUS_Gadwood_Valley_Map_Tiles_67
+  - first:
+      213: 6963389082101340747
+    second: AF_FUS_Gadwood_Valley_Map_Tiles_68
+  - first:
+      213: 8359102413944046691
+    second: AF_FUS_Gadwood_Valley_Map_Tiles_69
+  - first:
+      213: 5440408596686880710
+    second: AF_FUS_Gadwood_Valley_Map_Tiles_70
+  - first:
+      213: -4181958217869812793
+    second: AF_FUS_Gadwood_Valley_Map_Tiles_71
+  - first:
+      213: -3054623944703266184
+    second: AF_FUS_Gadwood_Valley_Map_Tiles_72
+  - first:
+      213: -8493992233128067569
+    second: AF_FUS_Gadwood_Valley_Map_Tiles_73
+  - first:
+      213: 3543073712957673492
+    second: AF_FUS_Gadwood_Valley_Map_Tiles_74
+  - first:
+      213: 1261221412247452725
+    second: AF_FUS_Gadwood_Valley_Map_Tiles_75
+  - first:
+      213: 6029827488028591053
+    second: AF_FUS_Gadwood_Valley_Map_Tiles_76
+  - first:
+      213: -6201410602304579904
+    second: AF_FUS_Gadwood_Valley_Map_Tiles_77
+  - first:
+      213: -2509124060366598993
+    second: AF_FUS_Gadwood_Valley_Map_Tiles_78
+  - first:
+      213: -3469298445582049960
+    second: AF_FUS_Gadwood_Valley_Map_Tiles_79
+  - first:
+      213: 4978442634173333504
+    second: AF_FUS_Gadwood_Valley_Map_Tiles_80
+  - first:
+      213: 8179520806802658554
+    second: AF_FUS_Gadwood_Valley_Map_Tiles_81
+  - first:
+      213: 7242570897912271112
+    second: AF_FUS_Gadwood_Valley_Map_Tiles_82
+  - first:
+      213: 7834907242798691630
+    second: AF_FUS_Gadwood_Valley_Map_Tiles_83
+  - first:
+      213: -7786474070698068767
+    second: AF_FUS_Gadwood_Valley_Map_Tiles_84
+  - first:
+      213: -1576731915272276096
+    second: AF_FUS_Gadwood_Valley_Map_Tiles_85
+  - first:
+      213: -1102785997896079323
+    second: AF_FUS_Gadwood_Valley_Map_Tiles_86
+  - first:
+      213: -7185845453278467433
+    second: AF_FUS_Gadwood_Valley_Map_Tiles_87
+  - first:
+      213: -3543426004645613931
+    second: AF_FUS_Gadwood_Valley_Map_Tiles_88
+  - first:
+      213: -4074700558980665762
+    second: AF_FUS_Gadwood_Valley_Map_Tiles_89
+  - first:
+      213: -5182807080729914353
+    second: AF_FUS_Gadwood_Valley_Map_Tiles_90
+  - first:
+      213: -4813121508814903381
+    second: AF_FUS_Gadwood_Valley_Map_Tiles_91
+  - first:
+      213: -689101482385519735
+    second: AF_FUS_Gadwood_Valley_Map_Tiles_92
+  - first:
+      213: -821971103954677726
+    second: AF_FUS_Gadwood_Valley_Map_Tiles_93
+  - first:
+      213: 4985581016127701822
+    second: AF_FUS_Gadwood_Valley_Map_Tiles_94
+  - first:
+      213: -8811487241513692356
+    second: AF_FUS_Gadwood_Valley_Map_Tiles_95
+  - first:
+      213: -9218120456165169608
+    second: AF_FUS_Gadwood_Valley_Map_Tiles_96
+  - first:
+      213: 2064534358669451671
+    second: AF_FUS_Gadwood_Valley_Map_Tiles_97
+  - first:
+      213: -1182001082871171449
+    second: AF_FUS_Gadwood_Valley_Map_Tiles_98
+  - first:
+      213: -9070328204166018675
+    second: AF_FUS_Gadwood_Valley_Map_Tiles_99
+  - first:
+      213: -5861062623169828170
+    second: AF_FUS_Gadwood_Valley_Map_Tiles_100
+  - first:
+      213: 644073198853194411
+    second: AF_FUS_Gadwood_Valley_Map_Tiles_101
+  - first:
+      213: 7089390897613484131
+    second: AF_FUS_Gadwood_Valley_Map_Tiles_102
+  - first:
+      213: -2331124298576132300
+    second: AF_FUS_Gadwood_Valley_Map_Tiles_103
+  - first:
+      213: 6428616732190155911
+    second: AF_FUS_Gadwood_Valley_Map_Tiles_104
+  - first:
+      213: -5086012849526016216
+    second: AF_FUS_Gadwood_Valley_Map_Tiles_105
+  - first:
+      213: -1169821344705461054
+    second: AF_FUS_Gadwood_Valley_Map_Tiles_106
+  - first:
+      213: -8618362166761587150
+    second: AF_FUS_Gadwood_Valley_Map_Tiles_107
+  - first:
+      213: -6821840438097729613
+    second: AF_FUS_Gadwood_Valley_Map_Tiles_108
+  - first:
+      213: 2310121497207609051
+    second: AF_FUS_Gadwood_Valley_Map_Tiles_109
+  - first:
+      213: 1398850292485127773
+    second: AF_FUS_Gadwood_Valley_Map_Tiles_110
+  - first:
+      213: -8256341970581546263
+    second: AF_FUS_Gadwood_Valley_Map_Tiles_111
+  - first:
+      213: 1886292207828967551
+    second: AF_FUS_Gadwood_Valley_Map_Tiles_112
+  - first:
+      213: 5909018543658418810
+    second: AF_FUS_Gadwood_Valley_Map_Tiles_113
+  - first:
+      213: -6338992532896590804
+    second: AF_FUS_Gadwood_Valley_Map_Tiles_114
+  - first:
+      213: 4448219192381170276
+    second: AF_FUS_Gadwood_Valley_Map_Tiles_115
+  - first:
+      213: -8972496797051630000
+    second: AF_FUS_Gadwood_Valley_Map_Tiles_116
+  - first:
+      213: -3757800740201540311
+    second: AF_FUS_Gadwood_Valley_Map_Tiles_117
+  - first:
+      213: 7325577411299907979
+    second: AF_FUS_Gadwood_Valley_Map_Tiles_118
+  - first:
+      213: 6048583319523116750
+    second: AF_FUS_Gadwood_Valley_Map_Tiles_119
+  - first:
+      213: 6747529703799371018
+    second: AF_FUS_Gadwood_Valley_Map_Tiles_120
+  - first:
+      213: 2319847516503703987
+    second: AF_FUS_Gadwood_Valley_Map_Tiles_121
+  - first:
+      213: 592106920600536031
+    second: AF_FUS_Gadwood_Valley_Map_Tiles_122
+  - first:
+      213: -8186527817117424358
+    second: AF_FUS_Gadwood_Valley_Map_Tiles_123
+  - first:
+      213: 127912933189818146
+    second: AF_FUS_Gadwood_Valley_Map_Tiles_124
+  - first:
+      213: -5231909877184438842
+    second: AF_FUS_Gadwood_Valley_Map_Tiles_125
+  - first:
+      213: 7447887568624689014
+    second: AF_FUS_Gadwood_Valley_Map_Tiles_126
+  - first:
+      213: 811247673149190411
+    second: AF_FUS_Gadwood_Valley_Map_Tiles_127
+  - first:
+      213: 7552867688608232155
+    second: AF_FUS_Gadwood_Valley_Map_Tiles_128
+  - first:
+      213: -6744322749388272663
+    second: AF_FUS_Gadwood_Valley_Map_Tiles_129
+  - first:
+      213: 7432318640261066352
+    second: AF_FUS_Gadwood_Valley_Map_Tiles_130
+  - first:
+      213: -6760287747697748871
+    second: AF_FUS_Gadwood_Valley_Map_Tiles_131
+  - first:
+      213: -8422617991092075705
+    second: AF_FUS_Gadwood_Valley_Map_Tiles_132
+  - first:
+      213: -3290970606918445241
+    second: AF_FUS_Gadwood_Valley_Map_Tiles_133
+  - first:
+      213: -1178675851724383000
+    second: AF_FUS_Gadwood_Valley_Map_Tiles_134
+  - first:
+      213: 4646923275527645404
+    second: AF_FUS_Gadwood_Valley_Map_Tiles_135
+  - first:
+      213: -6680348383312235234
+    second: AF_FUS_Gadwood_Valley_Map_Tiles_136
+  - first:
+      213: -4610474106982988418
+    second: AF_FUS_Gadwood_Valley_Map_Tiles_137
+  - first:
+      213: 6840449883558274916
+    second: AF_FUS_Gadwood_Valley_Map_Tiles_138
+  - first:
+      213: 1235943925407860201
+    second: AF_FUS_Gadwood_Valley_Map_Tiles_139
+  - first:
+      213: -9084329792979241152
+    second: AF_FUS_Gadwood_Valley_Map_Tiles_140
+  - first:
+      213: -4727990610057161793
+    second: AF_FUS_Gadwood_Valley_Map_Tiles_141
+  - first:
+      213: -2679874206967638435
+    second: AF_FUS_Gadwood_Valley_Map_Tiles_142
+  - first:
+      213: 2958740736172792460
+    second: AF_FUS_Gadwood_Valley_Map_Tiles_143
+  - first:
+      213: -6241720097334768237
+    second: AF_FUS_Gadwood_Valley_Map_Tiles_144
+  - first:
+      213: 4664833484803342063
+    second: AF_FUS_Gadwood_Valley_Map_Tiles_145
+  - first:
+      213: -8061272717034013261
+    second: AF_FUS_Gadwood_Valley_Map_Tiles_146
+  - first:
+      213: 7614638491231615621
+    second: AF_FUS_Gadwood_Valley_Map_Tiles_147
+  - first:
+      213: -8210123793132045812
+    second: AF_FUS_Gadwood_Valley_Map_Tiles_148
+  - first:
+      213: -1870765356317329911
+    second: AF_FUS_Gadwood_Valley_Map_Tiles_149
+  - first:
+      213: 4389197405410233044
+    second: AF_FUS_Gadwood_Valley_Map_Tiles_150
+  - first:
+      213: 6191188170389791181
+    second: AF_FUS_Gadwood_Valley_Map_Tiles_151
+  - first:
+      213: -6910848414590221414
+    second: AF_FUS_Gadwood_Valley_Map_Tiles_152
+  - first:
+      213: 4465323188244127289
+    second: AF_FUS_Gadwood_Valley_Map_Tiles_153
+  - first:
+      213: -4425932986236200559
+    second: AF_FUS_Gadwood_Valley_Map_Tiles_154
+  - first:
+      213: 543706101418429348
+    second: AF_FUS_Gadwood_Valley_Map_Tiles_155
+  - first:
+      213: 3089106646160123638
+    second: AF_FUS_Gadwood_Valley_Map_Tiles_156
+  - first:
+      213: 182751194418828002
+    second: AF_FUS_Gadwood_Valley_Map_Tiles_157
+  - first:
+      213: -4587361640066761100
+    second: AF_FUS_Gadwood_Valley_Map_Tiles_158
+  - first:
+      213: 855241835510501340
+    second: AF_FUS_Gadwood_Valley_Map_Tiles_159
+  - first:
+      213: -2208877033336973689
+    second: AF_FUS_Gadwood_Valley_Map_Tiles_160
+  - first:
+      213: -4095072239365498454
+    second: AF_FUS_Gadwood_Valley_Map_Tiles_161
+  - first:
+      213: 524661699402324683
+    second: AF_FUS_Gadwood_Valley_Map_Tiles_162
+  - first:
+      213: 8243625759406698562
+    second: AF_FUS_Gadwood_Valley_Map_Tiles_163
+  - first:
+      213: -4598197249928218854
+    second: AF_FUS_Gadwood_Valley_Map_Tiles_164
+  - first:
+      213: 5736862742888046521
+    second: AF_FUS_Gadwood_Valley_Map_Tiles_165
+  - first:
+      213: 6281934487948742854
+    second: AF_FUS_Gadwood_Valley_Map_Tiles_166
+  - first:
+      213: -6528066271229684227
+    second: AF_FUS_Gadwood_Valley_Map_Tiles_167
+  - first:
+      213: 6921217716610411179
+    second: AF_FUS_Gadwood_Valley_Map_Tiles_168
+  - first:
+      213: -1549201315601979956
+    second: AF_FUS_Gadwood_Valley_Map_Tiles_169
+  - first:
+      213: 3664123220960780040
+    second: AF_FUS_Gadwood_Valley_Map_Tiles_170
+  - first:
+      213: 619719392994948893
+    second: AF_FUS_Gadwood_Valley_Map_Tiles_171
+  - first:
+      213: -2296533469898198846
+    second: AF_FUS_Gadwood_Valley_Map_Tiles_172
+  - first:
+      213: -2904987836096172832
+    second: AF_FUS_Gadwood_Valley_Map_Tiles_173
+  - first:
+      213: -6424024620806989806
+    second: AF_FUS_Gadwood_Valley_Map_Tiles_174
+  - first:
+      213: -4096579009482155136
+    second: AF_FUS_Gadwood_Valley_Map_Tiles_175
+  - first:
+      213: -4381998528644175882
+    second: AF_FUS_Gadwood_Valley_Map_Tiles_176
+  - first:
+      213: 8155350604928058912
+    second: AF_FUS_Gadwood_Valley_Map_Tiles_177
+  - first:
+      213: -7614459376856201324
+    second: AF_FUS_Gadwood_Valley_Map_Tiles_178
+  - first:
+      213: 7919404034380773384
+    second: AF_FUS_Gadwood_Valley_Map_Tiles_179
+  - first:
+      213: 985815410564026447
+    second: AF_FUS_Gadwood_Valley_Map_Tiles_180
+  - first:
+      213: -668553932207527852
+    second: AF_FUS_Gadwood_Valley_Map_Tiles_181
+  - first:
+      213: 3199164268535081543
+    second: AF_FUS_Gadwood_Valley_Map_Tiles_182
+  - first:
+      213: 8639285782668134983
+    second: AF_FUS_Gadwood_Valley_Map_Tiles_183
+  - first:
+      213: -7089372220252993908
+    second: AF_FUS_Gadwood_Valley_Map_Tiles_184
+  - first:
+      213: -4264167311541085430
+    second: AF_FUS_Gadwood_Valley_Map_Tiles_185
+  - first:
+      213: -3673880869801223748
+    second: AF_FUS_Gadwood_Valley_Map_Tiles_186
+  - first:
+      213: 8487315874865342237
+    second: AF_FUS_Gadwood_Valley_Map_Tiles_187
+  - first:
+      213: -2362192220669334200
+    second: AF_FUS_Gadwood_Valley_Map_Tiles_188
+  - first:
+      213: 7089767419044218582
+    second: AF_FUS_Gadwood_Valley_Map_Tiles_189
+  - first:
+      213: -4920365735225386694
+    second: AF_FUS_Gadwood_Valley_Map_Tiles_190
+  - first:
+      213: 6183820854921413139
+    second: AF_FUS_Gadwood_Valley_Map_Tiles_191
+  - first:
+      213: -1351843725944920369
+    second: AF_FUS_Gadwood_Valley_Map_Tiles_192
+  - first:
+      213: 722381923181841919
+    second: AF_FUS_Gadwood_Valley_Map_Tiles_193
+  - first:
+      213: 3217371801571967787
+    second: AF_FUS_Gadwood_Valley_Map_Tiles_194
+  - first:
+      213: -3976639761578381800
+    second: AF_FUS_Gadwood_Valley_Map_Tiles_195
+  - first:
+      213: -6730442733271595333
+    second: AF_FUS_Gadwood_Valley_Map_Tiles_196
+  - first:
+      213: -6225078636260356139
+    second: AF_FUS_Gadwood_Valley_Map_Tiles_197
+  - first:
+      213: -2802861479518749938
+    second: AF_FUS_Gadwood_Valley_Map_Tiles_198
+  - first:
+      213: -9179843245926668765
+    second: AF_FUS_Gadwood_Valley_Map_Tiles_199
+  - first:
+      213: -8604264674097316368
+    second: AF_FUS_Gadwood_Valley_Map_Tiles_200
+  - first:
+      213: 6696485610308207478
+    second: AF_FUS_Gadwood_Valley_Map_Tiles_201
+  - first:
+      213: 3529925100726819308
+    second: AF_FUS_Gadwood_Valley_Map_Tiles_202
+  - first:
+      213: -6390294302958091
+    second: AF_FUS_Gadwood_Valley_Map_Tiles_203
+  - first:
+      213: 476674214263139701
+    second: AF_FUS_Gadwood_Valley_Map_Tiles_204
+  - first:
+      213: 3628233413057958755
+    second: AF_FUS_Gadwood_Valley_Map_Tiles_205
+  - first:
+      213: -6887052280355530873
+    second: AF_FUS_Gadwood_Valley_Map_Tiles_206
+  - first:
+      213: 3193201237446341077
+    second: AF_FUS_Gadwood_Valley_Map_Tiles_207
+  - first:
+      213: -1173618599943758294
+    second: AF_FUS_Gadwood_Valley_Map_Tiles_208
+  - first:
+      213: 8105714989957178485
+    second: AF_FUS_Gadwood_Valley_Map_Tiles_209
+  - first:
+      213: -4559263710866573328
+    second: AF_FUS_Gadwood_Valley_Map_Tiles_210
+  - first:
+      213: 17087219596960154
+    second: AF_FUS_Gadwood_Valley_Map_Tiles_211
+  - first:
+      213: 562559355165590507
+    second: AF_FUS_Gadwood_Valley_Map_Tiles_212
+  - first:
+      213: -1637502322729924741
+    second: AF_FUS_Gadwood_Valley_Map_Tiles_213
+  - first:
+      213: 4868736501748802444
+    second: AF_FUS_Gadwood_Valley_Map_Tiles_214
+  - first:
+      213: -5504836171130140689
+    second: AF_FUS_Gadwood_Valley_Map_Tiles_215
+  - first:
+      213: -462214736972816297
+    second: AF_FUS_Gadwood_Valley_Map_Tiles_216
+  - first:
+      213: 4372300161073083724
+    second: AF_FUS_Gadwood_Valley_Map_Tiles_217
+  - first:
+      213: -4496420913933951536
+    second: AF_FUS_Gadwood_Valley_Map_Tiles_218
+  - first:
+      213: 6348715770072325400
+    second: AF_FUS_Gadwood_Valley_Map_Tiles_219
+  - first:
+      213: 6376711624860300688
+    second: AF_FUS_Gadwood_Valley_Map_Tiles_220
+  - first:
+      213: 1088514458996039660
+    second: AF_FUS_Gadwood_Valley_Map_Tiles_221
+  - first:
+      213: -6972651440113561559
+    second: AF_FUS_Gadwood_Valley_Map_Tiles_222
+  - first:
+      213: -5400272419643998730
+    second: AF_FUS_Gadwood_Valley_Map_Tiles_223
+  - first:
+      213: 3758406115176634601
+    second: AF_FUS_Gadwood_Valley_Map_Tiles_224
+  - first:
+      213: 9190366285681442350
+    second: AF_FUS_Gadwood_Valley_Map_Tiles_225
+  - first:
+      213: 9003802407556434491
+    second: AF_FUS_Gadwood_Valley_Map_Tiles_226
+  - first:
+      213: 5926602810155174571
+    second: AF_FUS_Gadwood_Valley_Map_Tiles_227
+  - first:
+      213: 1368634044388986284
+    second: AF_FUS_Gadwood_Valley_Map_Tiles_228
+  - first:
+      213: 9134299741917866559
+    second: AF_FUS_Gadwood_Valley_Map_Tiles_229
+  - first:
+      213: -7957574103776723754
+    second: AF_FUS_Gadwood_Valley_Map_Tiles_230
+  - first:
+      213: 914326019543563294
+    second: AF_FUS_Gadwood_Valley_Map_Tiles_231
+  - first:
+      213: 2456604347978185986
+    second: AF_FUS_Gadwood_Valley_Map_Tiles_232
+  - first:
+      213: -4879264868912859744
+    second: AF_FUS_Gadwood_Valley_Map_Tiles_233
+  - first:
+      213: 8220679041021739486
+    second: AF_FUS_Gadwood_Valley_Map_Tiles_234
+  - first:
+      213: -8520764365479207206
+    second: AF_FUS_Gadwood_Valley_Map_Tiles_235
+  - first:
+      213: 4416216585771880324
+    second: AF_FUS_Gadwood_Valley_Map_Tiles_236
+  - first:
+      213: 7501964750404936616
+    second: AF_FUS_Gadwood_Valley_Map_Tiles_237
+  - first:
+      213: 8433006229623895667
+    second: AF_FUS_Gadwood_Valley_Map_Tiles_238
+  - first:
+      213: 6632770560842936290
+    second: AF_FUS_Gadwood_Valley_Map_Tiles_239
+  - first:
+      213: 7176374792561331346
+    second: AF_FUS_Gadwood_Valley_Map_Tiles_240
+  - first:
+      213: -1915342053595451622
+    second: AF_FUS_Gadwood_Valley_Map_Tiles_241
+  - first:
+      213: 2675738204256967640
+    second: AF_FUS_Gadwood_Valley_Map_Tiles_242
+  - first:
+      213: -2077149824269140066
+    second: AF_FUS_Gadwood_Valley_Map_Tiles_243
+  - first:
+      213: -8837513464110968749
+    second: AF_FUS_Gadwood_Valley_Map_Tiles_244
+  - first:
+      213: 5372427020185260103
+    second: AF_FUS_Gadwood_Valley_Map_Tiles_245
+  - first:
+      213: -4681379521329918884
+    second: AF_FUS_Gadwood_Valley_Map_Tiles_246
+  - first:
+      213: 1879682693194889723
+    second: AF_FUS_Gadwood_Valley_Map_Tiles_247
+  - first:
+      213: 1536590567309640218
+    second: AF_FUS_Gadwood_Valley_Map_Tiles_248
+  - first:
+      213: 8231739171183343287
+    second: AF_FUS_Gadwood_Valley_Map_Tiles_249
+  - first:
+      213: -5411626661600575381
+    second: AF_FUS_Gadwood_Valley_Map_Tiles_250
+  - first:
+      213: -9199009975333680280
+    second: AF_FUS_Gadwood_Valley_Map_Tiles_251
+  - first:
+      213: -3290021268958940425
+    second: AF_FUS_Gadwood_Valley_Map_Tiles_252
+  - first:
+      213: 4985050273780676750
+    second: AF_FUS_Gadwood_Valley_Map_Tiles_253
+  - first:
+      213: -6190718060748202055
+    second: AF_FUS_Gadwood_Valley_Map_Tiles_254
+  - first:
+      213: 6041113026192906148
+    second: AF_FUS_Gadwood_Valley_Map_Tiles_255
+  - first:
+      213: -8852727239103939044
+    second: AF_FUS_Gadwood_Valley_Map_Tiles_256
+  - first:
+      213: 5627476100062302966
+    second: AF_FUS_Gadwood_Valley_Map_Tiles_257
+  - first:
+      213: 817050235708914321
+    second: AF_FUS_Gadwood_Valley_Map_Tiles_258
+  - first:
+      213: 7717700447851892585
+    second: AF_FUS_Gadwood_Valley_Map_Tiles_259
+  - first:
+      213: -2504789294065985835
+    second: AF_FUS_Gadwood_Valley_Map_Tiles_260
+  - first:
+      213: -5847862745861094998
+    second: AF_FUS_Gadwood_Valley_Map_Tiles_261
+  - first:
+      213: 8199896190033419258
+    second: AF_FUS_Gadwood_Valley_Map_Tiles_262
+  - first:
+      213: -7949967678970973727
+    second: AF_FUS_Gadwood_Valley_Map_Tiles_263
+  - first:
+      213: -7572607838682888880
+    second: AF_FUS_Gadwood_Valley_Map_Tiles_264
+  - first:
+      213: -4859889863219211260
+    second: AF_FUS_Gadwood_Valley_Map_Tiles_265
+  - first:
+      213: 3583103876172026867
+    second: AF_FUS_Gadwood_Valley_Map_Tiles_266
+  - first:
+      213: -3558292927268710574
+    second: AF_FUS_Gadwood_Valley_Map_Tiles_267
+  - first:
+      213: 7312001443031306352
+    second: AF_FUS_Gadwood_Valley_Map_Tiles_268
+  - first:
+      213: -1852981423362105539
+    second: AF_FUS_Gadwood_Valley_Map_Tiles_269
+  - first:
+      213: -414322639271219327
+    second: AF_FUS_Gadwood_Valley_Map_Tiles_270
+  - first:
+      213: -3563327989953323805
+    second: AF_FUS_Gadwood_Valley_Map_Tiles_271
+  - first:
+      213: -7625640384399348737
+    second: AF_FUS_Gadwood_Valley_Map_Tiles_272
+  - first:
+      213: 578809236145721277
+    second: AF_FUS_Gadwood_Valley_Map_Tiles_273
+  - first:
+      213: -8492228110292502239
+    second: AF_FUS_Gadwood_Valley_Map_Tiles_274
+  - first:
+      213: 5609154901021451121
+    second: AF_FUS_Gadwood_Valley_Map_Tiles_275
+  - first:
+      213: -2976271123858060482
+    second: AF_FUS_Gadwood_Valley_Map_Tiles_276
+  - first:
+      213: 9048743795703462116
+    second: AF_FUS_Gadwood_Valley_Map_Tiles_277
+  - first:
+      213: -6708094964706024494
+    second: AF_FUS_Gadwood_Valley_Map_Tiles_278
+  - first:
+      213: -7467628225782846035
+    second: AF_FUS_Gadwood_Valley_Map_Tiles_279
+  - first:
+      213: 1058083877833799790
+    second: AF_FUS_Gadwood_Valley_Map_Tiles_280
+  - first:
+      213: 4821714339442031863
+    second: AF_FUS_Gadwood_Valley_Map_Tiles_281
+  - first:
+      213: -4205974971402992675
+    second: AF_FUS_Gadwood_Valley_Map_Tiles_282
+  - first:
+      213: 6219153889691794923
+    second: AF_FUS_Gadwood_Valley_Map_Tiles_283
+  - first:
+      213: -3642676314321059080
+    second: AF_FUS_Gadwood_Valley_Map_Tiles_284
+  - first:
+      213: 3598155229861829842
+    second: AF_FUS_Gadwood_Valley_Map_Tiles_285
+  - first:
+      213: -3152709935044503328
+    second: AF_FUS_Gadwood_Valley_Map_Tiles_286
+  - first:
+      213: 4200388335363295804
+    second: AF_FUS_Gadwood_Valley_Map_Tiles_287
+  - first:
+      213: 7120381531692703718
+    second: AF_FUS_Gadwood_Valley_Map_Tiles_288
+  - first:
+      213: 7832706245765735484
+    second: AF_FUS_Gadwood_Valley_Map_Tiles_289
+  - first:
+      213: 8879763186803390594
+    second: AF_FUS_Gadwood_Valley_Map_Tiles_290
+  - first:
+      213: 5126577722103141502
+    second: AF_FUS_Gadwood_Valley_Map_Tiles_291
+  - first:
+      213: 7738298034042492161
+    second: AF_FUS_Gadwood_Valley_Map_Tiles_292
+  - first:
+      213: 6160106869922693944
+    second: AF_FUS_Gadwood_Valley_Map_Tiles_293
+  - first:
+      213: 9062380487691836082
+    second: AF_FUS_Gadwood_Valley_Map_Tiles_294
+  - first:
+      213: -7790123757291233039
+    second: AF_FUS_Gadwood_Valley_Map_Tiles_295
+  - first:
+      213: 2983865075302028780
+    second: AF_FUS_Gadwood_Valley_Map_Tiles_296
+  - first:
+      213: -7148414294232615490
+    second: AF_FUS_Gadwood_Valley_Map_Tiles_297
+  - first:
+      213: 1488921524969029464
+    second: AF_FUS_Gadwood_Valley_Map_Tiles_298
+  - first:
+      213: 500963229747483616
+    second: AF_FUS_Gadwood_Valley_Map_Tiles_299
+  - first:
+      213: -8467224218723543954
+    second: AF_FUS_Gadwood_Valley_Map_Tiles_300
+  - first:
+      213: -5155707718429358449
+    second: AF_FUS_Gadwood_Valley_Map_Tiles_301
+  - first:
+      213: 147199821874837761
+    second: AF_FUS_Gadwood_Valley_Map_Tiles_302
+  - first:
+      213: 617381101222608134
+    second: AF_FUS_Gadwood_Valley_Map_Tiles_303
+  - first:
+      213: 4803690006654011993
+    second: AF_FUS_Gadwood_Valley_Map_Tiles_304
+  - first:
+      213: 4735593470651846013
+    second: AF_FUS_Gadwood_Valley_Map_Tiles_305
+  - first:
+      213: 2545782603403270183
+    second: AF_FUS_Gadwood_Valley_Map_Tiles_306
+  - first:
+      213: -7119863952705158844
+    second: AF_FUS_Gadwood_Valley_Map_Tiles_307
+  - first:
+      213: -7359354577919229025
+    second: AF_FUS_Gadwood_Valley_Map_Tiles_308
+  - first:
+      213: -8980903559135447387
+    second: AF_FUS_Gadwood_Valley_Map_Tiles_309
+  - first:
+      213: -4958686394153949534
+    second: AF_FUS_Gadwood_Valley_Map_Tiles_310
+  - first:
+      213: -5197330898702700790
+    second: AF_FUS_Gadwood_Valley_Map_Tiles_311
+  - first:
+      213: -5207914151064278167
+    second: AF_FUS_Gadwood_Valley_Map_Tiles_312
+  - first:
+      213: -6832503215788991016
+    second: AF_FUS_Gadwood_Valley_Map_Tiles_313
+  - first:
+      213: -6712719712898664021
+    second: AF_FUS_Gadwood_Valley_Map_Tiles_314
+  - first:
+      213: 4247141960356828969
+    second: AF_FUS_Gadwood_Valley_Map_Tiles_315
+  - first:
+      213: 7505910691427343041
+    second: AF_FUS_Gadwood_Valley_Map_Tiles_316
+  - first:
+      213: -4798652997406137623
+    second: AF_FUS_Gadwood_Valley_Map_Tiles_317
+  - first:
+      213: -1449218716351461872
+    second: AF_FUS_Gadwood_Valley_Map_Tiles_318
+  - first:
+      213: 2330755404856417819
+    second: AF_FUS_Gadwood_Valley_Map_Tiles_319
+  - first:
+      213: 8825898720057129991
+    second: AF_FUS_Gadwood_Valley_Map_Tiles_320
+  - first:
+      213: 5159318301067960437
+    second: AF_FUS_Gadwood_Valley_Map_Tiles_321
+  - first:
+      213: 4596409748690802657
+    second: AF_FUS_Gadwood_Valley_Map_Tiles_322
+  - first:
+      213: 639166857845657354
+    second: AF_FUS_Gadwood_Valley_Map_Tiles_323
+  - first:
+      213: -1597401482656399369
+    second: AF_FUS_Gadwood_Valley_Map_Tiles_324
+  - first:
+      213: 354814074973532180
+    second: AF_FUS_Gadwood_Valley_Map_Tiles_325
+  - first:
+      213: -8636038290241109994
+    second: AF_FUS_Gadwood_Valley_Map_Tiles_326
+  - first:
+      213: -3552075189974856999
+    second: AF_FUS_Gadwood_Valley_Map_Tiles_327
+  - first:
+      213: -2688724119572851442
+    second: AF_FUS_Gadwood_Valley_Map_Tiles_328
+  - first:
+      213: -2841613169308101994
+    second: AF_FUS_Gadwood_Valley_Map_Tiles_329
+  - first:
+      213: -1495259002718295359
+    second: AF_FUS_Gadwood_Valley_Map_Tiles_330
+  - first:
+      213: -1396177761725944900
+    second: AF_FUS_Gadwood_Valley_Map_Tiles_331
+  - first:
+      213: 7410909190576289041
+    second: AF_FUS_Gadwood_Valley_Map_Tiles_332
+  - first:
+      213: 5036306388955750934
+    second: AF_FUS_Gadwood_Valley_Map_Tiles_333
+  - first:
+      213: -4712375115350551395
+    second: AF_FUS_Gadwood_Valley_Map_Tiles_334
+  - first:
+      213: 3532522798922758969
+    second: AF_FUS_Gadwood_Valley_Map_Tiles_335
+  - first:
+      213: 7054696035420725689
+    second: AF_FUS_Gadwood_Valley_Map_Tiles_336
+  - first:
+      213: 2213564175364830096
+    second: AF_FUS_Gadwood_Valley_Map_Tiles_337
+  - first:
+      213: -3615640580970430889
+    second: AF_FUS_Gadwood_Valley_Map_Tiles_338
+  - first:
+      213: -5419095095804640696
+    second: AF_FUS_Gadwood_Valley_Map_Tiles_339
+  - first:
+      213: 194961645464958386
+    second: AF_FUS_Gadwood_Valley_Map_Tiles_340
+  - first:
+      213: 3812827645825759295
+    second: AF_FUS_Gadwood_Valley_Map_Tiles_341
+  - first:
+      213: 1644811948618057426
+    second: AF_FUS_Gadwood_Valley_Map_Tiles_342
+  - first:
+      213: 8553724688052831813
+    second: AF_FUS_Gadwood_Valley_Map_Tiles_343
+  - first:
+      213: 3278537992060536994
+    second: AF_FUS_Gadwood_Valley_Map_Tiles_344
+  - first:
+      213: -6137509381671312845
+    second: AF_FUS_Gadwood_Valley_Map_Tiles_345
+  - first:
+      213: -2490656668729362388
+    second: AF_FUS_Gadwood_Valley_Map_Tiles_346
+  - first:
+      213: -8165580280406227219
+    second: AF_FUS_Gadwood_Valley_Map_Tiles_347
+  - first:
+      213: -6935201353504029191
+    second: AF_FUS_Gadwood_Valley_Map_Tiles_348
+  - first:
+      213: -5930315539855204860
+    second: AF_FUS_Gadwood_Valley_Map_Tiles_349
+  - first:
+      213: 3998944742026273814
+    second: AF_FUS_Gadwood_Valley_Map_Tiles_350
+  - first:
+      213: -6824937151397893899
+    second: AF_FUS_Gadwood_Valley_Map_Tiles_351
+  - first:
+      213: 5980314488560801183
+    second: AF_FUS_Gadwood_Valley_Map_Tiles_352
+  - first:
+      213: 2946505486966974116
+    second: AF_FUS_Gadwood_Valley_Map_Tiles_353
+  - first:
+      213: -3056062201952404756
+    second: AF_FUS_Gadwood_Valley_Map_Tiles_354
+  - first:
+      213: -6430137444059762201
+    second: AF_FUS_Gadwood_Valley_Map_Tiles_355
+  - first:
+      213: 9094941165920258883
+    second: AF_FUS_Gadwood_Valley_Map_Tiles_356
+  - first:
+      213: 5906686381173710720
+    second: AF_FUS_Gadwood_Valley_Map_Tiles_357
+  - first:
+      213: 8012552379729446090
+    second: AF_FUS_Gadwood_Valley_Map_Tiles_358
+  - first:
+      213: 634099232590375173
+    second: AF_FUS_Gadwood_Valley_Map_Tiles_359
+  - first:
+      213: -8452149542591338953
+    second: AF_FUS_Gadwood_Valley_Map_Tiles_360
+  - first:
+      213: -1608384721930981628
+    second: AF_FUS_Gadwood_Valley_Map_Tiles_361
+  - first:
+      213: 8630438973685677082
+    second: AF_FUS_Gadwood_Valley_Map_Tiles_362
+  - first:
+      213: -9129640965294699501
+    second: AF_FUS_Gadwood_Valley_Map_Tiles_363
+  - first:
+      213: -5335808508223744496
+    second: AF_FUS_Gadwood_Valley_Map_Tiles_364
+  - first:
+      213: 666554742754173427
+    second: AF_FUS_Gadwood_Valley_Map_Tiles_365
+  - first:
+      213: 7013311317668738896
+    second: AF_FUS_Gadwood_Valley_Map_Tiles_366
+  - first:
+      213: 3838343909385985871
+    second: AF_FUS_Gadwood_Valley_Map_Tiles_367
+  - first:
+      213: 5146102477693435776
+    second: AF_FUS_Gadwood_Valley_Map_Tiles_368
+  - first:
+      213: 1095959188338382911
+    second: AF_FUS_Gadwood_Valley_Map_Tiles_369
+  - first:
+      213: 364464516051290860
+    second: AF_FUS_Gadwood_Valley_Map_Tiles_370
+  - first:
+      213: 1805968940482806103
+    second: AF_FUS_Gadwood_Valley_Map_Tiles_371
+  - first:
+      213: -3161488964865315596
+    second: AF_FUS_Gadwood_Valley_Map_Tiles_372
+  - first:
+      213: -5679892582644626505
+    second: AF_FUS_Gadwood_Valley_Map_Tiles_373
+  - first:
+      213: 9220993708436575502
+    second: AF_FUS_Gadwood_Valley_Map_Tiles_374
+  - first:
+      213: 2909395432446024001
+    second: AF_FUS_Gadwood_Valley_Map_Tiles_375
+  - first:
+      213: 3380950307616443006
+    second: AF_FUS_Gadwood_Valley_Map_Tiles_376
+  - first:
+      213: -8774192849689511729
+    second: AF_FUS_Gadwood_Valley_Map_Tiles_377
+  - first:
+      213: -7617797119664841066
+    second: AF_FUS_Gadwood_Valley_Map_Tiles_378
+  - first:
+      213: -5516551193215302625
+    second: AF_FUS_Gadwood_Valley_Map_Tiles_379
+  - first:
+      213: -7029866939697360121
+    second: AF_FUS_Gadwood_Valley_Map_Tiles_380
+  - first:
+      213: 2559624966197969780
+    second: AF_FUS_Gadwood_Valley_Map_Tiles_381
+  - first:
+      213: 4121212368639315726
+    second: AF_FUS_Gadwood_Valley_Map_Tiles_382
+  - first:
+      213: -8735736125672315086
+    second: AF_FUS_Gadwood_Valley_Map_Tiles_383
+  - first:
+      213: -9071562211370336044
+    second: AF_FUS_Gadwood_Valley_Map_Tiles_384
+  - first:
+      213: -8748465682530633895
+    second: AF_FUS_Gadwood_Valley_Map_Tiles_385
+  - first:
+      213: 1088015443863668708
+    second: AF_FUS_Gadwood_Valley_Map_Tiles_386
+  - first:
+      213: -7155798234952900956
+    second: AF_FUS_Gadwood_Valley_Map_Tiles_387
+  - first:
+      213: 576123291406753867
+    second: AF_FUS_Gadwood_Valley_Map_Tiles_388
+  - first:
+      213: -3501459006544831924
+    second: AF_FUS_Gadwood_Valley_Map_Tiles_389
+  - first:
+      213: 6642355079085589578
+    second: AF_FUS_Gadwood_Valley_Map_Tiles_390
+  - first:
+      213: 1475675546199908829
+    second: AF_FUS_Gadwood_Valley_Map_Tiles_391
+  - first:
+      213: 69441885192868561
+    second: AF_FUS_Gadwood_Valley_Map_Tiles_392
+  - first:
+      213: 322279970985419255
+    second: AF_FUS_Gadwood_Valley_Map_Tiles_393
+  - first:
+      213: 4141166754031503543
+    second: AF_FUS_Gadwood_Valley_Map_Tiles_394
+  - first:
+      213: 3199496624178109881
+    second: AF_FUS_Gadwood_Valley_Map_Tiles_395
+  - first:
+      213: 5377534731017284648
+    second: AF_FUS_Gadwood_Valley_Map_Tiles_396
+  - first:
+      213: 6145849771758857934
+    second: AF_FUS_Gadwood_Valley_Map_Tiles_397
+  - first:
+      213: -951092239064750879
+    second: AF_FUS_Gadwood_Valley_Map_Tiles_398
+  - first:
+      213: 7964315266989416481
+    second: AF_FUS_Gadwood_Valley_Map_Tiles_399
+  - first:
+      213: -7759711576488880743
+    second: AF_FUS_Gadwood_Valley_Map_Tiles_400
+  - first:
+      213: 979453148997022984
+    second: AF_FUS_Gadwood_Valley_Map_Tiles_401
+  - first:
+      213: 2534002674219417611
+    second: AF_FUS_Gadwood_Valley_Map_Tiles_402
+  - first:
+      213: 714068430693652040
+    second: AF_FUS_Gadwood_Valley_Map_Tiles_403
+  - first:
+      213: 4232258932251956896
+    second: AF_FUS_Gadwood_Valley_Map_Tiles_404
+  - first:
+      213: -810273989786415417
+    second: AF_FUS_Gadwood_Valley_Map_Tiles_405
+  - first:
+      213: 3585178980093157786
+    second: AF_FUS_Gadwood_Valley_Map_Tiles_406
+  - first:
+      213: -3171533674139149440
+    second: AF_FUS_Gadwood_Valley_Map_Tiles_407
+  - first:
+      213: -6426589985442942247
+    second: AF_FUS_Gadwood_Valley_Map_Tiles_408
+  - first:
+      213: -3559461402795043484
+    second: AF_FUS_Gadwood_Valley_Map_Tiles_409
+  - first:
+      213: 2084300755568439994
+    second: AF_FUS_Gadwood_Valley_Map_Tiles_410
+  - first:
+      213: 7274539612338561880
+    second: AF_FUS_Gadwood_Valley_Map_Tiles_411
+  - first:
+      213: -2784807436316416519
+    second: AF_FUS_Gadwood_Valley_Map_Tiles_412
+  - first:
+      213: 1133534221483362489
+    second: AF_FUS_Gadwood_Valley_Map_Tiles_413
+  - first:
+      213: -8090631653744596818
+    second: AF_FUS_Gadwood_Valley_Map_Tiles_414
+  - first:
+      213: -1879869102083586575
+    second: AF_FUS_Gadwood_Valley_Map_Tiles_415
+  - first:
+      213: 8907128064111793135
+    second: AF_FUS_Gadwood_Valley_Map_Tiles_416
+  - first:
+      213: -8474065296803448574
+    second: AF_FUS_Gadwood_Valley_Map_Tiles_417
+  - first:
+      213: -5683597093681242715
+    second: AF_FUS_Gadwood_Valley_Map_Tiles_418
+  - first:
+      213: -5544371753229991240
+    second: AF_FUS_Gadwood_Valley_Map_Tiles_419
+  - first:
+      213: 3443978499307741073
+    second: AF_FUS_Gadwood_Valley_Map_Tiles_420
+  - first:
+      213: -1386496039892126133
+    second: AF_FUS_Gadwood_Valley_Map_Tiles_421
+  - first:
+      213: -8718391933880604517
+    second: AF_FUS_Gadwood_Valley_Map_Tiles_422
+  - first:
+      213: 3452731434716566906
+    second: AF_FUS_Gadwood_Valley_Map_Tiles_423
+  - first:
+      213: -4256158241074701547
+    second: AF_FUS_Gadwood_Valley_Map_Tiles_424
+  - first:
+      213: 8970390714121108490
+    second: AF_FUS_Gadwood_Valley_Map_Tiles_425
+  - first:
+      213: 2664338147736623164
+    second: AF_FUS_Gadwood_Valley_Map_Tiles_426
+  - first:
+      213: 4780398627120067079
+    second: AF_FUS_Gadwood_Valley_Map_Tiles_427
+  - first:
+      213: -1140888813087761107
+    second: AF_FUS_Gadwood_Valley_Map_Tiles_428
+  - first:
+      213: 6049382743365614186
+    second: AF_FUS_Gadwood_Valley_Map_Tiles_429
+  - first:
+      213: 3523044950550443809
+    second: AF_FUS_Gadwood_Valley_Map_Tiles_430
+  - first:
+      213: -4262379122104790957
+    second: AF_FUS_Gadwood_Valley_Map_Tiles_431
+  - first:
+      213: 2498476423566723110
+    second: AF_FUS_Gadwood_Valley_Map_Tiles_432
+  - first:
+      213: -3753966135379189658
+    second: AF_FUS_Gadwood_Valley_Map_Tiles_433
+  - first:
+      213: 364525805691939384
+    second: AF_FUS_Gadwood_Valley_Map_Tiles_434
+  - first:
+      213: -898421409910446064
+    second: AF_FUS_Gadwood_Valley_Map_Tiles_435
+  - first:
+      213: 3208987107826590385
+    second: AF_FUS_Gadwood_Valley_Map_Tiles_436
+  - first:
+      213: 1987397892495227061
+    second: AF_FUS_Gadwood_Valley_Map_Tiles_437
+  - first:
+      213: -5494534099025018222
+    second: AF_FUS_Gadwood_Valley_Map_Tiles_438
+  - first:
+      213: 6631538581545713073
+    second: AF_FUS_Gadwood_Valley_Map_Tiles_439
+  - first:
+      213: -6876269781263808541
+    second: AF_FUS_Gadwood_Valley_Map_Tiles_440
+  - first:
+      213: -4930573670934421006
+    second: AF_FUS_Gadwood_Valley_Map_Tiles_441
+  - first:
+      213: -4431060889938952762
+    second: AF_FUS_Gadwood_Valley_Map_Tiles_442
+  - first:
+      213: 2100757509018942032
+    second: AF_FUS_Gadwood_Valley_Map_Tiles_443
+  - first:
+      213: 1773774314834619970
+    second: AF_FUS_Gadwood_Valley_Map_Tiles_444
+  - first:
+      213: -860164443171034360
+    second: AF_FUS_Gadwood_Valley_Map_Tiles_445
+  - first:
+      213: 4800941817457228082
+    second: AF_FUS_Gadwood_Valley_Map_Tiles_446
+  - first:
+      213: 5169765778185638686
+    second: AF_FUS_Gadwood_Valley_Map_Tiles_447
+  - first:
+      213: 5054279992997408519
+    second: AF_FUS_Gadwood_Valley_Map_Tiles_448
+  - first:
+      213: 2706450105350073491
+    second: AF_FUS_Gadwood_Valley_Map_Tiles_449
+  - first:
+      213: 111667528311719577
+    second: AF_FUS_Gadwood_Valley_Map_Tiles_450
+  - first:
+      213: -4267228585940615097
+    second: AF_FUS_Gadwood_Valley_Map_Tiles_451
+  - first:
+      213: 3814978324167664180
+    second: AF_FUS_Gadwood_Valley_Map_Tiles_452
+  - first:
+      213: -5609448361035265329
+    second: AF_FUS_Gadwood_Valley_Map_Tiles_453
+  - first:
+      213: -2696352434325622579
+    second: AF_FUS_Gadwood_Valley_Map_Tiles_454
+  - first:
+      213: 2884079196725101027
+    second: AF_FUS_Gadwood_Valley_Map_Tiles_455
+  - first:
+      213: -1126124658583605300
+    second: AF_FUS_Gadwood_Valley_Map_Tiles_456
+  - first:
+      213: 7977930421517116782
+    second: AF_FUS_Gadwood_Valley_Map_Tiles_457
+  - first:
+      213: 1728686573596098779
+    second: AF_FUS_Gadwood_Valley_Map_Tiles_458
+  - first:
+      213: 2922801248436145411
+    second: AF_FUS_Gadwood_Valley_Map_Tiles_459
+  - first:
+      213: -833382844001469241
+    second: AF_FUS_Gadwood_Valley_Map_Tiles_460
+  - first:
+      213: -8719780017045159590
+    second: AF_FUS_Gadwood_Valley_Map_Tiles_461
+  - first:
+      213: -7678363853798904256
+    second: AF_FUS_Gadwood_Valley_Map_Tiles_462
+  - first:
+      213: -8232828374987626840
+    second: AF_FUS_Gadwood_Valley_Map_Tiles_463
+  - first:
+      213: 7085232927787814341
+    second: AF_FUS_Gadwood_Valley_Map_Tiles_464
+  - first:
+      213: 2584550986909962185
+    second: AF_FUS_Gadwood_Valley_Map_Tiles_465
+  - first:
+      213: 1836176096998943779
+    second: AF_FUS_Gadwood_Valley_Map_Tiles_466
+  - first:
+      213: -5153826627153952022
+    second: AF_FUS_Gadwood_Valley_Map_Tiles_467
+  - first:
+      213: 2992306076729317662
+    second: AF_FUS_Gadwood_Valley_Map_Tiles_468
+  - first:
+      213: 6361430430672037039
+    second: AF_FUS_Gadwood_Valley_Map_Tiles_469
+  - first:
+      213: -3163587799897752125
+    second: AF_FUS_Gadwood_Valley_Map_Tiles_470
+  - first:
+      213: -3644034444793024810
+    second: AF_FUS_Gadwood_Valley_Map_Tiles_471
+  - first:
+      213: -3645658504522058821
+    second: AF_FUS_Gadwood_Valley_Map_Tiles_472
+  - first:
+      213: 8606692065004364725
+    second: AF_FUS_Gadwood_Valley_Map_Tiles_473
+  - first:
+      213: 764931486570385030
+    second: AF_FUS_Gadwood_Valley_Map_Tiles_474
+  - first:
+      213: -9096646825181067118
+    second: AF_FUS_Gadwood_Valley_Map_Tiles_475
+  - first:
+      213: 1645939209330856733
+    second: AF_FUS_Gadwood_Valley_Map_Tiles_476
+  - first:
+      213: -8866943980749749157
+    second: AF_FUS_Gadwood_Valley_Map_Tiles_477
+  - first:
+      213: 297636392234507725
+    second: AF_FUS_Gadwood_Valley_Map_Tiles_478
+  - first:
+      213: -4939878846489744817
+    second: AF_FUS_Gadwood_Valley_Map_Tiles_479
+  - first:
+      213: 3797782548528371981
+    second: AF_FUS_Gadwood_Valley_Map_Tiles_480
+  - first:
+      213: 7016966015775568002
+    second: AF_FUS_Gadwood_Valley_Map_Tiles_481
+  - first:
+      213: 5040447804472660246
+    second: AF_FUS_Gadwood_Valley_Map_Tiles_482
+  - first:
+      213: 4295489389733842924
+    second: AF_FUS_Gadwood_Valley_Map_Tiles_483
+  - first:
+      213: -8898416498554382505
+    second: AF_FUS_Gadwood_Valley_Map_Tiles_484
+  - first:
+      213: -4441291471985115371
+    second: AF_FUS_Gadwood_Valley_Map_Tiles_485
+  - first:
+      213: 5512361657939369046
+    second: AF_FUS_Gadwood_Valley_Map_Tiles_486
+  - first:
+      213: 2349986980681681859
+    second: AF_FUS_Gadwood_Valley_Map_Tiles_487
+  - first:
+      213: 5587415388364959661
+    second: AF_FUS_Gadwood_Valley_Map_Tiles_488
+  - first:
+      213: 192071268182648959
+    second: AF_FUS_Gadwood_Valley_Map_Tiles_489
+  - first:
+      213: -5980175269991083667
+    second: AF_FUS_Gadwood_Valley_Map_Tiles_490
+  - first:
+      213: 2834384717496341644
+    second: AF_FUS_Gadwood_Valley_Map_Tiles_491
+  - first:
+      213: -1212447375831485447
+    second: AF_FUS_Gadwood_Valley_Map_Tiles_492
+  - first:
+      213: 7473337271238186296
+    second: AF_FUS_Gadwood_Valley_Map_Tiles_493
+  - first:
+      213: -7521533872073970142
+    second: AF_FUS_Gadwood_Valley_Map_Tiles_494
+  - first:
+      213: -2479365316804483391
+    second: AF_FUS_Gadwood_Valley_Map_Tiles_495
+  - first:
+      213: -2317399061111325728
+    second: AF_FUS_Gadwood_Valley_Map_Tiles_496
+  - first:
+      213: -699847117847246289
+    second: AF_FUS_Gadwood_Valley_Map_Tiles_497
+  - first:
+      213: 1877711281712781421
+    second: AF_FUS_Gadwood_Valley_Map_Tiles_498
+  - first:
+      213: -7458095351545370628
+    second: AF_FUS_Gadwood_Valley_Map_Tiles_499
+  - first:
+      213: -8984021383375615874
+    second: AF_FUS_Gadwood_Valley_Map_Tiles_500
+  - first:
+      213: -7555125810718485273
+    second: AF_FUS_Gadwood_Valley_Map_Tiles_501
+  - first:
+      213: 8323835569819815938
+    second: AF_FUS_Gadwood_Valley_Map_Tiles_502
+  - first:
+      213: 8798487584412774329
+    second: AF_FUS_Gadwood_Valley_Map_Tiles_503
+  - first:
+      213: 6494600896292262023
+    second: AF_FUS_Gadwood_Valley_Map_Tiles_504
+  - first:
+      213: 4105865624985661497
+    second: AF_FUS_Gadwood_Valley_Map_Tiles_505
+  - first:
+      213: -5465679304191625245
+    second: AF_FUS_Gadwood_Valley_Map_Tiles_506
+  - first:
+      213: -3867157006498334743
+    second: AF_FUS_Gadwood_Valley_Map_Tiles_507
+  - first:
+      213: -7069432429484275615
+    second: AF_FUS_Gadwood_Valley_Map_Tiles_508
+  - first:
+      213: 2454869857050410495
+    second: AF_FUS_Gadwood_Valley_Map_Tiles_509
+  - first:
+      213: 8220471259963945012
+    second: AF_FUS_Gadwood_Valley_Map_Tiles_510
+  - first:
+      213: 6465204815744078026
+    second: AF_FUS_Gadwood_Valley_Map_Tiles_511
+  - first:
+      213: -1120777224031366151
+    second: AF_FUS_Gadwood_Valley_Map_Tiles_512
+  - first:
+      213: -7084243757388699719
+    second: AF_FUS_Gadwood_Valley_Map_Tiles_513
+  - first:
+      213: 4322027686352854578
+    second: AF_FUS_Gadwood_Valley_Map_Tiles_514
+  - first:
+      213: 51667104068888979
+    second: AF_FUS_Gadwood_Valley_Map_Tiles_515
+  - first:
+      213: -3696209539643574003
+    second: AF_FUS_Gadwood_Valley_Map_Tiles_516
+  - first:
+      213: -5195038319182948283
+    second: AF_FUS_Gadwood_Valley_Map_Tiles_517
+  - first:
+      213: -2997298199290797275
+    second: AF_FUS_Gadwood_Valley_Map_Tiles_518
+  - first:
+      213: -2773277193988183150
+    second: AF_FUS_Gadwood_Valley_Map_Tiles_519
+  - first:
+      213: 3533163848421073788
+    second: AF_FUS_Gadwood_Valley_Map_Tiles_520
+  - first:
+      213: 2494598240518432196
+    second: AF_FUS_Gadwood_Valley_Map_Tiles_521
+  - first:
+      213: -4934688828062849669
+    second: AF_FUS_Gadwood_Valley_Map_Tiles_522
+  - first:
+      213: -7824040898822009633
+    second: AF_FUS_Gadwood_Valley_Map_Tiles_523
+  - first:
+      213: -1856954164051395391
+    second: AF_FUS_Gadwood_Valley_Map_Tiles_524
+  - first:
+      213: -8491982868630353539
+    second: AF_FUS_Gadwood_Valley_Map_Tiles_525
+  - first:
+      213: 1533612165118962449
+    second: AF_FUS_Gadwood_Valley_Map_Tiles_526
+  - first:
+      213: 6359875064570232234
+    second: AF_FUS_Gadwood_Valley_Map_Tiles_527
+  - first:
+      213: -2929037396052925301
+    second: AF_FUS_Gadwood_Valley_Map_Tiles_528
+  - first:
+      213: -5201175569540579986
+    second: AF_FUS_Gadwood_Valley_Map_Tiles_529
+  - first:
+      213: -8673645657856387474
+    second: AF_FUS_Gadwood_Valley_Map_Tiles_530
+  - first:
+      213: -820870820986326182
+    second: AF_FUS_Gadwood_Valley_Map_Tiles_531
+  - first:
+      213: 1695392858642467836
+    second: AF_FUS_Gadwood_Valley_Map_Tiles_532
+  - first:
+      213: 2965552157691034564
+    second: AF_FUS_Gadwood_Valley_Map_Tiles_533
+  - first:
+      213: 5268594419675046922
+    second: AF_FUS_Gadwood_Valley_Map_Tiles_534
+  - first:
+      213: 3673839027392774046
+    second: AF_FUS_Gadwood_Valley_Map_Tiles_535
+  - first:
+      213: -3674194794933115599
+    second: AF_FUS_Gadwood_Valley_Map_Tiles_536
+  - first:
+      213: -4513963309081124460
+    second: AF_FUS_Gadwood_Valley_Map_Tiles_537
+  - first:
+      213: -7466349334093833309
+    second: AF_FUS_Gadwood_Valley_Map_Tiles_538
+  - first:
+      213: -3465215892416579320
+    second: AF_FUS_Gadwood_Valley_Map_Tiles_539
+  - first:
+      213: 4908577063501088721
+    second: AF_FUS_Gadwood_Valley_Map_Tiles_540
+  - first:
+      213: 5632915385955269090
+    second: AF_FUS_Gadwood_Valley_Map_Tiles_541
+  - first:
+      213: 3444351394575527794
+    second: AF_FUS_Gadwood_Valley_Map_Tiles_542
+  - first:
+      213: -5999870390360130977
+    second: AF_FUS_Gadwood_Valley_Map_Tiles_543
+  - first:
+      213: 841744887050067820
+    second: AF_FUS_Gadwood_Valley_Map_Tiles_544
+  - first:
+      213: -409599587912825526
+    second: AF_FUS_Gadwood_Valley_Map_Tiles_545
+  - first:
+      213: 3152920680327509967
+    second: AF_FUS_Gadwood_Valley_Map_Tiles_546
+  - first:
+      213: -4987185409836736214
+    second: AF_FUS_Gadwood_Valley_Map_Tiles_547
+  - first:
+      213: 4271700321060815611
+    second: AF_FUS_Gadwood_Valley_Map_Tiles_548
+  - first:
+      213: 7671300898108576705
+    second: AF_FUS_Gadwood_Valley_Map_Tiles_549
+  - first:
+      213: -3279602177654445155
+    second: AF_FUS_Gadwood_Valley_Map_Tiles_550
+  - first:
+      213: 3519606782530669033
+    second: AF_FUS_Gadwood_Valley_Map_Tiles_551
+  - first:
+      213: 1658494434062032530
+    second: AF_FUS_Gadwood_Valley_Map_Tiles_552
+  - first:
+      213: 1415983008389406752
+    second: AF_FUS_Gadwood_Valley_Map_Tiles_553
+  - first:
+      213: 130374966471846739
+    second: AF_FUS_Gadwood_Valley_Map_Tiles_554
+  - first:
+      213: 1283994159374612820
+    second: AF_FUS_Gadwood_Valley_Map_Tiles_555
+  - first:
+      213: -6722147698012261497
+    second: AF_FUS_Gadwood_Valley_Map_Tiles_556
+  - first:
+      213: -5529832841916112287
+    second: AF_FUS_Gadwood_Valley_Map_Tiles_557
+  - first:
+      213: 771595059512496252
+    second: AF_FUS_Gadwood_Valley_Map_Tiles_558
+  - first:
+      213: 7289193728806940948
+    second: AF_FUS_Gadwood_Valley_Map_Tiles_559
+  - first:
+      213: 8505534808274568452
+    second: AF_FUS_Gadwood_Valley_Map_Tiles_560
+  - first:
+      213: -2442734854465847243
+    second: AF_FUS_Gadwood_Valley_Map_Tiles_561
+  - first:
+      213: -7989119699178886856
+    second: AF_FUS_Gadwood_Valley_Map_Tiles_562
+  - first:
+      213: -3647698904234048662
+    second: AF_FUS_Gadwood_Valley_Map_Tiles_563
+  - first:
+      213: -4518068900459297771
+    second: AF_FUS_Gadwood_Valley_Map_Tiles_564
+  - first:
+      213: -462156669057046904
+    second: AF_FUS_Gadwood_Valley_Map_Tiles_565
+  - first:
+      213: 4915015988897327832
+    second: AF_FUS_Gadwood_Valley_Map_Tiles_566
+  - first:
+      213: -6900316398822109642
+    second: AF_FUS_Gadwood_Valley_Map_Tiles_567
+  - first:
+      213: 9099004671391646124
+    second: AF_FUS_Gadwood_Valley_Map_Tiles_568
+  - first:
+      213: 3833306646848718761
+    second: AF_FUS_Gadwood_Valley_Map_Tiles_569
+  - first:
+      213: 9119128711240402039
+    second: AF_FUS_Gadwood_Valley_Map_Tiles_570
+  - first:
+      213: -3301652124393972250
+    second: AF_FUS_Gadwood_Valley_Map_Tiles_571
+  - first:
+      213: 937866104099063030
+    second: AF_FUS_Gadwood_Valley_Map_Tiles_572
+  - first:
+      213: 8067836724155456322
+    second: AF_FUS_Gadwood_Valley_Map_Tiles_573
+  - first:
+      213: -863141058205219706
+    second: AF_FUS_Gadwood_Valley_Map_Tiles_574
+  - first:
+      213: 1020639121199582301
+    second: AF_FUS_Gadwood_Valley_Map_Tiles_575
+  - first:
+      213: -2471799936085290719
+    second: AF_FUS_Gadwood_Valley_Map_Tiles_576
+  - first:
+      213: 3966514986392623766
+    second: AF_FUS_Gadwood_Valley_Map_Tiles_577
+  - first:
+      213: 466763339838423228
+    second: AF_FUS_Gadwood_Valley_Map_Tiles_578
+  - first:
+      213: 4954078299138289424
+    second: AF_FUS_Gadwood_Valley_Map_Tiles_579
+  - first:
+      213: -5631515531337229965
+    second: AF_FUS_Gadwood_Valley_Map_Tiles_580
+  - first:
+      213: 4904428111426386676
+    second: AF_FUS_Gadwood_Valley_Map_Tiles_581
+  - first:
+      213: 4261153187642595619
+    second: AF_FUS_Gadwood_Valley_Map_Tiles_582
+  - first:
+      213: 7996555943923880499
+    second: AF_FUS_Gadwood_Valley_Map_Tiles_583
+  - first:
+      213: -5465503494820877917
+    second: AF_FUS_Gadwood_Valley_Map_Tiles_584
+  - first:
+      213: -4701034779611175963
+    second: AF_FUS_Gadwood_Valley_Map_Tiles_585
+  - first:
+      213: 4000121094319942614
+    second: AF_FUS_Gadwood_Valley_Map_Tiles_586
+  - first:
+      213: 5940758123646844526
+    second: AF_FUS_Gadwood_Valley_Map_Tiles_587
+  - first:
+      213: 6127226791284499308
+    second: AF_FUS_Gadwood_Valley_Map_Tiles_588
+  - first:
+      213: -6948812697869364355
+    second: AF_FUS_Gadwood_Valley_Map_Tiles_589
+  - first:
+      213: -8813020860830313943
+    second: AF_FUS_Gadwood_Valley_Map_Tiles_590
+  - first:
+      213: -4768056789113880297
+    second: AF_FUS_Gadwood_Valley_Map_Tiles_591
+  - first:
+      213: -7187508194752999882
+    second: AF_FUS_Gadwood_Valley_Map_Tiles_592
+  - first:
+      213: 2546636013054766504
+    second: AF_FUS_Gadwood_Valley_Map_Tiles_593
+  - first:
+      213: 7677058863392187982
+    second: AF_FUS_Gadwood_Valley_Map_Tiles_594
+  - first:
+      213: 8766122538734736792
+    second: AF_FUS_Gadwood_Valley_Map_Tiles_595
+  - first:
+      213: -3064801032412602137
+    second: AF_FUS_Gadwood_Valley_Map_Tiles_596
+  - first:
+      213: 4495812008525856035
+    second: AF_FUS_Gadwood_Valley_Map_Tiles_597
+  - first:
+      213: 5534183782677709498
+    second: AF_FUS_Gadwood_Valley_Map_Tiles_598
+  - first:
+      213: 4604929149515457647
+    second: AF_FUS_Gadwood_Valley_Map_Tiles_599
+  - first:
+      213: 4439674793443292073
+    second: AF_FUS_Gadwood_Valley_Map_Tiles_600
+  - first:
+      213: -5387709294777535004
+    second: AF_FUS_Gadwood_Valley_Map_Tiles_601
+  - first:
+      213: 8570395685181366562
+    second: AF_FUS_Gadwood_Valley_Map_Tiles_602
+  - first:
+      213: -3425799593253711073
+    second: AF_FUS_Gadwood_Valley_Map_Tiles_603
+  - first:
+      213: -7466294770154702604
+    second: AF_FUS_Gadwood_Valley_Map_Tiles_604
+  - first:
+      213: -4269318204147003882
+    second: AF_FUS_Gadwood_Valley_Map_Tiles_605
+  - first:
+      213: -1534141143528750724
+    second: AF_FUS_Gadwood_Valley_Map_Tiles_606
+  - first:
+      213: -5071050883919052668
+    second: AF_FUS_Gadwood_Valley_Map_Tiles_607
+  - first:
+      213: -8133169580303567254
+    second: AF_FUS_Gadwood_Valley_Map_Tiles_608
+  - first:
+      213: -2543244193635629207
+    second: AF_FUS_Gadwood_Valley_Map_Tiles_609
+  - first:
+      213: 4623030777861038541
+    second: AF_FUS_Gadwood_Valley_Map_Tiles_610
+  - first:
+      213: -5177940914807743397
+    second: AF_FUS_Gadwood_Valley_Map_Tiles_611
+  - first:
+      213: -807722577315864353
+    second: AF_FUS_Gadwood_Valley_Map_Tiles_612
+  - first:
+      213: 6827902355457645909
+    second: AF_FUS_Gadwood_Valley_Map_Tiles_613
+  - first:
+      213: 8373166164071502801
+    second: AF_FUS_Gadwood_Valley_Map_Tiles_614
+  - first:
+      213: 8927173788711941381
+    second: AF_FUS_Gadwood_Valley_Map_Tiles_615
+  - first:
+      213: 8791304584541854960
+    second: AF_FUS_Gadwood_Valley_Map_Tiles_616
+  - first:
+      213: 2969256763717725428
+    second: AF_FUS_Gadwood_Valley_Map_Tiles_617
+  - first:
+      213: 2036557906418279192
+    second: AF_FUS_Gadwood_Valley_Map_Tiles_618
+  - first:
+      213: -8510036189570476718
+    second: AF_FUS_Gadwood_Valley_Map_Tiles_619
+  - first:
+      213: -4970613576346365777
+    second: AF_FUS_Gadwood_Valley_Map_Tiles_620
+  - first:
+      213: -6882883069976749412
+    second: AF_FUS_Gadwood_Valley_Map_Tiles_621
+  - first:
+      213: 4703883265843735413
+    second: AF_FUS_Gadwood_Valley_Map_Tiles_622
+  - first:
+      213: 8393629137906501864
+    second: AF_FUS_Gadwood_Valley_Map_Tiles_623
+  - first:
+      213: -6469997344184935924
+    second: AF_FUS_Gadwood_Valley_Map_Tiles_624
+  - first:
+      213: 3709667001232628884
+    second: AF_FUS_Gadwood_Valley_Map_Tiles_625
+  - first:
+      213: -253448124908826203
+    second: AF_FUS_Gadwood_Valley_Map_Tiles_626
+  - first:
+      213: -534795384844440491
+    second: AF_FUS_Gadwood_Valley_Map_Tiles_627
+  - first:
+      213: 5745151851180335048
+    second: AF_FUS_Gadwood_Valley_Map_Tiles_628
+  - first:
+      213: 4762392666903206554
+    second: AF_FUS_Gadwood_Valley_Map_Tiles_629
+  - first:
+      213: 77093909600330041
+    second: AF_FUS_Gadwood_Valley_Map_Tiles_630
+  - first:
+      213: -8141970904119439050
+    second: AF_FUS_Gadwood_Valley_Map_Tiles_631
+  - first:
+      213: -5704046532742341057
+    second: AF_FUS_Gadwood_Valley_Map_Tiles_632
+  - first:
+      213: -1115319450280997474
+    second: AF_FUS_Gadwood_Valley_Map_Tiles_633
+  - first:
+      213: 7812817474904704816
+    second: AF_FUS_Gadwood_Valley_Map_Tiles_634
+  - first:
+      213: 3815401282757873751
+    second: AF_FUS_Gadwood_Valley_Map_Tiles_635
+  - first:
+      213: -3587407028065933637
+    second: AF_FUS_Gadwood_Valley_Map_Tiles_636
+  - first:
+      213: 1319640039064787555
+    second: AF_FUS_Gadwood_Valley_Map_Tiles_637
+  - first:
+      213: 8724529127622972985
+    second: AF_FUS_Gadwood_Valley_Map_Tiles_638
+  - first:
+      213: -1736625923356019374
+    second: AF_FUS_Gadwood_Valley_Map_Tiles_639
+  - first:
+      213: -6817766724227197820
+    second: AF_FUS_Gadwood_Valley_Map_Tiles_640
+  - first:
+      213: -2902252340235312866
+    second: AF_FUS_Gadwood_Valley_Map_Tiles_641
+  - first:
+      213: 412376702689156948
+    second: AF_FUS_Gadwood_Valley_Map_Tiles_642
+  - first:
+      213: 1371890027676308761
+    second: AF_FUS_Gadwood_Valley_Map_Tiles_643
+  - first:
+      213: 3946814101683104558
+    second: AF_FUS_Gadwood_Valley_Map_Tiles_644
+  - first:
+      213: 5235623614608631462
+    second: AF_FUS_Gadwood_Valley_Map_Tiles_645
+  - first:
+      213: -6368828838022881568
+    second: AF_FUS_Gadwood_Valley_Map_Tiles_646
+  - first:
+      213: 8479832051140664929
+    second: AF_FUS_Gadwood_Valley_Map_Tiles_647
+  - first:
+      213: 3104397869970505927
+    second: AF_FUS_Gadwood_Valley_Map_Tiles_648
+  - first:
+      213: -7816108775187231772
+    second: AF_FUS_Gadwood_Valley_Map_Tiles_649
+  - first:
+      213: 2627590979688001992
+    second: AF_FUS_Gadwood_Valley_Map_Tiles_650
+  - first:
+      213: -6793427086764427990
+    second: AF_FUS_Gadwood_Valley_Map_Tiles_651
+  - first:
+      213: -8421840221296477879
+    second: AF_FUS_Gadwood_Valley_Map_Tiles_652
+  - first:
+      213: -5810007484684504615
+    second: AF_FUS_Gadwood_Valley_Map_Tiles_653
+  - first:
+      213: -7201006354952283583
+    second: AF_FUS_Gadwood_Valley_Map_Tiles_654
+  - first:
+      213: -6796816902734694703
+    second: AF_FUS_Gadwood_Valley_Map_Tiles_655
+  - first:
+      213: -6405010525202173904
+    second: AF_FUS_Gadwood_Valley_Map_Tiles_656
+  - first:
+      213: 1944782401005047256
+    second: AF_FUS_Gadwood_Valley_Map_Tiles_657
+  - first:
+      213: 5008921234085577028
+    second: AF_FUS_Gadwood_Valley_Map_Tiles_658
+  - first:
+      213: -3896303519034451411
+    second: AF_FUS_Gadwood_Valley_Map_Tiles_659
+  - first:
+      213: 2907893522339798264
+    second: AF_FUS_Gadwood_Valley_Map_Tiles_660
+  - first:
+      213: -270642253839671309
+    second: AF_FUS_Gadwood_Valley_Map_Tiles_661
+  - first:
+      213: -841670139308284504
+    second: AF_FUS_Gadwood_Valley_Map_Tiles_662
+  - first:
+      213: -1903427040991335480
+    second: AF_FUS_Gadwood_Valley_Map_Tiles_663
+  - first:
+      213: -3189402845666646951
+    second: AF_FUS_Gadwood_Valley_Map_Tiles_664
+  - first:
+      213: -3241777358117972543
+    second: AF_FUS_Gadwood_Valley_Map_Tiles_665
+  - first:
+      213: -3231161793910145105
+    second: AF_FUS_Gadwood_Valley_Map_Tiles_666
+  - first:
+      213: -5566380940805133131
+    second: AF_FUS_Gadwood_Valley_Map_Tiles_667
+  - first:
+      213: -864973283474844511
+    second: AF_FUS_Gadwood_Valley_Map_Tiles_668
+  - first:
+      213: -3993241788173610415
+    second: AF_FUS_Gadwood_Valley_Map_Tiles_669
+  - first:
+      213: -4827047709271393685
+    second: AF_FUS_Gadwood_Valley_Map_Tiles_670
+  - first:
+      213: -1586246761104210340
+    second: AF_FUS_Gadwood_Valley_Map_Tiles_671
+  - first:
+      213: -637976445701478251
+    second: AF_FUS_Gadwood_Valley_Map_Tiles_672
+  - first:
+      213: -4009022928830454788
+    second: AF_FUS_Gadwood_Valley_Map_Tiles_673
+  - first:
+      213: 5431195318158478046
+    second: AF_FUS_Gadwood_Valley_Map_Tiles_674
+  - first:
+      213: -5640804924240870145
+    second: AF_FUS_Gadwood_Valley_Map_Tiles_675
+  - first:
+      213: 1662183615034330858
+    second: AF_FUS_Gadwood_Valley_Map_Tiles_676
+  - first:
+      213: 4319261621058195133
+    second: AF_FUS_Gadwood_Valley_Map_Tiles_677
+  - first:
+      213: 2007757144214170397
+    second: AF_FUS_Gadwood_Valley_Map_Tiles_678
+  - first:
+      213: 4585736631204982498
+    second: AF_FUS_Gadwood_Valley_Map_Tiles_679
+  - first:
+      213: -3358465128186254438
+    second: AF_FUS_Gadwood_Valley_Map_Tiles_680
+  - first:
+      213: 2568874376863761332
+    second: AF_FUS_Gadwood_Valley_Map_Tiles_681
+  - first:
+      213: 1036268579807977437
+    second: AF_FUS_Gadwood_Valley_Map_Tiles_682
+  - first:
+      213: -6236921181939939066
+    second: AF_FUS_Gadwood_Valley_Map_Tiles_683
+  - first:
+      213: -4644455150557862272
+    second: AF_FUS_Gadwood_Valley_Map_Tiles_684
+  - first:
+      213: 7980588174040017155
+    second: AF_FUS_Gadwood_Valley_Map_Tiles_685
+  - first:
+      213: -2015945453649884165
+    second: AF_FUS_Gadwood_Valley_Map_Tiles_686
+  - first:
+      213: -391147251382340689
+    second: AF_FUS_Gadwood_Valley_Map_Tiles_687
+  - first:
+      213: -1466442422319138888
+    second: AF_FUS_Gadwood_Valley_Map_Tiles_688
+  - first:
+      213: 9031325650306821226
+    second: AF_FUS_Gadwood_Valley_Map_Tiles_689
+  - first:
+      213: 3171308178094056719
+    second: AF_FUS_Gadwood_Valley_Map_Tiles_690
+  - first:
+      213: -2078512563635294296
+    second: AF_FUS_Gadwood_Valley_Map_Tiles_691
+  - first:
+      213: -8784151947886882408
+    second: AF_FUS_Gadwood_Valley_Map_Tiles_692
+  - first:
+      213: -130188604436896468
+    second: AF_FUS_Gadwood_Valley_Map_Tiles_693
+  - first:
+      213: 1616652427868987340
+    second: AF_FUS_Gadwood_Valley_Map_Tiles_694
+  - first:
+      213: -3405306185680484105
+    second: AF_FUS_Gadwood_Valley_Map_Tiles_695
+  - first:
+      213: 8788951666982044779
+    second: AF_FUS_Gadwood_Valley_Map_Tiles_696
+  - first:
+      213: 6001306842698645714
+    second: AF_FUS_Gadwood_Valley_Map_Tiles_697
+  - first:
+      213: -3535524639035591246
+    second: AF_FUS_Gadwood_Valley_Map_Tiles_698
+  - first:
+      213: 8435116290000681697
+    second: AF_FUS_Gadwood_Valley_Map_Tiles_699
+  - first:
+      213: -8007814240905612906
+    second: AF_FUS_Gadwood_Valley_Map_Tiles_700
+  - first:
+      213: 2089060458910330347
+    second: AF_FUS_Gadwood_Valley_Map_Tiles_701
+  - first:
+      213: 4873223711952886035
+    second: AF_FUS_Gadwood_Valley_Map_Tiles_702
+  - first:
+      213: 1157308544521992987
+    second: AF_FUS_Gadwood_Valley_Map_Tiles_703
+  - first:
+      213: 8435082836518631150
+    second: AF_FUS_Gadwood_Valley_Map_Tiles_704
+  - first:
+      213: 2454493948232087133
+    second: AF_FUS_Gadwood_Valley_Map_Tiles_705
+  - first:
+      213: 5109204786565126410
+    second: AF_FUS_Gadwood_Valley_Map_Tiles_706
+  - first:
+      213: -4265038115599973640
+    second: AF_FUS_Gadwood_Valley_Map_Tiles_707
+  - first:
+      213: 8268431797367541483
+    second: AF_FUS_Gadwood_Valley_Map_Tiles_708
+  - first:
+      213: -1125504125264568197
+    second: AF_FUS_Gadwood_Valley_Map_Tiles_709
+  - first:
+      213: -3556950589549802587
+    second: AF_FUS_Gadwood_Valley_Map_Tiles_710
+  - first:
+      213: -1424461806571585002
+    second: AF_FUS_Gadwood_Valley_Map_Tiles_711
+  - first:
+      213: 285409362564296455
+    second: AF_FUS_Gadwood_Valley_Map_Tiles_712
+  - first:
+      213: 7110596480832984185
+    second: AF_FUS_Gadwood_Valley_Map_Tiles_713
+  - first:
+      213: -791269850399339666
+    second: AF_FUS_Gadwood_Valley_Map_Tiles_714
+  - first:
+      213: 832328572435405881
+    second: AF_FUS_Gadwood_Valley_Map_Tiles_715
+  - first:
+      213: -4086348124995258852
+    second: AF_FUS_Gadwood_Valley_Map_Tiles_716
+  - first:
+      213: 5556124499885788894
+    second: AF_FUS_Gadwood_Valley_Map_Tiles_717
+  - first:
+      213: -6794236312605979587
+    second: AF_FUS_Gadwood_Valley_Map_Tiles_718
+  - first:
+      213: 2217459377326626452
+    second: AF_FUS_Gadwood_Valley_Map_Tiles_719
+  - first:
+      213: 3370339587204999130
+    second: AF_FUS_Gadwood_Valley_Map_Tiles_720
+  - first:
+      213: 2660065556402759804
+    second: AF_FUS_Gadwood_Valley_Map_Tiles_721
+  - first:
+      213: -1327434901643935349
+    second: AF_FUS_Gadwood_Valley_Map_Tiles_722
+  - first:
+      213: 417690317086813351
+    second: AF_FUS_Gadwood_Valley_Map_Tiles_723
+  - first:
+      213: -4605895765564784671
+    second: AF_FUS_Gadwood_Valley_Map_Tiles_724
+  - first:
+      213: -6041123848676417705
+    second: AF_FUS_Gadwood_Valley_Map_Tiles_725
+  - first:
+      213: -5653909055219147500
+    second: AF_FUS_Gadwood_Valley_Map_Tiles_726
+  - first:
+      213: -5739550296245724578
+    second: AF_FUS_Gadwood_Valley_Map_Tiles_727
+  - first:
+      213: 1850891180071863620
+    second: AF_FUS_Gadwood_Valley_Map_Tiles_728
+  - first:
+      213: -3951299517780514511
+    second: AF_FUS_Gadwood_Valley_Map_Tiles_729
+  - first:
+      213: 1499308520212404912
+    second: AF_FUS_Gadwood_Valley_Map_Tiles_730
+  - first:
+      213: -1820448971282037423
+    second: AF_FUS_Gadwood_Valley_Map_Tiles_731
+  - first:
+      213: 6372398281821069649
+    second: AF_FUS_Gadwood_Valley_Map_Tiles_732
+  - first:
+      213: 537266451318115520
+    second: AF_FUS_Gadwood_Valley_Map_Tiles_733
+  - first:
+      213: -7908280726606285090
+    second: AF_FUS_Gadwood_Valley_Map_Tiles_734
+  - first:
+      213: -4617156124748882843
+    second: AF_FUS_Gadwood_Valley_Map_Tiles_735
+  - first:
+      213: 1889018829502161611
+    second: AF_FUS_Gadwood_Valley_Map_Tiles_736
+  - first:
+      213: -7481469778436174656
+    second: AF_FUS_Gadwood_Valley_Map_Tiles_737
+  - first:
+      213: -6734845879682226641
+    second: AF_FUS_Gadwood_Valley_Map_Tiles_738
+  - first:
+      213: 5236245712297270622
+    second: AF_FUS_Gadwood_Valley_Map_Tiles_739
+  - first:
+      213: -5557974515337255341
+    second: AF_FUS_Gadwood_Valley_Map_Tiles_740
+  - first:
+      213: -8261590803626507773
+    second: AF_FUS_Gadwood_Valley_Map_Tiles_741
+  - first:
+      213: 6363616226792422915
+    second: AF_FUS_Gadwood_Valley_Map_Tiles_742
+  - first:
+      213: 6297358137149908738
+    second: AF_FUS_Gadwood_Valley_Map_Tiles_743
+  - first:
+      213: -5671197765711895133
+    second: AF_FUS_Gadwood_Valley_Map_Tiles_744
+  - first:
+      213: -2550406035767508528
+    second: AF_FUS_Gadwood_Valley_Map_Tiles_745
+  - first:
+      213: 2985757810042063725
+    second: AF_FUS_Gadwood_Valley_Map_Tiles_746
+  - first:
+      213: 4465061544937029474
+    second: AF_FUS_Gadwood_Valley_Map_Tiles_747
+  - first:
+      213: -5865927811433537304
+    second: AF_FUS_Gadwood_Valley_Map_Tiles_748
+  - first:
+      213: 6707128521720394707
+    second: AF_FUS_Gadwood_Valley_Map_Tiles_749
+  - first:
+      213: 5388661093364703146
+    second: AF_FUS_Gadwood_Valley_Map_Tiles_750
+  - first:
+      213: -3916964495783761720
+    second: AF_FUS_Gadwood_Valley_Map_Tiles_751
+  - first:
+      213: -1841057282559601052
+    second: AF_FUS_Gadwood_Valley_Map_Tiles_752
+  - first:
+      213: 6231490812185018708
+    second: AF_FUS_Gadwood_Valley_Map_Tiles_753
+  - first:
+      213: 4575184552011094166
+    second: AF_FUS_Gadwood_Valley_Map_Tiles_754
+  - first:
+      213: -1482508810671637913
+    second: AF_FUS_Gadwood_Valley_Map_Tiles_755
+  - first:
+      213: 5161844561973719569
+    second: AF_FUS_Gadwood_Valley_Map_Tiles_756
+  - first:
+      213: 9208739535649350667
+    second: AF_FUS_Gadwood_Valley_Map_Tiles_757
+  - first:
+      213: 8610921394371149076
+    second: AF_FUS_Gadwood_Valley_Map_Tiles_758
+  - first:
+      213: 4823988069657046970
+    second: AF_FUS_Gadwood_Valley_Map_Tiles_759
+  - first:
+      213: 5410483297079384681
+    second: AF_FUS_Gadwood_Valley_Map_Tiles_760
+  - first:
+      213: 665948737011468665
+    second: AF_FUS_Gadwood_Valley_Map_Tiles_761
+  - first:
+      213: 5036640298025296766
+    second: AF_FUS_Gadwood_Valley_Map_Tiles_762
+  - first:
+      213: -5291836405208002936
+    second: AF_FUS_Gadwood_Valley_Map_Tiles_763
+  - first:
+      213: 7608092757614098335
+    second: AF_FUS_Gadwood_Valley_Map_Tiles_764
+  - first:
+      213: 3944433732929709823
+    second: AF_FUS_Gadwood_Valley_Map_Tiles_765
+  - first:
+      213: 6479990922347678380
+    second: AF_FUS_Gadwood_Valley_Map_Tiles_766
+  - first:
+      213: 5293771837991138305
+    second: AF_FUS_Gadwood_Valley_Map_Tiles_767
+  - first:
+      213: -7158725746453216483
+    second: AF_FUS_Gadwood_Valley_Map_Tiles_768
+  - first:
+      213: -2259463093318508977
+    second: AF_FUS_Gadwood_Valley_Map_Tiles_769
+  - first:
+      213: -1022687937166591630
+    second: AF_FUS_Gadwood_Valley_Map_Tiles_770
+  - first:
+      213: 2808788957393481041
+    second: AF_FUS_Gadwood_Valley_Map_Tiles_771
+  - first:
+      213: -8879743145745236800
+    second: AF_FUS_Gadwood_Valley_Map_Tiles_772
+  - first:
+      213: -3741503105112142835
+    second: AF_FUS_Gadwood_Valley_Map_Tiles_773
+  - first:
+      213: -5681520427893301154
+    second: AF_FUS_Gadwood_Valley_Map_Tiles_774
+  - first:
+      213: 5538552414274780913
+    second: AF_FUS_Gadwood_Valley_Map_Tiles_775
+  - first:
+      213: 187719229066403581
+    second: AF_FUS_Gadwood_Valley_Map_Tiles_776
+  - first:
+      213: -365809120394598807
+    second: AF_FUS_Gadwood_Valley_Map_Tiles_777
+  - first:
+      213: -8202779450286340417
+    second: AF_FUS_Gadwood_Valley_Map_Tiles_778
+  - first:
+      213: -8739163064171839191
+    second: AF_FUS_Gadwood_Valley_Map_Tiles_779
+  - first:
+      213: 5523792429511714705
+    second: AF_FUS_Gadwood_Valley_Map_Tiles_780
+  - first:
+      213: 5329109284968422809
+    second: AF_FUS_Gadwood_Valley_Map_Tiles_781
+  - first:
+      213: -3079520168474379012
+    second: AF_FUS_Gadwood_Valley_Map_Tiles_782
+  externalObjects: {}
+  serializedVersion: 11
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+  isReadable: 0
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: 0
+    aniso: -1
+    mipBias: -100
+    wrapU: 1
+    wrapV: 1
+    wrapW: 1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 32
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 1
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  singleChannelComponent: 0
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  applyGammaDecoding: 0
+  platformSettings:
+  - serializedVersion: 3
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 0
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: Standalone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 0
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: AF_FUS_Gadwood_Valley_Map_Tiles_0
+      rect:
+        serializedVersion: 2
+        x: 3
+        y: 941
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b3bbac8debc811110800000000000000
+      internalID: 1229918924557695803
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: AF_FUS_Gadwood_Valley_Map_Tiles_1
+      rect:
+        serializedVersion: 2
+        x: 77
+        y: 956
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ac0dbb12193ee24a0800000000000000
+      internalID: -6616100590084960054
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: AF_FUS_Gadwood_Valley_Map_Tiles_2
+      rect:
+        serializedVersion: 2
+        x: 114
+        y: 956
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4b4d8a58a3b678740800000000000000
+      internalID: 5154206197643531444
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: AF_FUS_Gadwood_Valley_Map_Tiles_3
+      rect:
+        serializedVersion: 2
+        x: 161
+        y: 926
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7536e2e7e64b0f360800000000000000
+      internalID: 7201454190821794647
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: AF_FUS_Gadwood_Valley_Map_Tiles_4
+      rect:
+        serializedVersion: 2
+        x: 328
+        y: 923
+        width: 64
+        height: 62
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7ea13f85fba4b3890800000000000000
+      internalID: -7477300570627040537
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: AF_FUS_Gadwood_Valley_Map_Tiles_5
+      rect:
+        serializedVersion: 2
+        x: 517
+        y: 827
+        width: 96
+        height: 158
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b693736f3902764f0800000000000000
+      internalID: -835663385990842005
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: AF_FUS_Gadwood_Valley_Map_Tiles_6
+      rect:
+        serializedVersion: 2
+        x: 3
+        y: 837
+        width: 96
+        height: 96
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: fef5e0eb2e00b3ba0800000000000000
+      internalID: -6108287495746723857
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: AF_FUS_Gadwood_Valley_Map_Tiles_7
+      rect:
+        serializedVersion: 2
+        x: 111
+        y: 877
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e4b12228f61ab0830800000000000000
+      internalID: 4038498991164496718
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: AF_FUS_Gadwood_Valley_Map_Tiles_8
+      rect:
+        serializedVersion: 2
+        x: 158
+        y: 823
+        width: 96
+        height: 96
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ab09e11cffea9ab70800000000000000
+      internalID: 8910845751209136314
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: AF_FUS_Gadwood_Valley_Map_Tiles_9
+      rect:
+        serializedVersion: 2
+        x: 296
+        y: 826
+        width: 96
+        height: 96
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f148f46f8ca0dadb0800000000000000
+      internalID: -4779151771328084961
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: AF_FUS_Gadwood_Valley_Map_Tiles_10
+      rect:
+        serializedVersion: 2
+        x: 392
+        y: 826
+        width: 96
+        height: 95
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d371635b45dd12ef0800000000000000
+      internalID: -134583157957191875
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: AF_FUS_Gadwood_Valley_Map_Tiles_11
+      rect:
+        serializedVersion: 2
+        x: 613
+        y: 827
+        width: 96
+        height: 96
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f563d5f97d1de0110800000000000000
+      internalID: 1229150472340584031
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: AF_FUS_Gadwood_Valley_Map_Tiles_12
+      rect:
+        serializedVersion: 2
+        x: 740
+        y: 854
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 52feea8e39036bf60800000000000000
+      internalID: 8049674795793444645
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: AF_FUS_Gadwood_Valley_Map_Tiles_13
+      rect:
+        serializedVersion: 2
+        x: 830
+        y: 855
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 94afebc8e7d264340800000000000000
+      internalID: 4847612070461373001
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: AF_FUS_Gadwood_Valley_Map_Tiles_14
+      rect:
+        serializedVersion: 2
+        x: 111
+        y: 837
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 786cd63fcad890650800000000000000
+      internalID: 6199642136010147463
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: AF_FUS_Gadwood_Valley_Map_Tiles_15
+      rect:
+        serializedVersion: 2
+        x: 601
+        y: 686
+        width: 208
+        height: 153
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 03ae291b9ba967f60800000000000000
+      internalID: 8031777107800681008
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: AF_FUS_Gadwood_Valley_Map_Tiles_16
+      rect:
+        serializedVersion: 2
+        x: 16
+        y: 765
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d26a7f4d442dc9f80800000000000000
+      internalID: -8098366836846385619
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: AF_FUS_Gadwood_Valley_Map_Tiles_17
+      rect:
+        serializedVersion: 2
+        x: 94
+        y: 783
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: df38c756a91530400800000000000000
+      internalID: 289164524651316221
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: AF_FUS_Gadwood_Valley_Map_Tiles_18
+      rect:
+        serializedVersion: 2
+        x: 129
+        y: 650
+        width: 307
+        height: 153
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 6aa869d9de9299070800000000000000
+      internalID: 8113562304212535974
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: AF_FUS_Gadwood_Valley_Map_Tiles_19
+      rect:
+        serializedVersion: 2
+        x: 437
+        y: 726
+        width: 154
+        height: 93
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8276a3a7c3b4ecbf0800000000000000
+      internalID: -302221401866475736
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: AF_FUS_Gadwood_Valley_Map_Tiles_20
+      rect:
+        serializedVersion: 2
+        x: 829
+        y: 689
+        width: 128
+        height: 146
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 054d4bd335e731cc0800000000000000
+      internalID: -3741507969432103856
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: AF_FUS_Gadwood_Valley_Map_Tiles_21
+      rect:
+        serializedVersion: 2
+        x: 3
+        y: 663
+        width: 96
+        height: 96
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0173ddd3918a84fa0800000000000000
+      internalID: -5816214092383439088
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: AF_FUS_Gadwood_Valley_Map_Tiles_22
+      rect:
+        serializedVersion: 2
+        x: 445
+        y: 627
+        width: 64
+        height: 95
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1af99eb3613f1e590800000000000000
+      internalID: -7646563415478394975
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: AF_FUS_Gadwood_Valley_Map_Tiles_23
+      rect:
+        serializedVersion: 2
+        x: 520
+        y: 627
+        width: 64
+        height: 95
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3879699bab7c55e70800000000000000
+      internalID: 9103401826590824323
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: AF_FUS_Gadwood_Valley_Map_Tiles_24
+      rect:
+        serializedVersion: 2
+        x: 732
+        y: 466
+        width: 190
+        height: 204
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: aa2e9250b5a30a960800000000000000
+      internalID: 7611147532859204266
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: AF_FUS_Gadwood_Valley_Map_Tiles_25
+      rect:
+        serializedVersion: 2
+        x: 1
+        y: 582
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 331d8bcafa4ae1ee0800000000000000
+      internalID: -1288411368957357773
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: AF_FUS_Gadwood_Valley_Map_Tiles_26
+      rect:
+        serializedVersion: 2
+        x: 76
+        y: 580
+        width: 96
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 315cbc0c1d8e7f7f0800000000000000
+      internalID: -578738039513430765
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: AF_FUS_Gadwood_Valley_Map_Tiles_27
+      rect:
+        serializedVersion: 2
+        x: 180
+        y: 580
+        width: 32
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9565e27003f6af130800000000000000
+      internalID: 3601313104105723481
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: AF_FUS_Gadwood_Valley_Map_Tiles_28
+      rect:
+        serializedVersion: 2
+        x: 262
+        y: 593
+        width: 31
+        height: 26
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 586c3fa6f36f3b580800000000000000
+      internalID: -8812429293596195195
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: AF_FUS_Gadwood_Valley_Map_Tiles_29
+      rect:
+        serializedVersion: 2
+        x: 295
+        y: 593
+        width: 30
+        height: 25
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ffcd35f773ad110a0800000000000000
+      internalID: -6912504021142741761
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: AF_FUS_Gadwood_Valley_Map_Tiles_30
+      rect:
+        serializedVersion: 2
+        x: 369
+        y: 495
+        width: 160
+        height: 114
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ddf3efd61780fe4d0800000000000000
+      internalID: -3103252334965276707
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: AF_FUS_Gadwood_Valley_Map_Tiles_31
+      rect:
+        serializedVersion: 2
+        x: 566
+        y: 482
+        width: 132
+        height: 153
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 460e71ada99149100800000000000000
+      internalID: 113744043465760868
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: AF_FUS_Gadwood_Valley_Map_Tiles_32
+      rect:
+        serializedVersion: 2
+        x: 264
+        y: 555
+        width: 30
+        height: 25
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 70585e6c1c6809880800000000000000
+      internalID: -8606230721081277177
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: AF_FUS_Gadwood_Valley_Map_Tiles_33
+      rect:
+        serializedVersion: 2
+        x: 282
+        y: 576
+        width: 12
+        height: 9
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f6a96cf62e93a9270800000000000000
+      internalID: 8257976511437904495
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: AF_FUS_Gadwood_Valley_Map_Tiles_34
+      rect:
+        serializedVersion: 2
+        x: 313
+        y: 568
+        width: 12
+        height: 13
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f2d4a5c8969bcdab0800000000000000
+      internalID: -4981903224801178321
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: AF_FUS_Gadwood_Valley_Map_Tiles_35
+      rect:
+        serializedVersion: 2
+        x: 1
+        y: 541
+        width: 64
+        height: 29
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f67657b5ce6f78e40800000000000000
+      internalID: 5658762951821453167
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: AF_FUS_Gadwood_Valley_Map_Tiles_36
+      rect:
+        serializedVersion: 2
+        x: 301
+        y: 559
+        width: 13
+        height: 14
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 6d4670681dd589260800000000000000
+      internalID: 7104531566655136982
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: AF_FUS_Gadwood_Valley_Map_Tiles_37
+      rect:
+        serializedVersion: 2
+        x: 316
+        y: 556
+        width: 7
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 51b61e5e17442c8a0800000000000000
+      internalID: -6286386873877042411
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: AF_FUS_Gadwood_Valley_Map_Tiles_38
+      rect:
+        serializedVersion: 2
+        x: 155
+        y: 453
+        width: 64
+        height: 95
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5459dcca6be7d3dd0800000000000000
+      internalID: -2504706494699825851
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: AF_FUS_Gadwood_Valley_Map_Tiles_39
+      rect:
+        serializedVersion: 2
+        x: 268
+        y: 532
+        width: 12
+        height: 13
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d20fb26e73caa0120800000000000000
+      internalID: 2380904709103546413
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: AF_FUS_Gadwood_Valley_Map_Tiles_40
+      rect:
+        serializedVersion: 2
+        x: 279
+        y: 523
+        width: 13
+        height: 14
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f12303c873f29c0b0800000000000000
+      internalID: -5707979137093717473
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: AF_FUS_Gadwood_Valley_Map_Tiles_41
+      rect:
+        serializedVersion: 2
+        x: 298
+        y: 519
+        width: 31
+        height: 26
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4dce68673b19a93f0800000000000000
+      internalID: -893241376105894700
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: AF_FUS_Gadwood_Valley_Map_Tiles_42
+      rect:
+        serializedVersion: 2
+        x: 1
+        y: 431
+        width: 128
+        height: 96
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a3c862c42c4aaae90800000000000000
+      internalID: -7013612315267920838
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: AF_FUS_Gadwood_Valley_Map_Tiles_43
+      rect:
+        serializedVersion: 2
+        x: 270
+        y: 520
+        width: 7
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4f48580cf9cdc8b80800000000000000
+      internalID: -8391089427010190092
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: AF_FUS_Gadwood_Valley_Map_Tiles_44
+      rect:
+        serializedVersion: 2
+        x: 140
+        y: 453
+        width: 11
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2c11b1d4a29f835f0800000000000000
+      internalID: -776596975643848254
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: AF_FUS_Gadwood_Valley_Map_Tiles_45
+      rect:
+        serializedVersion: 2
+        x: 225
+        y: 453
+        width: 10
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7a73fc43dfddde450800000000000000
+      internalID: 6119791548248831911
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: AF_FUS_Gadwood_Valley_Map_Tiles_46
+      rect:
+        serializedVersion: 2
+        x: 264
+        y: 478
+        width: 34
+        height: 27
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 50f6f2c9a1af2e420800000000000000
+      internalID: 2657961722298461957
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: AF_FUS_Gadwood_Valley_Map_Tiles_47
+      rect:
+        serializedVersion: 2
+        x: 304
+        y: 478
+        width: 34
+        height: 27
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2422def1ec7276cf0800000000000000
+      internalID: -259194687298133438
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: AF_FUS_Gadwood_Valley_Map_Tiles_48
+      rect:
+        serializedVersion: 2
+        x: 324
+        y: 294
+        width: 234
+        height: 195
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5a4bfeeaaf2ff8890800000000000000
+      internalID: -7453471699784190811
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: AF_FUS_Gadwood_Valley_Map_Tiles_49
+      rect:
+        serializedVersion: 2
+        x: 266
+        y: 448
+        width: 29
+        height: 22
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 09005e6a6f9964540800000000000000
+      internalID: 4991846521627803792
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: AF_FUS_Gadwood_Valley_Map_Tiles_50
+      rect:
+        serializedVersion: 2
+        x: 571
+        y: 337
+        width: 185
+        height: 134
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ce201d5679749c0e0800000000000000
+      internalID: -2249187823321021716
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: AF_FUS_Gadwood_Valley_Map_Tiles_51
+      rect:
+        serializedVersion: 2
+        x: 784
+        y: 330
+        width: 128
+        height: 134
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3f5fd4302642dde90800000000000000
+      internalID: -6999398242483046925
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: AF_FUS_Gadwood_Valley_Map_Tiles_52
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 390
+        width: 128
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f57a18a78eb41ad30800000000000000
+      internalID: 4440914169423832927
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: AF_FUS_Gadwood_Valley_Map_Tiles_53
+      rect:
+        serializedVersion: 2
+        x: 155
+        y: 377
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 585983e4bd3eb7b00800000000000000
+      internalID: 827505487602292101
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: AF_FUS_Gadwood_Valley_Map_Tiles_54
+      rect:
+        serializedVersion: 2
+        x: 260
+        y: 381
+        width: 54
+        height: 56
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7685469afe8ffb470800000000000000
+      internalID: 8412716337174173799
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: AF_FUS_Gadwood_Valley_Map_Tiles_55
+      rect:
+        serializedVersion: 2
+        x: 1
+        y: 320
+        width: 128
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: fba6567fde0272360800000000000000
+      internalID: 7144715540276538047
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: AF_FUS_Gadwood_Valley_Map_Tiles_56
+      rect:
+        serializedVersion: 2
+        x: 154
+        y: 335
+        width: 62
+        height: 33
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2dbdf426d490bce00800000000000000
+      internalID: 1065955964769786834
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: AF_FUS_Gadwood_Valley_Map_Tiles_57
+      rect:
+        serializedVersion: 2
+        x: 218
+        y: 313
+        width: 55
+        height: 54
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e9a974ebd4f6b0fb0800000000000000
+      internalID: -4680525008025970018
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: AF_FUS_Gadwood_Valley_Map_Tiles_58
+      rect:
+        serializedVersion: 2
+        x: 278
+        y: 325
+        width: 32
+        height: 27
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a01d51887f1415dd0800000000000000
+      internalID: -2499143786818055926
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: AF_FUS_Gadwood_Valley_Map_Tiles_59
+      rect:
+        serializedVersion: 2
+        x: 3
+        y: 256
+        width: 55
+        height: 54
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 56634d5cb4feb61c0800000000000000
+      internalID: -4509247493160815003
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: AF_FUS_Gadwood_Valley_Map_Tiles_60
+      rect:
+        serializedVersion: 2
+        x: 74
+        y: 265
+        width: 43
+        height: 28
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 91f92ac5adf405fe0800000000000000
+      internalID: -1202373301232296167
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: AF_FUS_Gadwood_Valley_Map_Tiles_61
+      rect:
+        serializedVersion: 2
+        x: 162
+        y: 271
+        width: 23
+        height: 48
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2f62858a1c8ba69f0800000000000000
+      internalID: -474363668841617678
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: AF_FUS_Gadwood_Valley_Map_Tiles_62
+      rect:
+        serializedVersion: 2
+        x: 187
+        y: 289
+        width: 26
+        height: 31
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 15a9b5aa297adc670800000000000000
+      internalID: 8560682715066374737
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: AF_FUS_Gadwood_Valley_Map_Tiles_63
+      rect:
+        serializedVersion: 2
+        x: 221
+        y: 262
+        width: 48
+        height: 42
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ace05c931b394e3c0800000000000000
+      internalID: -4331174552235864374
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: AF_FUS_Gadwood_Valley_Map_Tiles_64
+      rect:
+        serializedVersion: 2
+        x: 283
+        y: 268
+        width: 23
+        height: 29
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 708e4992782a361d0800000000000000
+      internalID: -3358662195686348793
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: AF_FUS_Gadwood_Valley_Map_Tiles_65
+      rect:
+        serializedVersion: 2
+        x: 633
+        y: 156
+        width: 85
+        height: 166
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: bb8799a2ed95c6fb0800000000000000
+      internalID: -4653245504248252229
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: AF_FUS_Gadwood_Valley_Map_Tiles_66
+      rect:
+        serializedVersion: 2
+        x: 739
+        y: 259
+        width: 34
+        height: 33
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 036b2e81a7bbbec40800000000000000
+      internalID: 5542729899487442480
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: AF_FUS_Gadwood_Valley_Map_Tiles_67
+      rect:
+        serializedVersion: 2
+        x: 783
+        y: 261
+        width: 35
+        height: 43
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 96a38fc7900b141c0800000000000000
+      internalID: -4521138996105430423
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: AF_FUS_Gadwood_Valley_Map_Tiles_68
+      rect:
+        serializedVersion: 2
+        x: 828
+        y: 263
+        width: 46
+        height: 41
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b4adb7ff97de2a060800000000000000
+      internalID: 6963389082101340747
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: AF_FUS_Gadwood_Valley_Map_Tiles_69
+      rect:
+        serializedVersion: 2
+        x: 878
+        y: 261
+        width: 42
+        height: 34
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 364ce386b5f710470800000000000000
+      internalID: 8359102413944046691
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: AF_FUS_Gadwood_Valley_Map_Tiles_70
+      rect:
+        serializedVersion: 2
+        x: 882
+        y: 291
+        width: 25
+        height: 18
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 6cfb08e4bc6308b40800000000000000
+      internalID: 5440408596686880710
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: AF_FUS_Gadwood_Valley_Map_Tiles_71
+      rect:
+        serializedVersion: 2
+        x: 924
+        y: 260
+        width: 43
+        height: 34
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7cb18566823b6f5c0800000000000000
+      internalID: -4181958217869812793
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: AF_FUS_Gadwood_Valley_Map_Tiles_72
+      rect:
+        serializedVersion: 2
+        x: 938
+        y: 290
+        width: 25
+        height: 18
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8723f85d4bbcb95d0800000000000000
+      internalID: -3054623944703266184
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: AF_FUS_Gadwood_Valley_Map_Tiles_73
+      rect:
+        serializedVersion: 2
+        x: 2
+        y: 136
+        width: 33
+        height: 115
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f0e797b21174f1a80800000000000000
+      internalID: -8493992233128067569
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: AF_FUS_Gadwood_Valley_Map_Tiles_74
+      rect:
+        serializedVersion: 2
+        x: 43
+        y: 129
+        width: 128
+        height: 123
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 410ddd915c68b2130800000000000000
+      internalID: 3543073712957673492
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: AF_FUS_Gadwood_Valley_Map_Tiles_75
+      rect:
+        serializedVersion: 2
+        x: 181
+        y: 129
+        width: 32
+        height: 123
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 53c30243132c08110800000000000000
+      internalID: 1261221412247452725
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: AF_FUS_Gadwood_Valley_Map_Tiles_76
+      rect:
+        serializedVersion: 2
+        x: 235
+        y: 129
+        width: 256
+        height: 123
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: dc384d827204ea350800000000000000
+      internalID: 6029827488028591053
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: AF_FUS_Gadwood_Valley_Map_Tiles_77
+      rect:
+        serializedVersion: 2
+        x: 514
+        y: 129
+        width: 46
+        height: 123
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0c65b47e9e920f9a0800000000000000
+      internalID: -6201410602304579904
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: AF_FUS_Gadwood_Valley_Map_Tiles_78
+      rect:
+        serializedVersion: 2
+        x: 581
+        y: 243
+        width: 29
+        height: 7
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: fac867406fccd2dd0800000000000000
+      internalID: -2509124060366598993
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: AF_FUS_Gadwood_Valley_Map_Tiles_79
+      rect:
+        serializedVersion: 2
+        x: 751
+        y: 199
+        width: 48
+        height: 46
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 85d5443e1739adfc0800000000000000
+      internalID: -3469298445582049960
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: AF_FUS_Gadwood_Valley_Map_Tiles_80
+      rect:
+        serializedVersion: 2
+        x: 848
+        y: 197
+        width: 54
+        height: 48
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 000cf88e23bf61540800000000000000
+      internalID: 4978442634173333504
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: AF_FUS_Gadwood_Valley_Map_Tiles_81
+      rect:
+        serializedVersion: 2
+        x: 558
+        y: 130
+        width: 52
+        height: 109
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: af4936a36de738170800000000000000
+      internalID: 8179520806802658554
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: AF_FUS_Gadwood_Valley_Map_Tiles_82
+      rect:
+        serializedVersion: 2
+        x: 806
+        y: 208
+        width: 29
+        height: 24
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 80194aedbd7c28460800000000000000
+      internalID: 7242570897912271112
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: AF_FUS_Gadwood_Valley_Map_Tiles_83
+      rect:
+        serializedVersion: 2
+        x: 906
+        y: 208
+        width: 33
+        height: 30
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e25b62f40ae2bbc60800000000000000
+      internalID: 7834907242798691630
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: AF_FUS_Gadwood_Valley_Map_Tiles_84
+      rect:
+        serializedVersion: 2
+        x: 30
+        y: 130
+        width: 4
+        height: 7
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1e470435613e0f390800000000000000
+      internalID: -7786474070698068767
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: AF_FUS_Gadwood_Valley_Map_Tiles_85
+      rect:
+        serializedVersion: 2
+        x: 2
+        y: 5
+        width: 32
+        height: 110
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 087bc2c4da25e1ae0800000000000000
+      internalID: -1576731915272276096
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: AF_FUS_Gadwood_Valley_Map_Tiles_86
+      rect:
+        serializedVersion: 2
+        x: 43
+        y: 4
+        width: 128
+        height: 111
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 528212c4afd12b0f0800000000000000
+      internalID: -1102785997896079323
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: AF_FUS_Gadwood_Valley_Map_Tiles_87
+      rect:
+        serializedVersion: 2
+        x: 182
+        y: 5
+        width: 32
+        height: 110
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 79a2b7ae1afb64c90800000000000000
+      internalID: -7185845453278467433
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: AF_FUS_Gadwood_Valley_Map_Tiles_88
+      rect:
+        serializedVersion: 2
+        x: 235
+        y: 3
+        width: 256
+        height: 111
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 59e673992d833dec0800000000000000
+      internalID: -3543426004645613931
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: AF_FUS_Gadwood_Valley_Map_Tiles_89
+      rect:
+        serializedVersion: 2
+        x: 516
+        y: 1
+        width: 50
+        height: 110
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e5e2fd72e61c377c0800000000000000
+      internalID: -4074700558980665762
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: AF_FUS_Gadwood_Valley_Map_Tiles_90
+      rect:
+        serializedVersion: 2
+        x: 554
+        y: 0
+        width: 58
+        height: 111
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f04d6b57b68f218b0800000000000000
+      internalID: -5182807080729914353
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    outline: []
+    physicsShape: []
+    bones: []
+    spriteID: 5e97eb03825dee720800000000000000
+    internalID: 0
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+    secondaryTextures: []
+  spritePackingTag: 
+  pSDRemoveMatte: 0
+  pSDShowRemoveMatteOption: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
