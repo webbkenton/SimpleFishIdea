@@ -1303,11 +1303,11 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 0e4ea30549e9e33478c8bc98fff1abc3, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  sceneToLoad: FullScaleWalkAround
+  sceneToLoad: RealAssetScene1
   PlayerPosition: {x: 0, y: 0}
   PlayerLocale: {fileID: 11400000, guid: 1f846b6516d2fc144825affadd5488cf, type: 2}
   Transitiontime: 1
-  TransitionAnimation: {fileID: 0}
+  TransitionAnimation: {fileID: 902733388}
 --- !u!1 &593681842
 GameObject:
   m_ObjectHideFlags: 0
@@ -4696,7 +4696,7 @@ Animator:
   m_GameObject: {fileID: 902733387}
   m_Enabled: 1
   m_Avatar: {fileID: 0}
-  m_Controller: {fileID: 9100000, guid: 9dfcbf45428019344b32770bb713086d, type: 2}
+  m_Controller: {fileID: 9100000, guid: 523c2ce209e6c7245b9f18cd5dc917ed, type: 2}
   m_CullingMode: 0
   m_UpdateMode: 0
   m_ApplyRootMotion: 0
