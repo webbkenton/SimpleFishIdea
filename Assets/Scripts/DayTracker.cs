@@ -2,32 +2,13 @@
 using System.Collections.Generic;
 using UnityEngine;
 
-public class Clock : MonoBehaviour
+public class DayTracker : MonoBehaviour
 {
-
-    #region Singleton
-    public static Clock instance;
-
-    #endregion
-    private Transform clockHourHandTransfrom;
-    private Transform clockMinuteHandTransfrom;
-    public int dayCounter;
+    public int dayCounter = 1;
     public int moonCounter;
 
-    private const float Real_Seconds = 720f;
-
-    public float day;
-
-    private void Awake()
+    private void Update()
     {
-        instance = this;
-        clockHourHandTransfrom = transform.Find("HourHand");
-        clockMinuteHandTransfrom = transform.Find("MinuteHand");
-    }
-    void Update()
-    {
-        day += Time.deltaTime / Real_Seconds;
-
         if (Clock.instance.day <= 1)
         {
             dayCounter = 1;
@@ -68,17 +49,5 @@ public class Clock : MonoBehaviour
             dayCounter = 4;
             moonCounter = 8;
         }
-        if (day > 8)
-        {
-            day = 0;
-        }
-
-        float dayNormalized = day % 1f;
-        float RotationDegrees = 360f;
-        clockHourHandTransfrom.eulerAngles = new Vector3(0, 0, -dayNormalized * RotationDegrees);
-
-        float hoursPerDay = 24f;
-        clockMinuteHandTransfrom.eulerAngles = new Vector3(0, 0, -dayNormalized * RotationDegrees * hoursPerDay);
-
     }
 }
