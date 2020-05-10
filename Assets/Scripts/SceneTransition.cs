@@ -11,11 +11,13 @@ public class SceneTransition : MonoBehaviour
     public VectorValue PlayerLocale;
     public float Transitiontime = 3f;
     public Animator TransitionAnimation;
+    public GameObject TransferPanel;
 
     private void OnTriggerEnter2D(Collider2D collision)
     {
         if (collision.CompareTag("Player"))
         {
+            TransferPanel.SetActive(true);
             TransitionAnimation.SetTrigger("Start");
             PlayerLocale.initalValue = PlayerPosition;
             //SceneManager.LoadScene(sceneToLoad);
