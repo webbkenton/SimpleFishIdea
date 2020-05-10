@@ -12,6 +12,6 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: f6f3428307f3eb84285a1b48111c7a56, type: 3}
   m_Name: Window
   m_EditorClassIdentifier: 
-  FurnitureName: Furniture Name
-  Sprite: {fileID: 0}
-  furnitureType: 0
+  FurnitureName: Window
+  Sprite: {fileID: 1016027363357439746, guid: 9ecae3a08d2a89e45b9d3a5724ee3202, type: 3}
+  furnitureType: 3
