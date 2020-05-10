@@ -15,6 +15,9 @@ MonoBehaviour:
   FishName: Mad Grouper
   FishDescription: This fish seems pretty upset that you caught it. It's really glaring
     at you. Kind of unsettling, honestly.
-  FishWeight: 10
+  FishWeight: 0
+  small: 0
+  medium: 0
+  large: 0
   icon: {fileID: 0}
   Legendary: 0
