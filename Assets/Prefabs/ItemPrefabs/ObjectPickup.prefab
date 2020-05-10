@@ -11,13 +11,13 @@ GameObject:
   - component: {fileID: 8467390330139540012}
   - component: {fileID: 8467390330139540007}
   - component: {fileID: 8467390330139540006}
-  - component: {fileID: 8467390330139540003}
   - component: {fileID: 8467390330139540002}
   - component: {fileID: 8467390330139540000}
   - component: {fileID: 8467390330139540001}
+  - component: {fileID: 1059126629}
   m_Layer: 0
   m_Name: ObjectPickup
-  m_TagString: Untagged
+  m_TagString: Furniture
   m_Icon: {fileID: 5132851093641282708, guid: 0000000000000000d000000000000000, type: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -31,7 +31,7 @@ RectTransform:
   m_GameObject: {fileID: 8467390330139540005}
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
   m_LocalPosition: {x: 0, y: 0, z: 0.0703125}
-  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_LocalScale: {x: 1, y: 1, z: 0}
   m_Children: []
   m_Father: {fileID: 0}
   m_RootOrder: 0
@@ -55,6 +55,7 @@ SpriteRenderer:
   m_MotionVectors: 1
   m_LightProbeUsage: 1
   m_ReflectionProbeUsage: 1
+  m_RayTracingMode: 0
   m_RenderingLayerMask: 1
   m_RendererPriority: 0
   m_Materials:
@@ -66,6 +67,7 @@ SpriteRenderer:
   m_ProbeAnchor: {fileID: 0}
   m_LightProbeVolumeOverride: {fileID: 0}
   m_ScaleInLightmap: 1
+  m_ReceiveGI: 1
   m_PreserveUVs: 0
   m_IgnoreNormalsForChartDetection: 0
   m_ImportantGI: 0
@@ -75,16 +77,16 @@ SpriteRenderer:
   m_AutoUVMaxDistance: 0.5
   m_AutoUVMaxAngle: 89
   m_LightmapParameters: {fileID: 0}
-  m_SortingLayerID: 1426864667
-  m_SortingLayer: 6
+  m_SortingLayerID: 716811379
+  m_SortingLayer: 12
   m_SortingOrder: 0
-  m_Sprite: {fileID: 21300046, guid: 51b8f517c5750c04d9c87704af873585, type: 3}
+  m_Sprite: {fileID: 21300096, guid: ef3a5ff462d14354f98c9b5b5ddbddc1, type: 3}
   m_Color: {r: 1, g: 1, b: 1, a: 1}
   m_FlipX: 0
   m_FlipY: 0
   m_DrawMode: 0
-  m_Size: {x: 1, y: 1}
-  m_AdaptiveModeThreshold: 0.5
+  m_Size: {x: 20, y: 16}
+  m_AdaptiveModeThreshold: 0.589
   m_SpriteTileMode: 0
   m_WasSpriteAssigned: 1
   m_MaskInteraction: 0
@@ -107,28 +109,14 @@ BoxCollider2D:
     border: {x: 0, y: 0, z: 0, w: 0}
     pivot: {x: 0.5, y: 0.5}
     oldSize: {x: 1, y: 1}
-    newSize: {x: 1, y: 1}
-    adaptiveTilingThreshold: 0.5
+    newSize: {x: 20, y: 16}
+    adaptiveTilingThreshold: 0.589
     drawMode: 0
     adaptiveTiling: 0
   m_AutoTiling: 0
   serializedVersion: 2
   m_Size: {x: 1.2294143, y: 2.3991165}
   m_EdgeRadius: 0
---- !u!114 &8467390330139540003
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 8467390330139540005}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 5d7fe504dd7d0bf48a9518087a0dcf15, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  Furniture: {fileID: 8467390330139540005}
-  mouseParent: {fileID: 0}
 --- !u!114 &8467390330139540002
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -141,9 +129,10 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: a70a9b4831b2cff4787de10b0f15ea77, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  interactable: 0
+  furniture: {fileID: 11400000, guid: 8a188a1209e26e047acf3e9376c24710, type: 2}
   bodyType: {fileID: 8467390330139540001}
   pickedUp: 0
+  sR: {fileID: 8467390330139540007}
 --- !u!61 &8467390330139540000
 BoxCollider2D:
   m_ObjectHideFlags: 0
@@ -162,8 +151,8 @@ BoxCollider2D:
     border: {x: 0, y: 0, z: 0, w: 0}
     pivot: {x: 0.5, y: 0.5}
     oldSize: {x: 1, y: 1}
-    newSize: {x: 1, y: 1}
-    adaptiveTilingThreshold: 0.5
+    newSize: {x: 20, y: 16}
+    adaptiveTilingThreshold: 0.589
     drawMode: 0
     adaptiveTiling: 0
   m_AutoTiling: 0
@@ -191,3 +180,24 @@ Rigidbody2D:
   m_SleepingMode: 1
   m_CollisionDetection: 0
   m_Constraints: 4
+--- !u!114 &1059126629
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 8467390330139540005}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: d75e8d15c680e55408f66df7bc3cca07, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  interactable: 0
+  CarryingFurniture: 0
+  Placeable: 0
+  floorPattern: 0
+  SL: {fileID: 8467390330139540007}
+  floorPrefabSprite: {fileID: 0}
+  Furniture: {fileID: 8467390330139540005}
+  MouseParent: {fileID: 0}
+  floorPrefab: {fileID: 0}

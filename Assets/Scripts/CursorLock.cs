@@ -31,6 +31,9 @@ public class CursorLock : MonoBehaviour
             transform.position = mousePosition * mouseSpeed;
 
         }
+        // if the item is wall furniture
+        // Remove the clamp so the mouse can access outer wall
+        // When the item is dropped Place the clamp back on
               
     }
 
@@ -39,6 +42,13 @@ public class CursorLock : MonoBehaviour
         if (collision.CompareTag("Furniture"))
         {
             transform.position.Normalize();
+        }
+        if (collision.CompareTag("WallFurniture"))
+        {
+            mousePosition.x = Mathf.Round(mousePosition.x);
+            mousePosition.y = Mathf.Round(mousePosition.y);
+            touchingWall = true;
+
         }
     }
 
