@@ -26919,6 +26919,12 @@ Tilemap:
     e31: 0
     e32: 0
     e33: 1
+--- !u!1 &1822460975 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: 3624518631362030124, guid: f2b1938ddd556c54484399591904c6e1,
+    type: 3}
+  m_PrefabInstance: {fileID: 2103407899}
+  m_PrefabAsset: {fileID: 0}
 --- !u!1001 &2103407899
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -26972,10 +26978,20 @@ PrefabInstance:
       propertyPath: PlayerPosition.y
       value: 1.3
       objectReference: {fileID: 0}
+    - target: {fileID: 2166934014255514006, guid: f2b1938ddd556c54484399591904c6e1,
+        type: 3}
+      propertyPath: TransferPanel
+      value: 
+      objectReference: {fileID: 1822460975}
     - target: {fileID: 2617253115184610496, guid: f2b1938ddd556c54484399591904c6e1,
         type: 3}
       propertyPath: m_Name
       value: SceenTransfer
+      objectReference: {fileID: 0}
+    - target: {fileID: 3624518631362030124, guid: f2b1938ddd556c54484399591904c6e1,
+        type: 3}
+      propertyPath: m_IsActive
+      value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 4653744651837600839, guid: f2b1938ddd556c54484399591904c6e1,
         type: 3}

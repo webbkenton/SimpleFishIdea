@@ -1,6 +1,8 @@
 ﻿using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
+using UnityEngine.UI;
+using TMPro;
 
 public class Clock : MonoBehaviour
 {
@@ -11,8 +13,10 @@ public class Clock : MonoBehaviour
     #endregion
     private Transform clockHourHandTransfrom;
     private Transform clockMinuteHandTransfrom;
+    public TMP_Text dayOfTheWeek;
     public int dayCounter;
     public int moonCounter;
+
 
     private const float Real_Seconds = 720f;
 
@@ -30,41 +34,49 @@ public class Clock : MonoBehaviour
 
         if (Clock.instance.day <= 1)
         {
+            dayOfTheWeek.text = "Mon";
             dayCounter = 1;
             moonCounter = 1;
         }
         if (Clock.instance.day <= 2 && Clock.instance.day > 1)
         {
+            dayOfTheWeek.text = "Tue";
             dayCounter = 2;
             moonCounter = 2;
         }
         if (Clock.instance.day <= 3 && Clock.instance.day > 2)
         {
+            dayOfTheWeek.text = "Wed";
             dayCounter = 3;
             moonCounter = 3;
         }
         if (Clock.instance.day <= 4 && Clock.instance.day > 3)
         {
+            dayOfTheWeek.text = "Thur";
             dayCounter = 4;
             moonCounter = 4;
         }
         if (Clock.instance.day <= 5 && Clock.instance.day > 4)
         {
+            dayOfTheWeek.text = "Mon";
             dayCounter = 1;
             moonCounter = 5;
         }
         if (Clock.instance.day <= 6 && Clock.instance.day > 5)
         {
+            dayOfTheWeek.text = "Tue";
             dayCounter = 2;
             moonCounter = 6;
         }
         if (Clock.instance.day <= 7 && Clock.instance.day > 6)
         {
+            dayOfTheWeek.text = "Wed";
             dayCounter = 3;
             moonCounter = 7;
         }
         if (Clock.instance.day <= 8 && Clock.instance.day > 7)
         {
+            dayOfTheWeek.text = "Thur";
             dayCounter = 4;
             moonCounter = 8;
         }

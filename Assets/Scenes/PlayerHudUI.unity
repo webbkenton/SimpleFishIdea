@@ -136,6 +136,7 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 192123912}
+  - component: {fileID: 192123913}
   m_Layer: 0
   m_Name: LunarCycle
   m_TagString: Untagged
@@ -170,6 +171,26 @@ RectTransform:
   m_AnchoredPosition: {x: 448.74713, y: 216.91501}
   m_SizeDelta: {x: 100, y: 100}
   m_Pivot: {x: 0.5, y: 0.5}
+--- !u!114 &192123913
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 192123911}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: a7b8e2f2db44d3846a92cd309af9b456, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  Lunar1: {fileID: 329976267}
+  Lunar2: {fileID: 560812319}
+  Lunar3: {fileID: 1028946082}
+  Lunar4: {fileID: 1525552100}
+  Lunar5: {fileID: 1937782561}
+  Lunar6: {fileID: 1303965696}
+  Lunar7: {fileID: 1193004972}
+  Lunar8: {fileID: 1304798090}
 --- !u!1 &329976267
 GameObject:
   m_ObjectHideFlags: 0
@@ -182,7 +203,7 @@ GameObject:
   - component: {fileID: 329976270}
   - component: {fileID: 329976269}
   m_Layer: 0
-  m_Name: LunarCycle1
+  m_Name: Lunar1
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -257,7 +278,7 @@ GameObject:
   - component: {fileID: 560812322}
   - component: {fileID: 560812321}
   m_Layer: 0
-  m_Name: LunarCycle1 (1)
+  m_Name: Lunar2
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -332,7 +353,7 @@ GameObject:
   - component: {fileID: 1028946085}
   - component: {fileID: 1028946084}
   m_Layer: 0
-  m_Name: LunarCycle1 (2)
+  m_Name: Lunar3
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -407,7 +428,7 @@ GameObject:
   - component: {fileID: 1193004975}
   - component: {fileID: 1193004974}
   m_Layer: 0
-  m_Name: LunarCycle1 (6)
+  m_Name: Lunar7
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -482,7 +503,7 @@ GameObject:
   - component: {fileID: 1303965699}
   - component: {fileID: 1303965698}
   m_Layer: 0
-  m_Name: LunarCycle1 (5)
+  m_Name: Lunar6
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -557,7 +578,7 @@ GameObject:
   - component: {fileID: 1304798093}
   - component: {fileID: 1304798092}
   m_Layer: 0
-  m_Name: LunarCycle1 (7)
+  m_Name: Lunar8
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -716,7 +737,7 @@ GameObject:
   - component: {fileID: 1525552103}
   - component: {fileID: 1525552102}
   m_Layer: 0
-  m_Name: LunarCycle1 (3)
+  m_Name: Lunar4
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -865,7 +886,7 @@ GameObject:
   - component: {fileID: 1937782564}
   - component: {fileID: 1937782563}
   m_Layer: 0
-  m_Name: LunarCycle1 (4)
+  m_Name: Lunar5
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
