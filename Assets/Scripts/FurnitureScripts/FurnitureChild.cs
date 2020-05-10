@@ -33,6 +33,11 @@ public class FurnitureChild : MonoBehaviour
             sR.sortingLayerName = ("FurnitureFloor");
             sR.sortingOrder = 1;
         }
+        if (furniture.furnitureType == FurnitureScriptableObject.FurnitureType.WallFurniture)
+        {
+            sR.sortingLayerName = ("FurnitureWall");
+            sR.sortingOrder = 1;
+        }
         if (furniture.furnitureType == FurnitureScriptableObject.FurnitureType.GroundFurniture)
         {
             sR.sortingLayerName = ("GroundFurniture");
