@@ -7,6 +7,7 @@ public class InventorySlot : MonoBehaviour
     public Image icon;
     public Button removeButton;
     public GameObject informationBox;
+    public TMP_Text WeightText;
     public TMP_Text Nametext;
     public TMP_Text Valuetext;
     public TMP_Text Descriptiontext;
@@ -82,6 +83,7 @@ public class InventorySlot : MonoBehaviour
         if (fish != null)
         {
             informationBox.SetActive(true);
+            WeightText.text = fish.FishWeight.ToString("F2");
             Nametext.text = fish.FishName;
             Valuetext.text = fish.FishValue.ToString();
             Descriptiontext.text = fish.FishDescription;
@@ -92,6 +94,7 @@ public class InventorySlot : MonoBehaviour
         if (fish != null)
         {
             informationBox.SetActive(false);
+            WeightText.text = null;
             Nametext.text = null;
             Valuetext.text = null;
             Descriptiontext.text = null;
