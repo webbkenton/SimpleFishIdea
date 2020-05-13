@@ -1,25 +1,25 @@
 fileFormatVersion: 2
-guid: 957eafae84e066841920a0940c5b965b
+guid: 3556b97f554a7b6489158925480c9a25
 TextureImporter:
   internalIDToNameTable:
   - first:
-      213: -5425191244319582034
-    second: AF_FUS_Gadwood_Valley_Map_NPC01_Female_Walk_Spritesheet_0
+      213: -4980088586647929149
+    second: AF_FUS_Gadwood_Valley_Map_NPC01_Female_Walk_Right_Spritesheet_0
   - first:
-      213: -6765705279352224102
-    second: AF_FUS_Gadwood_Valley_Map_NPC01_Female_Walk_Spritesheet_1
+      213: 902515527242263817
+    second: AF_FUS_Gadwood_Valley_Map_NPC01_Female_Walk_Right_Spritesheet_1
   - first:
-      213: -835519760175663039
-    second: AF_FUS_Gadwood_Valley_Map_NPC01_Female_Walk_Spritesheet_2
+      213: -4146072447080217695
+    second: AF_FUS_Gadwood_Valley_Map_NPC01_Female_Walk_Right_Spritesheet_2
   - first:
-      213: -2712551169845945235
-    second: AF_FUS_Gadwood_Valley_Map_NPC01_Female_Walk_Spritesheet_3
+      213: -43925334251444934
+    second: AF_FUS_Gadwood_Valley_Map_NPC01_Female_Walk_Right_Spritesheet_3
   - first:
-      213: 2660013981517909614
-    second: AF_FUS_Gadwood_Valley_Map_NPC01_Female_Walk_Spritesheet_4
+      213: -4528919596543632580
+    second: AF_FUS_Gadwood_Valley_Map_NPC01_Female_Walk_Right_Spritesheet_4
   - first:
-      213: 4186353154385841971
-    second: AF_FUS_Gadwood_Valley_Map_NPC01_Female_Walk_Spritesheet_5
+      213: 2302230319821300780
+    second: AF_FUS_Gadwood_Valley_Map_NPC01_Female_Walk_Right_Spritesheet_5
   externalObjects: {}
   serializedVersion: 11
   mipmaps:
@@ -105,13 +105,13 @@ TextureImporter:
     serializedVersion: 2
     sprites:
     - serializedVersion: 2
-      name: AF_FUS_Gadwood_Valley_Map_NPC01_Female_Walk_Spritesheet_0
+      name: AF_FUS_Gadwood_Valley_Map_NPC01_Female_Walk_Right_Spritesheet_0
       rect:
         serializedVersion: 2
-        x: 1
+        x: 0
         y: 0
-        width: 22
-        height: 42
+        width: 23
+        height: 43
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -119,20 +119,20 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: ea895c3ae49d5b4b0800000000000000
-      internalID: -5425191244319582034
+      spriteID: 3ce7fdae0db23eab0800000000000000
+      internalID: -4980088586647929149
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: AF_FUS_Gadwood_Valley_Map_NPC01_Female_Walk_Spritesheet_1
+      name: AF_FUS_Gadwood_Valley_Map_NPC01_Female_Walk_Right_Spritesheet_1
       rect:
         serializedVersion: 2
-        x: 24
+        x: 23
         y: 0
-        width: 22
-        height: 41
+        width: 23
+        height: 43
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -140,20 +140,20 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: a96c93905e26b12a0800000000000000
-      internalID: -6765705279352224102
+      spriteID: 90dac8d1711668c00800000000000000
+      internalID: 902515527242263817
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: AF_FUS_Gadwood_Valley_Map_NPC01_Female_Walk_Spritesheet_2
+      name: AF_FUS_Gadwood_Valley_Map_NPC01_Female_Walk_Right_Spritesheet_2
       rect:
         serializedVersion: 2
-        x: 47
+        x: 46
         y: 0
-        width: 22
-        height: 42
+        width: 23
+        height: 43
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -161,62 +161,20 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 148f8e37433a764f0800000000000000
-      internalID: -835519760175663039
+      spriteID: 1a3cfb283113676c0800000000000000
+      internalID: -4146072447080217695
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: AF_FUS_Gadwood_Valley_Map_NPC01_Female_Walk_Spritesheet_3
-      rect:
-        serializedVersion: 2
-        x: 92
-        y: 0
-        width: 22
-        height: 41
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: d6c134e25151b5ad0800000000000000
-      internalID: -2712551169845945235
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: AF_FUS_Gadwood_Valley_Map_NPC01_Female_Walk_Spritesheet_4
-      rect:
-        serializedVersion: 2
-        x: 115
-        y: 0
-        width: 22
-        height: 41
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: e6e82f17f944ae420800000000000000
-      internalID: 2660013981517909614
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: AF_FUS_Gadwood_Valley_Map_NPC01_Female_Walk_Spritesheet_5
+      name: AF_FUS_Gadwood_Valley_Map_NPC01_Female_Walk_Right_Spritesheet_3
       rect:
         serializedVersion: 2
         x: 69
         y: 0
-        width: 22
-        height: 42
+        width: 23
+        height: 43
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -224,8 +182,50 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 33f018f730ae81a30800000000000000
-      internalID: 4186353154385841971
+      spriteID: a356d472422f36ff0800000000000000
+      internalID: -43925334251444934
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: AF_FUS_Gadwood_Valley_Map_NPC01_Female_Walk_Right_Spritesheet_4
+      rect:
+        serializedVersion: 2
+        x: 92
+        y: 0
+        width: 23
+        height: 43
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c3b16b74f9b0621c0800000000000000
+      internalID: -4528919596543632580
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: AF_FUS_Gadwood_Valley_Map_NPC01_Female_Walk_Right_Spritesheet_5
+      rect:
+        serializedVersion: 2
+        x: 115
+        y: 0
+        width: 23
+        height: 43
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c242514374a23ff10800000000000000
+      internalID: 2302230319821300780
       vertices: []
       indices: 
       edges: []

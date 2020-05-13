@@ -1,7 +1,19 @@
 fileFormatVersion: 2
 guid: 4983f27ec8cf85e49afad6edf0b56c8d
 TextureImporter:
-  internalIDToNameTable: []
+  internalIDToNameTable:
+  - first:
+      213: 4164893172112904478
+    second: AF_FUS_Gadwood_Valley_Map_NPC_Female1_Idle_Left_Spritesheet_0
+  - first:
+      213: -8186266337993153228
+    second: AF_FUS_Gadwood_Valley_Map_NPC_Female1_Idle_Left_Spritesheet_1
+  - first:
+      213: -7071959875123508542
+    second: AF_FUS_Gadwood_Valley_Map_NPC_Female1_Idle_Left_Spritesheet_2
+  - first:
+      213: -5207265567405227259
+    second: AF_FUS_Gadwood_Valley_Map_NPC_Female1_Idle_Left_Spritesheet_3
   externalObjects: {}
   serializedVersion: 11
   mipmaps:
@@ -85,7 +97,91 @@ TextureImporter:
     forceMaximumCompressionQuality_BC6H_BC7: 0
   spriteSheet:
     serializedVersion: 2
-    sprites: []
+    sprites:
+    - serializedVersion: 2
+      name: AF_FUS_Gadwood_Valley_Map_NPC_Female1_Idle_Left_Spritesheet_0
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 0
+        width: 23
+        height: 40
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e115d33064cacc930800000000000000
+      internalID: 4164893172112904478
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: AF_FUS_Gadwood_Valley_Map_NPC_Female1_Idle_Left_Spritesheet_1
+      rect:
+        serializedVersion: 2
+        x: 23
+        y: 0
+        width: 23
+        height: 40
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4352e27632a846e80800000000000000
+      internalID: -8186266337993153228
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: AF_FUS_Gadwood_Valley_Map_NPC_Female1_Idle_Left_Spritesheet_2
+      rect:
+        serializedVersion: 2
+        x: 46
+        y: 0
+        width: 23
+        height: 40
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2ca827166f95bdd90800000000000000
+      internalID: -7071959875123508542
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: AF_FUS_Gadwood_Valley_Map_NPC_Female1_Idle_Left_Spritesheet_3
+      rect:
+        serializedVersion: 2
+        x: 69
+        y: 0
+        width: 23
+        height: 40
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 50340b34e831cb7b0800000000000000
+      internalID: -5207265567405227259
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
     outline: []
     physicsShape: []
     bones: []
