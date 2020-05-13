@@ -17,6 +17,7 @@ MonoBehaviour:
     of its mouth, almost like whiskers. You listen closely, but it doesn't seem to
     purr.
   FishWeight: 10
+  DefaultValue: 100
   small: 1
   medium: 0
   large: 0

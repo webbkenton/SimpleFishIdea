@@ -16,6 +16,7 @@ MonoBehaviour:
   FishDescription: This fish has long, sharp scales at the tips of its pectoral fins,
     dark black stripes, and also a big set of teeth!
   FishWeight: 10
+  DefaultValue: 100
   small: 0
   medium: 1
   large: 0

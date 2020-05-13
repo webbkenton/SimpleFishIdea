@@ -1,12 +1,15 @@
 ﻿using UnityEngine;
 using UnityEngine.UI;
+using TMPro;
 
 public class InventorySlot : MonoBehaviour
 {
-
+    public TMP_Text Nametext;
+    public TMP_Text Valuetext;
+    public TMP_Text Descriptiontext;
     public Image icon;
     public Button removeButton;
-
+    public GameObject informationBox;
     Item item;
     Fish fish;
 
@@ -26,11 +29,16 @@ public class InventorySlot : MonoBehaviour
         icon.sprite = fish.icon;
         icon.enabled = true;
         removeButton.interactable = true;
+        //Nametext.text = fish.FishName;
+        //Valuetext.text = fish.FishValue.ToString();
+        //Descriptiontext.text = fish.FishDescription;
+
     }
 
     public void ClearSlot()
     {
         item = null;
+        fish = null;
 
         icon.sprite = null;
         icon.enabled = false;
@@ -42,6 +50,7 @@ public class InventorySlot : MonoBehaviour
     {
         Inventory.instance.remove(item);
         Inventory.instance.fishRemove(fish);
+        ClearSlot();
     }
 
     public void UseItem()
@@ -50,5 +59,17 @@ public class InventorySlot : MonoBehaviour
         {
             item.Use();
         }
+        if (fish != null)
+        {
+            fish.Use();
+        }
+    }
+
+    private void OnMouseOver()
+    {
+        //Nametext.text = fish.FishName;
+        //Valuetext.text = fish.FishValue.ToString();
+        //Descriptiontext.text = fish.FishDescription;
+        informationBox.SetActive(true);
     }
 }

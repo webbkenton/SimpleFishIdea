@@ -16,6 +16,7 @@ MonoBehaviour:
   FishDescription: "The fins on the sides of this fish give it the appearance of
     having wings, as though it could fly\u2014perhaps like an eagle."
   FishWeight: 10
+  DefaultValue: 100
   small: 1
   medium: 0
   large: 0

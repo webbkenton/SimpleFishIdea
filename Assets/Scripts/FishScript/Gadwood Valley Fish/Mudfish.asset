@@ -16,6 +16,7 @@ MonoBehaviour:
   FishDescription: This fish hangs out at the bottom of Gadwood lake, making its
     home in nests made of the soft, mushy mud from the bottom of the lake.
   FishWeight: 10
+  DefaultValue: 100
   small: 0
   medium: 1
   large: 0

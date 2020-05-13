@@ -16,6 +16,7 @@ TagManager:
   - PlacedFloor
   - FishingSpotDay
   - FishingSpotNight
+  - ShopWindow
   layers:
   - Default
   - TransparentFX

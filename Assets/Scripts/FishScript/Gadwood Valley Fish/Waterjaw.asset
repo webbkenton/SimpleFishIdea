@@ -16,6 +16,7 @@ MonoBehaviour:
   FishDescription: See how it has a very boney jawline? This fish can use an extra
     set of gills in its jaw as a form of propulsion!
   FishWeight: 10
+  DefaultValue: 100
   small: 0
   medium: 0
   large: 1

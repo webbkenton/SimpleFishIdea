@@ -11,7 +11,15 @@ public class Item : ScriptableObject
     
     public virtual void Use()
     {
+        if (UIManager.instance.Shop == true)
+        {
+            
+        }
         Debug.Log("Using " + name);
+        //if a shop window is open
+        //sell the item for the value of the item
+        // Remove item from inventory
+        // add the sold ammount to currency
     }
 
 }

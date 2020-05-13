@@ -16,6 +16,7 @@ MonoBehaviour:
   FishDescription: The dorsal fin on the back of this fish looks like a comb. You
     probably shouldn't use it like one, though.
   FishWeight: 10
+  DefaultValue: 100
   small: 0
   medium: 1
   large: 0

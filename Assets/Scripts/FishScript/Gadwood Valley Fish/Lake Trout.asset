@@ -15,6 +15,7 @@ MonoBehaviour:
   FishName: Lake Trout
   FishDescription: One of the most common fish Gadwood has to offer. How droll.
   FishWeight: 0
+  DefaultValue: 100
   small: 1
   medium: 0
   large: 0

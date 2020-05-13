@@ -16,6 +16,7 @@ MonoBehaviour:
   FishDescription: Come on. You've probably slapped your fair share of bass in your
     day. Sometimes you just gotta slap a little bass. Slapada bass.
   FishWeight: 10
+  DefaultValue: 100
   small: 0
   medium: 0
   large: 1

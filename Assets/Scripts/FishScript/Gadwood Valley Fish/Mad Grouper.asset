@@ -16,6 +16,7 @@ MonoBehaviour:
   FishDescription: This fish seems pretty upset that you caught it. It's really glaring
     at you. Kind of unsettling, honestly.
   FishWeight: 0
+  DefaultValue: 100
   small: 0
   medium: 0
   large: 0

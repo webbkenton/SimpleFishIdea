@@ -16,6 +16,7 @@ MonoBehaviour:
   FishDescription: This fish appears to be a dull gray or brown at first, but in
     proper lighting, its scales are actually a very deep purple hue!
   FishWeight: 10
+  DefaultValue: 100
   small: 1
   medium: 0
   large: 0

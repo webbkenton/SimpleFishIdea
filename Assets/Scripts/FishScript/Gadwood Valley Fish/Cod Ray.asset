@@ -16,6 +16,7 @@ MonoBehaviour:
   FishDescription: This ray seems to travel in groups. You might think a group of
     them would be called a "cadre," but you'd be wrong!
   FishWeight: 10
+  DefaultValue: 100
   small: 0
   medium: 1
   large: 0

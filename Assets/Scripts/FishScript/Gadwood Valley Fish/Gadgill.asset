@@ -17,6 +17,7 @@ MonoBehaviour:
     trees in Gadwood. You're pretty sure its gills aren't made of wood, but you don't
     really want to touch them.
   FishWeight: 10
+  DefaultValue: 100
   small: 1
   medium: 0
   large: 0

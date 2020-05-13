@@ -9,15 +9,8 @@ MonoBehaviour:
   m_GameObject: {fileID: 0}
   m_Enabled: 1
   m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 4bc446366b6a10744b01b4091d6ea618, type: 3}
-  m_Name: Leafback
+  m_Script: {fileID: 11500000, guid: 3e687dcafc5a20c4a9656de9526108dd, type: 3}
+  m_Name: FishingDockPosition
   m_EditorClassIdentifier: 
-  FishName: Leafback
-  FishDescription: Leafback needs Description
-  FishWeight: 10
-  DefaultValue: 100
-  small: 0
-  medium: 1
-  large: 0
-  icon: {fileID: 0}
-  Legendary: 0
+  initalValue: {x: 0, y: 0}
+  defaultValue: {x: 0, y: 0}

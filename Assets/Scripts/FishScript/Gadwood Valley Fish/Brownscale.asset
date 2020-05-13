@@ -16,6 +16,7 @@ MonoBehaviour:
   FishDescription: "This fish has dull, brown scales. But don't judge a book by its
     cover\u2014it might have a winning personality!"
   FishWeight: 10
+  DefaultValue: 100
   small: 0
   medium: 1
   large: 0

@@ -16,6 +16,7 @@ MonoBehaviour:
   FishDescription: This massive fish has fins so big, you could use them to paddle
     a boat! The fish might have some objections to that, though.
   FishWeight: 10
+  DefaultValue: 100
   small: 0
   medium: 0
   large: 1

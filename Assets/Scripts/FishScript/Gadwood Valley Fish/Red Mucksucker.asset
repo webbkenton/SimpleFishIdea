@@ -16,6 +16,7 @@ MonoBehaviour:
   FishDescription: This fish spends all day sucking up the dirt and grime from the
     bottom of the lake, and filtering out all the tasty bits. Also it's red.
   FishWeight: 10
+  DefaultValue: 100
   small: 0
   medium: 1
   large: 0
