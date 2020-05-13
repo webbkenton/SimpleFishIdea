@@ -4,12 +4,12 @@ using TMPro;
 
 public class InventorySlot : MonoBehaviour
 {
-    public TMP_Text Nametext;
-    public TMP_Text Valuetext;
-    public TMP_Text Descriptiontext;
     public Image icon;
     public Button removeButton;
     public GameObject informationBox;
+    public TMP_Text Nametext;
+    public TMP_Text Valuetext;
+    public TMP_Text Descriptiontext;
     Item item;
     Fish fish;
 
@@ -21,6 +21,14 @@ public class InventorySlot : MonoBehaviour
         icon.enabled = true;
         removeButton.interactable = true;
 
+    }
+    private void Update()
+    {
+        //if (fish != null)
+        //{ 
+        //    InformationUpdate();
+        //}
+        
     }
 
     public void newFish(Fish aFish)
@@ -39,6 +47,7 @@ public class InventorySlot : MonoBehaviour
     {
         item = null;
         fish = null;
+   
 
         icon.sprite = null;
         icon.enabled = false;
@@ -58,18 +67,35 @@ public class InventorySlot : MonoBehaviour
         if (item != null)
         {
             item.Use();
+            InformationReset();
         }
         if (fish != null)
         {
             fish.Use();
+            informationBox.SetActive(false);
+            InformationReset();
         }
     }
 
-    private void OnMouseOver()
+    public void InformationUpdate()
     {
-        //Nametext.text = fish.FishName;
-        //Valuetext.text = fish.FishValue.ToString();
-        //Descriptiontext.text = fish.FishDescription;
-        informationBox.SetActive(true);
+        if (fish != null)
+        {
+            informationBox.SetActive(true);
+            Nametext.text = fish.FishName;
+            Valuetext.text = fish.FishValue.ToString();
+            Descriptiontext.text = fish.FishDescription;
+        }
+    }
+    public void InformationReset()
+    {
+        if (fish != null)
+        {
+            informationBox.SetActive(false);
+            Nametext.text = null;
+            Valuetext.text = null;
+            Descriptiontext.text = null;
+        }
+
     }
 }

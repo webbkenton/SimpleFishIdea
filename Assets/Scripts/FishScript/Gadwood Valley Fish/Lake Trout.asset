@@ -14,10 +14,11 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   FishName: Lake Trout
   FishDescription: One of the most common fish Gadwood has to offer. How droll.
-  FishWeight: 0
+  FishWeight: 2.392186
   DefaultValue: 100
+  FishValue: 102
   small: 1
   medium: 0
   large: 0
-  icon: {fileID: 0}
+  icon: {fileID: 21300000, guid: 2eb8453dbaf7c5e448b46ea0c86452c5, type: 3}
   Legendary: 0

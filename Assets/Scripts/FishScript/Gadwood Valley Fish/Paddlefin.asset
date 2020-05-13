@@ -17,8 +17,9 @@ MonoBehaviour:
     a boat! The fish might have some objections to that, though.
   FishWeight: 10
   DefaultValue: 100
+  FishValue: 0
   small: 0
   medium: 0
   large: 1
-  icon: {fileID: 0}
+  icon: {fileID: 21300000, guid: 2eb8453dbaf7c5e448b46ea0c86452c5, type: 3}
   Legendary: 0

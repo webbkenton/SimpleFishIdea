@@ -11,6 +11,7 @@ GameObject:
   - component: {fileID: 8033816192092715261}
   - component: {fileID: 8033816192092715263}
   - component: {fileID: 8033816192092715262}
+  - component: {fileID: 3943452180859100366}
   m_Layer: 5
   m_Name: icon
   m_TagString: Untagged
@@ -74,6 +75,21 @@ MonoBehaviour:
   m_FillOrigin: 0
   m_UseSpriteMesh: 0
   m_PixelsPerUnitMultiplier: 1
+--- !u!114 &3943452180859100366
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 8033816192092715260}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 7593fbc42243bf749bbea1219f4289e6, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  informationBox: {fileID: 4698785135479613814, guid: 9b9b8c306ed5e8840a108934f60669e1,
+    type: 3}
+  ItemHover: 0
 --- !u!1 &8033816192749389503
 GameObject:
   m_ObjectHideFlags: 0
@@ -192,7 +208,7 @@ MonoBehaviour:
   m_OnClick:
     m_PersistentCalls:
       m_Calls:
-      - m_Target: {fileID: 3822147097731841043}
+      - m_Target: {fileID: 0}
         m_MethodName: OnRemoveButton
         m_Mode: 1
         m_Arguments:
@@ -253,12 +269,12 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 88a2b4a84b06ee24eb786e49d68b4f79, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  Nametext: {fileID: 0}
-  Valuetext: {fileID: 0}
-  Descriptiontext: {fileID: 0}
   icon: {fileID: 8033816192092715262}
   removeButton: {fileID: 8033816192749389497}
   informationBox: {fileID: 0}
+  Nametext: {fileID: 0}
+  Valuetext: {fileID: 0}
+  Descriptiontext: {fileID: 0}
 --- !u!1 &8033816193107953214
 GameObject:
   m_ObjectHideFlags: 0
@@ -271,9 +287,10 @@ GameObject:
   - component: {fileID: 8033816193107953210}
   - component: {fileID: 8033816193107953209}
   - component: {fileID: 8033816193107953208}
+  - component: {fileID: 2434470728302457416}
   m_Layer: 5
   m_Name: ItemButton
-  m_TagString: Untagged
+  m_TagString: InventorySlot
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -389,14 +406,46 @@ MonoBehaviour:
           m_StringArgument: 
           m_BoolArgument: 0
         m_CallState: 2
-      - m_Target: {fileID: 3822147097731841043}
-        m_MethodName: ClearSlot
-        m_Mode: 1
-        m_Arguments:
-          m_ObjectArgument: {fileID: 0}
-          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
-          m_IntArgument: 0
-          m_FloatArgument: 0
-          m_StringArgument: 
-          m_BoolArgument: 0
-        m_CallState: 2
+--- !u!114 &2434470728302457416
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 8033816193107953214}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: d0b148fe25e99eb48b9724523833bab1, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  m_Delegates:
+  - eventID: 0
+    callback:
+      m_PersistentCalls:
+        m_Calls:
+        - m_Target: {fileID: 3822147097731841043}
+          m_MethodName: InformationUpdate
+          m_Mode: 1
+          m_Arguments:
+            m_ObjectArgument: {fileID: 0}
+            m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+            m_IntArgument: 0
+            m_FloatArgument: 0
+            m_StringArgument: 
+            m_BoolArgument: 0
+          m_CallState: 2
+  - eventID: 1
+    callback:
+      m_PersistentCalls:
+        m_Calls:
+        - m_Target: {fileID: 3822147097731841043}
+          m_MethodName: InformationReset
+          m_Mode: 1
+          m_Arguments:
+            m_ObjectArgument: {fileID: 0}
+            m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+            m_IntArgument: 0
+            m_FloatArgument: 0
+            m_StringArgument: 
+            m_BoolArgument: 0
+          m_CallState: 2
