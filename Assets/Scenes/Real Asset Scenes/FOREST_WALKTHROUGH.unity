@@ -15348,6 +15348,10 @@ PrefabInstance:
       propertyPath: m_textAlignment
       value: 258
       objectReference: {fileID: 0}
+    - target: {fileID: 1977965817, guid: 38344a668be135e4ba2e3e22c0eae82b, type: 3}
+      propertyPath: m_MatchWidthOrHeight
+      value: 1
+      objectReference: {fileID: 0}
     - target: {fileID: 2129267778, guid: 38344a668be135e4ba2e3e22c0eae82b, type: 3}
       propertyPath: m_IsActive
       value: 1

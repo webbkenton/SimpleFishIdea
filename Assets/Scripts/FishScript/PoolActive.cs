@@ -32,7 +32,7 @@ public class PoolActive : MonoBehaviour
         if (Input.GetButtonDown("CatchFish") && InRange == true)
         {
             RandomChance = Random.Range(0.00f, 1.00f);
-            if (RandomChance <= .30f && RandomChance > .10)
+            if (RandomChance <= .15f && RandomChance > .01)
             {
                 if (Day == true)
                 {
@@ -50,7 +50,7 @@ public class PoolActive : MonoBehaviour
                     return;
                 }
             }
-            if (RandomChance <= .10f)
+            if (RandomChance <= .01f)
             {
                 if (Day == true)
                 {
@@ -67,7 +67,7 @@ public class PoolActive : MonoBehaviour
                     return;
                 }
             }
-            if (RandomChance >= .30f)
+            if (RandomChance >= .15f)
             {
                 if (Day == true)
                 {

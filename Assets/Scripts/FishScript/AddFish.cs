@@ -9,18 +9,23 @@ public class AddFish : MonoBehaviour
         Object();
         if (fish.small == true)
         {
-            fish.FishWeight = Random.Range(1.00f, 6.00f);
-            fish.FishValue = Mathf.FloorToInt(fish.FishWeight + fish.DefaultValue);
+            fish.FishWeight = Random.Range(1.00f, 5.00f);
+            fish.FishValue = Mathf.FloorToInt(fish.FishWeight * fish.DefaultValue);
         }
         if (fish.medium == true)
         {
-            fish.FishWeight = Random.Range(5.00f, 21.00f);
-            fish.FishValue = Mathf.FloorToInt(fish.FishWeight + fish.DefaultValue);
+            fish.FishWeight = Random.Range(5.00f, 12.00f);
+            fish.FishValue = Mathf.FloorToInt(fish.FishWeight * fish.DefaultValue);
         }
         if (fish.large == true)
         {
-            fish.FishWeight = Random.Range(21.00f, 101.00f);
-            fish.FishValue = Mathf.FloorToInt(fish.FishWeight + fish.DefaultValue);
+            fish.FishWeight = Random.Range(8.00f, 15.00f);
+            fish.FishValue = Mathf.FloorToInt(fish.FishWeight * fish.DefaultValue);
+        }
+        if (fish.Legendary == true)
+        {
+            fish.FishWeight = Random.Range(10.00f, 25.00f);
+            fish.FishValue = Mathf.FloorToInt(fish.FishWeight * fish.DefaultValue);
         }
         Inventory.instance.AddFish(fish);
         Debug.Log("You Caught A " + fish.name + " This fish weighs " + fish.FishWeight.ToString("F2") + "LB");
