@@ -6,6 +6,7 @@ public class PoolActive : MonoBehaviour
 {
     public bool Day;
     public bool Night;
+    //public int ClickCount;
     public int ClickCounter;
     public int RequiredAmount;
     public float RandomChance;
@@ -30,18 +31,48 @@ public class PoolActive : MonoBehaviour
             Night = true;
             Day = false;
         }
-        if (Input.GetMouseButtonDown(0) && ExclamationPoint.activeInHierarchy)
-        {
-            ClickCounter++;
-            if (ClickCounter >= RequiredAmount)
+        if (Input.GetMouseButtonDown(0))
+        {  
+            if ( !ExclamationPoint.activeInHierarchy)
             {
-                Catching();
+                StopAllCoroutines();
+                ExclamationPoint.SetActive(false);
+                ClickCounter = 0;
+                RandomChance = 0;
+                RequiredAmount = 0;
+                Debug.Log("EarlyClick");
             }
-            else
+            //ClickCount++;
+            if (ExclamationPoint.activeInHierarchy)
             {
-                StartCoroutine(Quicktime());
+
+                ClickCounter++;
+                if (ClickCounter >= RequiredAmount)
+                {
+                    Catching();
+                }
+                if (ClickCounter <= RequiredAmount - 2)
+                {
+                    ExclamationPoint.SetActive(false);
+                    StartCoroutine(TrippleTime());
+                }
+                if (ClickCounter <= RequiredAmount - 1)
+                {
+                    ExclamationPoint.SetActive(false);
+                    StartCoroutine(DoubleTime());
+                }
             }
+          
         }
+        //if (Input.GetMouseButtonDown(0) && Pool == false)
+        //{
+        //    FishPool.SetActive(false);
+        //    StopCoroutine(Quicktime());
+        //    ExclamationPoint.SetActive(false);
+        //    RandomChance = 0;
+        //    RequiredAmount = 0;
+        //    Debug.Log("EarlyClick");
+        //}
         if (Input.GetButtonDown("CatchFish"))
         {
             RandomChance = Random.Range(0.00f, 1.00f);
@@ -59,7 +90,7 @@ public class PoolActive : MonoBehaviour
                     UncommonDay.SetActive(true);
                     FishPool = UncommonDay;
                     RequiredAmount = 2;
-                    
+
                 }
                 if (Night == true)
                 {
@@ -123,13 +154,12 @@ public class PoolActive : MonoBehaviour
                     return;
                 }
             }
-   
+
         }
 
     }
     private void Catching()
     {
-        Debug.Log("Caught");
         var allAddFish = FishPool.GetComponentsInChildren<AddFish>();
         var selectedIndex = Random.Range(0, allAddFish.Length);
         AddFish selectedObject = allAddFish[selectedIndex];
@@ -141,9 +171,35 @@ public class PoolActive : MonoBehaviour
     }
     IEnumerator Quicktime()
     {
+        Debug.Log("QuickTime!");
         yield return new WaitForSeconds(Random.Range(1, 5));
         ExclamationPoint.SetActive(true);
         yield return new WaitForSeconds(Random.Range(1, 5));
         ExclamationPoint.SetActive(false);
+        FishPool.SetActive(false);
+    }
+    IEnumerator DoubleTime()
+    {
+        Debug.Log("DoubleTime!");
+        StopCoroutine(Quicktime());
+        //ExclamationPoint.SetActive(false);
+        yield return new WaitForSeconds(Random.Range(1, 4));
+        ExclamationPoint.SetActive(true);
+        yield return new WaitForSeconds(Random.Range(1, 4));
+        ExclamationPoint.SetActive(false);
+        //Catching();
+        FishPool.SetActive(false);
+    }
+    IEnumerator TrippleTime()
+    {
+        Debug.Log("TrippleTime!!!");
+        StopCoroutine(Quicktime());
+        ExclamationPoint.SetActive(false);
+        yield return new WaitForSeconds(Random.Range(1, 3));
+        ExclamationPoint.SetActive(true);
+        yield return new WaitForSeconds(Random.Range(1, 3));
+        ExclamationPoint.SetActive(false);
+        //Catching();
+        FishPool.SetActive(false);
     }
 }
