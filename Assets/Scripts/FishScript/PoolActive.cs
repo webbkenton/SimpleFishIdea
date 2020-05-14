@@ -1,6 +1,7 @@
 ﻿using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
+using UnityEngine.Audio;
 
 public class PoolActive : MonoBehaviour
 {
@@ -10,6 +11,7 @@ public class PoolActive : MonoBehaviour
     public int ClickCounter;
     public int RequiredAmount;
     public float RandomChance;
+    public AudioSource audio;
     public GameObject CommonDay;
     public GameObject CommonNight;
     public GameObject UncommonDay;
@@ -32,7 +34,7 @@ public class PoolActive : MonoBehaviour
             Day = false;
         }
         if (Input.GetMouseButtonDown(0))
-        {  
+        {
             if ( !ExclamationPoint.activeInHierarchy)
             {
                 StopAllCoroutines();
@@ -50,6 +52,7 @@ public class PoolActive : MonoBehaviour
                 if (ClickCounter >= RequiredAmount)
                 {
                     Catching();
+                    audio.Play();
                 }
                 if (ClickCounter <= RequiredAmount - 2)
                 {
