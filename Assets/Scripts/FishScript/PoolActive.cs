@@ -4,18 +4,19 @@ using UnityEngine;
 
 public class PoolActive : MonoBehaviour
 {
-
-    public bool InRange;
     public bool Day;
     public bool Night;
+    public int ClickCounter;
+    public int RequiredAmount;
     public float RandomChance;
-    public GameObject FishingSlider;
     public GameObject CommonDay;
     public GameObject CommonNight;
     public GameObject UncommonDay;
     public GameObject UncommonNight;
     public GameObject RareDay;
     public GameObject RareNight;
+    public GameObject ExclamationPoint;
+    private GameObject FishPool;
 
     void Update()
     {
@@ -29,20 +30,42 @@ public class PoolActive : MonoBehaviour
             Night = true;
             Day = false;
         }
-        if (Input.GetButtonDown("CatchFish") && InRange == true)
+        if (Input.GetMouseButtonDown(0) && ExclamationPoint.activeInHierarchy)
+        {
+            ClickCounter++;
+            if (ClickCounter >= RequiredAmount)
+            {
+                Catching();
+            }
+            else
+            {
+                StartCoroutine(Quicktime());
+            }
+        }
+        if (Input.GetButtonDown("CatchFish"))
         {
             RandomChance = Random.Range(0.00f, 1.00f);
+            StartCoroutine(Quicktime());
             if (RandomChance <= .15f && RandomChance > .01)
             {
+                CommonDay.SetActive(false);
+                CommonNight.SetActive(false);
+                RareDay.SetActive(false);
+                RareNight.SetActive(false);
+                //ExclamationPoint.SetActive(true);
+
                 if (Day == true)
                 {
                     UncommonDay.SetActive(true);
-                    FishingSlider.SetActive(true);
+                    FishPool = UncommonDay;
+                    RequiredAmount = 2;
+                    
                 }
                 if (Night == true)
                 {
                     UncommonNight.SetActive(true);
-                    FishingSlider.SetActive(true);
+                    FishPool = UncommonNight;
+                    RequiredAmount = 2;
 
                 }
                 else
@@ -52,15 +75,23 @@ public class PoolActive : MonoBehaviour
             }
             if (RandomChance <= .01f)
             {
+                CommonDay.SetActive(false);
+                CommonNight.SetActive(false);
+                UncommonDay.SetActive(false);
+                UncommonNight.SetActive(false);
+                //ExclamationPoint.SetActive(true);
+
                 if (Day == true)
                 {
                     RareDay.SetActive(true);
-                    FishingSlider.SetActive(true);
+                    FishPool = RareDay;
+                    RequiredAmount = 3;
                 }
                 if (Night == true)
                 {
                     RareNight.SetActive(true);
-                    FishingSlider.SetActive(true);
+                    FishPool = RareNight;
+                    RequiredAmount = 3;
                 }
                 else
                 {
@@ -69,40 +100,50 @@ public class PoolActive : MonoBehaviour
             }
             if (RandomChance >= .15f)
             {
+                UncommonDay.SetActive(false);
+                UncommonNight.SetActive(false);
+                RareDay.SetActive(false);
+                RareNight.SetActive(false);
+                //ExclamationPoint.SetActive(true);
+
                 if (Day == true)
                 {
                     CommonDay.SetActive(true);
-                    FishingSlider.SetActive(true);
+                    FishPool = CommonDay;
+                    RequiredAmount = 1;
                 }
                 if (Night == true)
                 {
                     CommonNight.SetActive(true);
-                    FishingSlider.SetActive(true);
+                    FishPool = CommonNight;
+                    RequiredAmount = 1;
                 }
                 else
                 {
                     return;
                 }
             }
-        }
-        if (!FishingSlider.activeInHierarchy && RandomChance != 0f)
-        {
-            RandomChance = 0f;
+   
         }
 
     }
-    private void OnTriggerEnter2D(Collider2D collision)
+    private void Catching()
     {
-        if (collision.CompareTag("Player"))
-        {
-            InRange = true;
-        }
+        Debug.Log("Caught");
+        var allAddFish = FishPool.GetComponentsInChildren<AddFish>();
+        var selectedIndex = Random.Range(0, allAddFish.Length);
+        AddFish selectedObject = allAddFish[selectedIndex];
+        selectedObject.CatchFish();
+        ClickCounter = 0;
+        RequiredAmount = 0;
+        FishPool.SetActive(false);
+        ExclamationPoint.SetActive(false);
     }
-    private void OnTriggerExit2D(Collider2D collision)
+    IEnumerator Quicktime()
     {
-        if (collision.CompareTag("Player"))
-        {
-            InRange = false;
-        }
+        yield return new WaitForSeconds(Random.Range(1, 5));
+        ExclamationPoint.SetActive(true);
+        yield return new WaitForSeconds(Random.Range(1, 5));
+        ExclamationPoint.SetActive(false);
     }
 }
