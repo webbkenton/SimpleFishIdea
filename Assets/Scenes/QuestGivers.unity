@@ -1835,6 +1835,12 @@ PrefabInstance:
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 3bdd82163dd38ba459276382d203066d, type: 3}
+--- !u!4 &1585920308 stripped
+Transform:
+  m_CorrespondingSourceObject: {fileID: 6391738773026678801, guid: 89c57e2ee2bf32942a4f0d1a2be036c5,
+    type: 3}
+  m_PrefabInstance: {fileID: 1672461933}
+  m_PrefabAsset: {fileID: 0}
 --- !u!1001 &1672461933
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -1842,6 +1848,11 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 0}
     m_Modifications:
+    - target: {fileID: 966324085753312456, guid: 89c57e2ee2bf32942a4f0d1a2be036c5,
+        type: 3}
+      propertyPath: NPCtransform
+      value: 
+      objectReference: {fileID: 1585920308}
     - target: {fileID: 6391738773026678801, guid: 89c57e2ee2bf32942a4f0d1a2be036c5,
         type: 3}
       propertyPath: m_LocalPosition.x

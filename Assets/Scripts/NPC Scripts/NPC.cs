@@ -27,7 +27,7 @@ public class NPC : MonoBehaviour
         {
             if (NPCtransform.position.y == 7)
             {
-                NPCtransform.position = Mathf.Lerp(10, -10, Speed);
+               
             }
         }
         if (NPCtransform.position.x == -10)
