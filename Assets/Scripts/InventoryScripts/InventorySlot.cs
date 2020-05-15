@@ -14,6 +14,7 @@ public class InventorySlot : MonoBehaviour
     Item item;
     Fish fish;
 
+
     public void AddItem(Item newItem)
     {
         item = newItem;
@@ -23,6 +24,8 @@ public class InventorySlot : MonoBehaviour
         removeButton.interactable = true;
 
     }
+
+
     private void Update()
     {
         //if (fish != null)

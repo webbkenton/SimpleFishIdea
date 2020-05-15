@@ -21,6 +21,11 @@ public class PoolActive : MonoBehaviour
     public GameObject ExclamationPoint;
     private GameObject FishPool;
 
+
+    private void Start()
+    {
+        ExclamationPoint.SetActive(false);
+    }
     void Update()
     {
         if (Clock.instance.day <= .5f)

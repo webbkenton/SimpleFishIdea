@@ -13,6 +13,10 @@ public class NPC : MonoBehaviour
     private Rigidbody2D ThisRigidBody;
     public Transform NPCtransform;
     private Vector2 Target1;
+    private Vector2 Target2;
+    private Vector2 Target3;
+    private Vector2 Target4;
+    
     private void Start()
     {
         Target1 = new Vector2(-10, 7);

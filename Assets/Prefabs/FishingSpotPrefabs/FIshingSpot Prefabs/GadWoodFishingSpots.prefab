@@ -18,7 +18,7 @@ GameObject:
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
-  m_IsActive: 1
+  m_IsActive: 0
 --- !u!224 &6511916790235202567
 RectTransform:
   m_ObjectHideFlags: 0
@@ -310,6 +310,7 @@ MonoBehaviour:
   ClickCounter: 0
   RequiredAmount: 0
   RandomChance: 0
+  audio: {fileID: 0}
   CommonDay: {fileID: 6276223335128480099}
   CommonNight: {fileID: 8481817954422255909}
   UncommonDay: {fileID: 3121832291515753717}
@@ -399,7 +400,8 @@ PrefabInstance:
       propertyPath: m_IsActive
       value: 0
       objectReference: {fileID: 0}
-    m_RemovedComponents: []
+    m_RemovedComponents:
+    - {fileID: 3785869375152156135, guid: 07f734237a7d0cc45aa6bdd7fba84f36, type: 3}
   m_SourcePrefab: {fileID: 100100000, guid: 07f734237a7d0cc45aa6bdd7fba84f36, type: 3}
 --- !u!1 &6276223335128480099 stripped
 GameObject:
@@ -508,7 +510,8 @@ PrefabInstance:
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
       objectReference: {fileID: 0}
-    m_RemovedComponents: []
+    m_RemovedComponents:
+    - {fileID: 3379606040932477672, guid: 2c5404165b6ed1a4bb78a54c3f6b910d, type: 3}
   m_SourcePrefab: {fileID: 100100000, guid: 2c5404165b6ed1a4bb78a54c3f6b910d, type: 3}
 --- !u!1 &4968265004067594240 stripped
 GameObject:
@@ -599,7 +602,8 @@ PrefabInstance:
       propertyPath: FishingSlider
       value: 
       objectReference: {fileID: 0}
-    m_RemovedComponents: []
+    m_RemovedComponents:
+    - {fileID: 4687407452953067759, guid: 722337cde5246a549b26838c01b0e55c, type: 3}
   m_SourcePrefab: {fileID: 100100000, guid: 722337cde5246a549b26838c01b0e55c, type: 3}
 --- !u!1 &5146647777191908160 stripped
 GameObject:
@@ -690,7 +694,8 @@ PrefabInstance:
       propertyPath: FishingSlider
       value: 
       objectReference: {fileID: 0}
-    m_RemovedComponents: []
+    m_RemovedComponents:
+    - {fileID: 7890193146842415429, guid: 511ba54aa30f1c644a7e73732a23b337, type: 3}
   m_SourcePrefab: {fileID: 100100000, guid: 511ba54aa30f1c644a7e73732a23b337, type: 3}
 --- !u!1 &8698658054627023565 stripped
 GameObject:
@@ -781,7 +786,8 @@ PrefabInstance:
       propertyPath: m_IsActive
       value: 0
       objectReference: {fileID: 0}
-    m_RemovedComponents: []
+    m_RemovedComponents:
+    - {fileID: 4052205475028046359, guid: c2f9c7057fd447b40a5a974ed597e9ff, type: 3}
   m_SourcePrefab: {fileID: 100100000, guid: c2f9c7057fd447b40a5a974ed597e9ff, type: 3}
 --- !u!1 &3121832291515753717 stripped
 GameObject:
@@ -872,7 +878,8 @@ PrefabInstance:
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
       objectReference: {fileID: 0}
-    m_RemovedComponents: []
+    m_RemovedComponents:
+    - {fileID: 6060618064496176571, guid: 77ae9a5fd3ebd424ebbb0815c7d0f4c5, type: 3}
   m_SourcePrefab: {fileID: 100100000, guid: 77ae9a5fd3ebd424ebbb0815c7d0f4c5, type: 3}
 --- !u!1 &8481817954422255909 stripped
 GameObject:
