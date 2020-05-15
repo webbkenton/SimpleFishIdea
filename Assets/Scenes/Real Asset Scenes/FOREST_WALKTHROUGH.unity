@@ -15982,6 +15982,11 @@ PrefabInstance:
       propertyPath: informationCanvas
       value: 
       objectReference: {fileID: 0}
+    - target: {fileID: 2641097045527882503, guid: 38344a668be135e4ba2e3e22c0eae82b,
+        type: 3}
+      propertyPath: m_AnchorMax.y
+      value: 0
+      objectReference: {fileID: 0}
     - target: {fileID: 2679510432158217076, guid: 38344a668be135e4ba2e3e22c0eae82b,
         type: 3}
       propertyPath: WeightText
@@ -16262,6 +16267,16 @@ PrefabInstance:
       propertyPath: informationCanvas
       value: 
       objectReference: {fileID: 0}
+    - target: {fileID: 4401568030823751648, guid: 38344a668be135e4ba2e3e22c0eae82b,
+        type: 3}
+      propertyPath: m_AnchoredPosition.x
+      value: -4.0250244
+      objectReference: {fileID: 0}
+    - target: {fileID: 4401568030823751648, guid: 38344a668be135e4ba2e3e22c0eae82b,
+        type: 3}
+      propertyPath: m_AnchoredPosition.y
+      value: -80.400024
+      objectReference: {fileID: 0}
     - target: {fileID: 4457004562673761646, guid: 38344a668be135e4ba2e3e22c0eae82b,
         type: 3}
       propertyPath: m_AnchorMin.y
@@ -16681,6 +16696,16 @@ PrefabInstance:
         type: 3}
       propertyPath: informationCanvas
       value: 
+      objectReference: {fileID: 0}
+    - target: {fileID: 4875009760683706290, guid: 38344a668be135e4ba2e3e22c0eae82b,
+        type: 3}
+      propertyPath: m_AnchorMax.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 5547620094369136370, guid: 38344a668be135e4ba2e3e22c0eae82b,
+        type: 3}
+      propertyPath: m_AnchorMax.y
+      value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 5604160936567449430, guid: 38344a668be135e4ba2e3e22c0eae82b,
         type: 3}
@@ -16847,6 +16872,11 @@ PrefabInstance:
       propertyPath: m_SizeDelta.y
       value: 0
       objectReference: {fileID: 0}
+    - target: {fileID: 6292233353829900299, guid: 38344a668be135e4ba2e3e22c0eae82b,
+        type: 3}
+      propertyPath: m_AnchorMax.y
+      value: 0
+      objectReference: {fileID: 0}
     - target: {fileID: 6380151673995634331, guid: 38344a668be135e4ba2e3e22c0eae82b,
         type: 3}
       propertyPath: WeightText
@@ -16927,6 +16957,11 @@ PrefabInstance:
       propertyPath: m_textInfo.pageCount
       value: 0
       objectReference: {fileID: 0}
+    - target: {fileID: 7263297977846436572, guid: 38344a668be135e4ba2e3e22c0eae82b,
+        type: 3}
+      propertyPath: m_IsActive
+      value: 0
+      objectReference: {fileID: 0}
     - target: {fileID: 7470717253939427323, guid: 38344a668be135e4ba2e3e22c0eae82b,
         type: 3}
       propertyPath: WeightText
@@ -16957,6 +16992,11 @@ PrefabInstance:
       propertyPath: informationCanvas
       value: 
       objectReference: {fileID: 0}
+    - target: {fileID: 7520997095357907890, guid: 38344a668be135e4ba2e3e22c0eae82b,
+        type: 3}
+      propertyPath: m_AnchoredPosition.x
+      value: -4.9000244
+      objectReference: {fileID: 0}
     - target: {fileID: 7594796334800678449, guid: 38344a668be135e4ba2e3e22c0eae82b,
         type: 3}
       propertyPath: m_AnchorMin.y
@@ -16987,6 +17027,11 @@ PrefabInstance:
       propertyPath: m_SizeDelta.y
       value: 0
       objectReference: {fileID: 0}
+    - target: {fileID: 7661440254487770465, guid: 38344a668be135e4ba2e3e22c0eae82b,
+        type: 3}
+      propertyPath: m_AnchorMax.y
+      value: 0
+      objectReference: {fileID: 0}
     - target: {fileID: 7809447942402791312, guid: 38344a668be135e4ba2e3e22c0eae82b,
         type: 3}
       propertyPath: m_AnchorMin.y
@@ -17045,6 +17090,11 @@ PrefabInstance:
     - target: {fileID: 8338912366542221635, guid: 38344a668be135e4ba2e3e22c0eae82b,
         type: 3}
       propertyPath: m_SizeDelta.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 8479669122025302117, guid: 38344a668be135e4ba2e3e22c0eae82b,
+        type: 3}
+      propertyPath: m_AnchorMax.y
       value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 8498431295170997935, guid: 38344a668be135e4ba2e3e22c0eae82b,
