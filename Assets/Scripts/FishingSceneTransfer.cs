@@ -16,6 +16,11 @@ public class FishingSceneTransfer : MonoBehaviour
 
     private void Update()
     {
+        if (Input.GetKeyDown(KeyCode.Backspace))
+        {
+            amFish = true;
+            FirstPerson();
+        }
         if (Input.GetButtonDown("CatchFish") && amFish == true)
         {
             FirstPerson();
@@ -26,6 +31,7 @@ public class FishingSceneTransfer : MonoBehaviour
         if (collision.CompareTag("Player"))
         {
             amFish = true;
+            PlayerLocale.initalValue = this.transform.position;
         }
     }
     IEnumerator LoadLevel()
@@ -37,11 +43,12 @@ public class FishingSceneTransfer : MonoBehaviour
 
     }
 
-    private void FirstPerson()
+    public void FirstPerson()
     {
         TransferPanel.SetActive(true);
         TransitionAnimation.SetTrigger("Start");
         PlayerLocale.initalValue = PlayerPosition;
+        PlayerLocale.defaultValue = PlayerPosition;
         //SceneManager.LoadScene(sceneToLoad);
         StartCoroutine(LoadLevel());
     }

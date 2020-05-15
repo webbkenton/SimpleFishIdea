@@ -15,6 +15,7 @@ public class Pause : MonoBehaviour
     {
         if (Input.GetButtonDown("Pause"))
         {
+            SettingsMenuUI.SetActive(false);
             PauseMenuUI.SetActive(!PauseMenuUI.activeSelf);
         }
     }

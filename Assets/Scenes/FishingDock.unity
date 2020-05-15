@@ -5170,6 +5170,11 @@ PrefabInstance:
       propertyPath: m_SizeDelta.y
       value: 0
       objectReference: {fileID: 0}
+    - target: {fileID: 7796735277924901122, guid: 38344a668be135e4ba2e3e22c0eae82b,
+        type: 3}
+      propertyPath: m_IsActive
+      value: 0
+      objectReference: {fileID: 0}
     - target: {fileID: 7809447942402791312, guid: 38344a668be135e4ba2e3e22c0eae82b,
         type: 3}
       propertyPath: m_AnchorMin.y
@@ -6169,6 +6174,11 @@ PrefabInstance:
       propertyPath: FishingSlider
       value: 
       objectReference: {fileID: 599724515}
+    - target: {fileID: 4849642772948798643, guid: 1efa87a2b495aac4699931a4a76f061e,
+        type: 3}
+      propertyPath: m_IsActive
+      value: 0
+      objectReference: {fileID: 0}
     - target: {fileID: 6276223334982102616, guid: 1efa87a2b495aac4699931a4a76f061e,
         type: 3}
       propertyPath: m_LocalPosition.x
