@@ -6,60 +6,41 @@ using TMPro;
 
 public class NPC : MonoBehaviour
 {
-
-    public GameObject dialogBox;
-    public GameObject questDialog;
-    public TMP_Text dialogText;
-    public string dialog;
-    public bool playerInRange;
-
-    // Start is called before the first frame update
-    void Start()
+    public float Horizontal;
+    public float Vertical;
+    public float Speed;
+    public bool Moving;
+    private Rigidbody2D ThisRigidBody;
+    public Transform NPCtransform;
+    private Vector2 Target1;
+    private void Start()
     {
+        Target1 = new Vector2(-10, 7);
+        NPCtransform = this.transform;
+        NPCtransform.position = transform.position;
+        ThisRigidBody = GetComponent<Rigidbody2D>();
+    }
+
+    private void Update()
+    {
+        if (NPCtransform.position.x == 10)
+        {
+            if (NPCtransform.position.y == 7)
+            {
+                NPCtransform.position = Mathf.Lerp(10, -10, Speed);
+            }
+        }
+        if (NPCtransform.position.x == -10)
+        {
+            if (NPCtransform.position.y == 7)
+            {
+                
+            }
+            
+        }
         
     }
 
-    // Update is called once per frame
-    void Update()
-    {
-        if (Input.GetKeyDown(KeyCode.Space) && playerInRange)
-        {
-            if (dialogBox.activeInHierarchy)
-            {
-                dialogBox.SetActive(false);
-                questDialog.SetActive(false);
-                //fishingButton.SetActive(false);
-            }
-            else
-            {
-                dialogBox.SetActive(true);
-                questDialog.SetActive(false);
-                dialogText.text = dialog;
-                //fishingButton.SetActive(true);
-            }
-        }
-
-      
-    }
-    private void OnTriggerEnter2D(Collider2D other)
-    {
-        if (other.CompareTag("Player"))
-        playerInRange = true;
-                    
-    }
-
-    private void OnTriggerExit2D(Collider2D collision)
-    {
-        if (collision.CompareTag("Player"))
-        playerInRange = false;
-        dialogBox.SetActive(false);
-    }
-    public void QuestDialog()
-    {
-        if (Inventory.instance.fishs != null)
-        {
-            dialogBox.SetActive(false);
-            questDialog.SetActive(true);
-        }
-    }
+    //All NPC's to walk in a square.
+    //All NPC's should use their Animations
 }

@@ -1162,6 +1162,11 @@ PrefabInstance:
       propertyPath: m_IsActive
       value: 1
       objectReference: {fileID: 0}
+    - target: {fileID: 8498431297279101405, guid: 38344a668be135e4ba2e3e22c0eae82b,
+        type: 3}
+      propertyPath: InventoryCanvas
+      value: 
+      objectReference: {fileID: 2079878184}
     - target: {fileID: 8956127637326286773, guid: 38344a668be135e4ba2e3e22c0eae82b,
         type: 3}
       propertyPath: informationBox
@@ -1762,6 +1767,12 @@ GameObject:
   m_CorrespondingSourceObject: {fileID: 3624518631362030124, guid: f2b1938ddd556c54484399591904c6e1,
     type: 3}
   m_PrefabInstance: {fileID: 359640030}
+  m_PrefabAsset: {fileID: 0}
+--- !u!1 &2079878184 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: 8498431297279101216, guid: 38344a668be135e4ba2e3e22c0eae82b,
+    type: 3}
+  m_PrefabInstance: {fileID: 442085604}
   m_PrefabAsset: {fileID: 0}
 --- !u!1 &2110891123 stripped
 GameObject:

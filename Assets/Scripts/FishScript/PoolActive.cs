@@ -78,6 +78,7 @@ public class PoolActive : MonoBehaviour
         //}
         if (Input.GetButtonDown("CatchFish"))
         {
+            StopAllCoroutines();
             RandomChance = Random.Range(0.00f, 1.00f);
             StartCoroutine(Quicktime());
             if (RandomChance <= .15f && RandomChance > .01)

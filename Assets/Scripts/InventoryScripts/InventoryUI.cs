@@ -7,6 +7,7 @@ public class InventoryUI : MonoBehaviour
     Inventory inventory;
 
     public GameObject inventoryUI;
+    public GameObject InventoryCanvas;
 
     public Transform itemsParent;
 
@@ -14,6 +15,8 @@ public class InventoryUI : MonoBehaviour
     // Start is called before the first frame update
     void Start()
     {
+        InventoryCanvas.SetActive(false);
+        InventoryCanvas.SetActive(true);
         inventory = Inventory.instance;
         inventory.onItemChangedCallBack += UpdateUI;
 
