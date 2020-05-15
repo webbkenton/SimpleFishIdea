@@ -1708,6 +1708,18 @@ Tilemap:
     e31: 0
     e32: 0
     e33: 1
+--- !u!114 &44672538 stripped
+MonoBehaviour:
+  m_CorrespondingSourceObject: {fileID: 3368140366210844747, guid: 38344a668be135e4ba2e3e22c0eae82b,
+    type: 3}
+  m_PrefabInstance: {fileID: 1723125453}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: f4688fdb7df04437aeb418b961361dc5, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
 --- !u!1 &100807500
 GameObject:
   m_ObjectHideFlags: 0
@@ -2377,6 +2389,24 @@ Transform:
   m_Father: {fileID: 0}
   m_RootOrder: 6
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!1 &413613912 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: 6278746920450433247, guid: 38344a668be135e4ba2e3e22c0eae82b,
+    type: 3}
+  m_PrefabInstance: {fileID: 1723125453}
+  m_PrefabAsset: {fileID: 0}
+--- !u!114 &469339047 stripped
+MonoBehaviour:
+  m_CorrespondingSourceObject: {fileID: 6780925374151221550, guid: 38344a668be135e4ba2e3e22c0eae82b,
+    type: 3}
+  m_PrefabInstance: {fileID: 1723125453}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: f4688fdb7df04437aeb418b961361dc5, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
 --- !u!1 &506279450
 GameObject:
   m_ObjectHideFlags: 0
@@ -15008,6 +15038,18 @@ GameObject:
     type: 3}
   m_PrefabInstance: {fileID: 748878867}
   m_PrefabAsset: {fileID: 0}
+--- !u!114 &1473648442 stripped
+MonoBehaviour:
+  m_CorrespondingSourceObject: {fileID: 681211945792676233, guid: 38344a668be135e4ba2e3e22c0eae82b,
+    type: 3}
+  m_PrefabInstance: {fileID: 1723125453}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: f4688fdb7df04437aeb418b961361dc5, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
 --- !u!1 &1497515044 stripped
 GameObject:
   m_CorrespondingSourceObject: {fileID: 4438474167547792896, guid: 249e38e119730c44a8fb30d95510d783,
@@ -15046,6 +15088,18 @@ Animator:
     type: 3}
   m_PrefabInstance: {fileID: 1063085166}
   m_PrefabAsset: {fileID: 0}
+--- !u!114 &1524312072 stripped
+MonoBehaviour:
+  m_CorrespondingSourceObject: {fileID: 4256132197083984022, guid: 38344a668be135e4ba2e3e22c0eae82b,
+    type: 3}
+  m_PrefabInstance: {fileID: 1723125453}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: f4688fdb7df04437aeb418b961361dc5, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
 --- !u!1001 &1723125453
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -15297,27 +15351,27 @@ PrefabInstance:
         type: 3}
       propertyPath: WeightText
       value: 
-      objectReference: {fileID: 0}
+      objectReference: {fileID: 1524312072}
     - target: {fileID: 890596848658299230, guid: 38344a668be135e4ba2e3e22c0eae82b,
         type: 3}
       propertyPath: informationBox
       value: 
-      objectReference: {fileID: 0}
+      objectReference: {fileID: 413613912}
     - target: {fileID: 890596848658299230, guid: 38344a668be135e4ba2e3e22c0eae82b,
         type: 3}
       propertyPath: Nametext
       value: 
-      objectReference: {fileID: 0}
+      objectReference: {fileID: 1473648442}
     - target: {fileID: 890596848658299230, guid: 38344a668be135e4ba2e3e22c0eae82b,
         type: 3}
       propertyPath: Valuetext
       value: 
-      objectReference: {fileID: 0}
+      objectReference: {fileID: 44672538}
     - target: {fileID: 890596848658299230, guid: 38344a668be135e4ba2e3e22c0eae82b,
         type: 3}
       propertyPath: Descriptiontext
       value: 
-      objectReference: {fileID: 0}
+      objectReference: {fileID: 469339047}
     - target: {fileID: 890596848658299230, guid: 38344a668be135e4ba2e3e22c0eae82b,
         type: 3}
       propertyPath: informationCanvas
@@ -15812,27 +15866,27 @@ PrefabInstance:
         type: 3}
       propertyPath: WeightText
       value: 
-      objectReference: {fileID: 0}
+      objectReference: {fileID: 1524312072}
     - target: {fileID: 2015739512866482890, guid: 38344a668be135e4ba2e3e22c0eae82b,
         type: 3}
       propertyPath: informationBox
       value: 
-      objectReference: {fileID: 0}
+      objectReference: {fileID: 413613912}
     - target: {fileID: 2015739512866482890, guid: 38344a668be135e4ba2e3e22c0eae82b,
         type: 3}
       propertyPath: Nametext
       value: 
-      objectReference: {fileID: 0}
+      objectReference: {fileID: 1473648442}
     - target: {fileID: 2015739512866482890, guid: 38344a668be135e4ba2e3e22c0eae82b,
         type: 3}
       propertyPath: Valuetext
       value: 
-      objectReference: {fileID: 0}
+      objectReference: {fileID: 44672538}
     - target: {fileID: 2015739512866482890, guid: 38344a668be135e4ba2e3e22c0eae82b,
         type: 3}
       propertyPath: Descriptiontext
       value: 
-      objectReference: {fileID: 0}
+      objectReference: {fileID: 469339047}
     - target: {fileID: 2015739512866482890, guid: 38344a668be135e4ba2e3e22c0eae82b,
         type: 3}
       propertyPath: informationCanvas
@@ -15842,27 +15896,27 @@ PrefabInstance:
         type: 3}
       propertyPath: WeightText
       value: 
-      objectReference: {fileID: 0}
+      objectReference: {fileID: 1524312072}
     - target: {fileID: 2370163950207598355, guid: 38344a668be135e4ba2e3e22c0eae82b,
         type: 3}
       propertyPath: informationBox
       value: 
-      objectReference: {fileID: 0}
+      objectReference: {fileID: 413613912}
     - target: {fileID: 2370163950207598355, guid: 38344a668be135e4ba2e3e22c0eae82b,
         type: 3}
       propertyPath: Nametext
       value: 
-      objectReference: {fileID: 0}
+      objectReference: {fileID: 1473648442}
     - target: {fileID: 2370163950207598355, guid: 38344a668be135e4ba2e3e22c0eae82b,
         type: 3}
       propertyPath: Valuetext
       value: 
-      objectReference: {fileID: 0}
+      objectReference: {fileID: 44672538}
     - target: {fileID: 2370163950207598355, guid: 38344a668be135e4ba2e3e22c0eae82b,
         type: 3}
       propertyPath: Descriptiontext
       value: 
-      objectReference: {fileID: 0}
+      objectReference: {fileID: 469339047}
     - target: {fileID: 2370163950207598355, guid: 38344a668be135e4ba2e3e22c0eae82b,
         type: 3}
       propertyPath: informationCanvas
@@ -15942,27 +15996,27 @@ PrefabInstance:
         type: 3}
       propertyPath: WeightText
       value: 
-      objectReference: {fileID: 0}
+      objectReference: {fileID: 1524312072}
     - target: {fileID: 2621659836935349947, guid: 38344a668be135e4ba2e3e22c0eae82b,
         type: 3}
       propertyPath: informationBox
       value: 
-      objectReference: {fileID: 0}
+      objectReference: {fileID: 413613912}
     - target: {fileID: 2621659836935349947, guid: 38344a668be135e4ba2e3e22c0eae82b,
         type: 3}
       propertyPath: Nametext
       value: 
-      objectReference: {fileID: 0}
+      objectReference: {fileID: 1473648442}
     - target: {fileID: 2621659836935349947, guid: 38344a668be135e4ba2e3e22c0eae82b,
         type: 3}
       propertyPath: Valuetext
       value: 
-      objectReference: {fileID: 0}
+      objectReference: {fileID: 44672538}
     - target: {fileID: 2621659836935349947, guid: 38344a668be135e4ba2e3e22c0eae82b,
         type: 3}
       propertyPath: Descriptiontext
       value: 
-      objectReference: {fileID: 0}
+      objectReference: {fileID: 469339047}
     - target: {fileID: 2621659836935349947, guid: 38344a668be135e4ba2e3e22c0eae82b,
         type: 3}
       propertyPath: informationCanvas
@@ -15977,27 +16031,27 @@ PrefabInstance:
         type: 3}
       propertyPath: WeightText
       value: 
-      objectReference: {fileID: 0}
+      objectReference: {fileID: 1524312072}
     - target: {fileID: 2679510432158217076, guid: 38344a668be135e4ba2e3e22c0eae82b,
         type: 3}
       propertyPath: informationBox
       value: 
-      objectReference: {fileID: 0}
+      objectReference: {fileID: 413613912}
     - target: {fileID: 2679510432158217076, guid: 38344a668be135e4ba2e3e22c0eae82b,
         type: 3}
       propertyPath: Nametext
       value: 
-      objectReference: {fileID: 0}
+      objectReference: {fileID: 1473648442}
     - target: {fileID: 2679510432158217076, guid: 38344a668be135e4ba2e3e22c0eae82b,
         type: 3}
       propertyPath: Valuetext
       value: 
-      objectReference: {fileID: 0}
+      objectReference: {fileID: 44672538}
     - target: {fileID: 2679510432158217076, guid: 38344a668be135e4ba2e3e22c0eae82b,
         type: 3}
       propertyPath: Descriptiontext
       value: 
-      objectReference: {fileID: 0}
+      objectReference: {fileID: 469339047}
     - target: {fileID: 2679510432158217076, guid: 38344a668be135e4ba2e3e22c0eae82b,
         type: 3}
       propertyPath: informationCanvas
@@ -16087,27 +16141,27 @@ PrefabInstance:
         type: 3}
       propertyPath: WeightText
       value: 
-      objectReference: {fileID: 0}
+      objectReference: {fileID: 1524312072}
     - target: {fileID: 3012595161392380886, guid: 38344a668be135e4ba2e3e22c0eae82b,
         type: 3}
       propertyPath: informationBox
       value: 
-      objectReference: {fileID: 0}
+      objectReference: {fileID: 413613912}
     - target: {fileID: 3012595161392380886, guid: 38344a668be135e4ba2e3e22c0eae82b,
         type: 3}
       propertyPath: Nametext
       value: 
-      objectReference: {fileID: 0}
+      objectReference: {fileID: 1473648442}
     - target: {fileID: 3012595161392380886, guid: 38344a668be135e4ba2e3e22c0eae82b,
         type: 3}
       propertyPath: Valuetext
       value: 
-      objectReference: {fileID: 0}
+      objectReference: {fileID: 44672538}
     - target: {fileID: 3012595161392380886, guid: 38344a668be135e4ba2e3e22c0eae82b,
         type: 3}
       propertyPath: Descriptiontext
       value: 
-      objectReference: {fileID: 0}
+      objectReference: {fileID: 469339047}
     - target: {fileID: 3012595161392380886, guid: 38344a668be135e4ba2e3e22c0eae82b,
         type: 3}
       propertyPath: informationCanvas
@@ -16217,27 +16271,27 @@ PrefabInstance:
         type: 3}
       propertyPath: WeightText
       value: 
-      objectReference: {fileID: 0}
+      objectReference: {fileID: 1524312072}
     - target: {fileID: 3679727648503604388, guid: 38344a668be135e4ba2e3e22c0eae82b,
         type: 3}
       propertyPath: informationBox
       value: 
-      objectReference: {fileID: 0}
+      objectReference: {fileID: 413613912}
     - target: {fileID: 3679727648503604388, guid: 38344a668be135e4ba2e3e22c0eae82b,
         type: 3}
       propertyPath: Nametext
       value: 
-      objectReference: {fileID: 0}
+      objectReference: {fileID: 1473648442}
     - target: {fileID: 3679727648503604388, guid: 38344a668be135e4ba2e3e22c0eae82b,
         type: 3}
       propertyPath: Valuetext
       value: 
-      objectReference: {fileID: 0}
+      objectReference: {fileID: 44672538}
     - target: {fileID: 3679727648503604388, guid: 38344a668be135e4ba2e3e22c0eae82b,
         type: 3}
       propertyPath: Descriptiontext
       value: 
-      objectReference: {fileID: 0}
+      objectReference: {fileID: 469339047}
     - target: {fileID: 3679727648503604388, guid: 38344a668be135e4ba2e3e22c0eae82b,
         type: 3}
       propertyPath: informationCanvas
@@ -16247,27 +16301,27 @@ PrefabInstance:
         type: 3}
       propertyPath: WeightText
       value: 
-      objectReference: {fileID: 0}
+      objectReference: {fileID: 1524312072}
     - target: {fileID: 3983297172977717098, guid: 38344a668be135e4ba2e3e22c0eae82b,
         type: 3}
       propertyPath: informationBox
       value: 
-      objectReference: {fileID: 0}
+      objectReference: {fileID: 413613912}
     - target: {fileID: 3983297172977717098, guid: 38344a668be135e4ba2e3e22c0eae82b,
         type: 3}
       propertyPath: Nametext
       value: 
-      objectReference: {fileID: 0}
+      objectReference: {fileID: 1473648442}
     - target: {fileID: 3983297172977717098, guid: 38344a668be135e4ba2e3e22c0eae82b,
         type: 3}
       propertyPath: Valuetext
       value: 
-      objectReference: {fileID: 0}
+      objectReference: {fileID: 44672538}
     - target: {fileID: 3983297172977717098, guid: 38344a668be135e4ba2e3e22c0eae82b,
         type: 3}
       propertyPath: Descriptiontext
       value: 
-      objectReference: {fileID: 0}
+      objectReference: {fileID: 469339047}
     - target: {fileID: 3983297172977717098, guid: 38344a668be135e4ba2e3e22c0eae82b,
         type: 3}
       propertyPath: informationCanvas
@@ -16347,27 +16401,27 @@ PrefabInstance:
         type: 3}
       propertyPath: WeightText
       value: 
-      objectReference: {fileID: 0}
+      objectReference: {fileID: 1524312072}
     - target: {fileID: 4682196273515375778, guid: 38344a668be135e4ba2e3e22c0eae82b,
         type: 3}
       propertyPath: informationBox
       value: 
-      objectReference: {fileID: 0}
+      objectReference: {fileID: 413613912}
     - target: {fileID: 4682196273515375778, guid: 38344a668be135e4ba2e3e22c0eae82b,
         type: 3}
       propertyPath: Nametext
       value: 
-      objectReference: {fileID: 0}
+      objectReference: {fileID: 1473648442}
     - target: {fileID: 4682196273515375778, guid: 38344a668be135e4ba2e3e22c0eae82b,
         type: 3}
       propertyPath: Valuetext
       value: 
-      objectReference: {fileID: 0}
+      objectReference: {fileID: 44672538}
     - target: {fileID: 4682196273515375778, guid: 38344a668be135e4ba2e3e22c0eae82b,
         type: 3}
       propertyPath: Descriptiontext
       value: 
-      objectReference: {fileID: 0}
+      objectReference: {fileID: 469339047}
     - target: {fileID: 4682196273515375778, guid: 38344a668be135e4ba2e3e22c0eae82b,
         type: 3}
       propertyPath: informationCanvas
@@ -16377,27 +16431,27 @@ PrefabInstance:
         type: 3}
       propertyPath: WeightText
       value: 
-      objectReference: {fileID: 0}
+      objectReference: {fileID: 1524312072}
     - target: {fileID: 4682196273519260467, guid: 38344a668be135e4ba2e3e22c0eae82b,
         type: 3}
       propertyPath: informationBox
       value: 
-      objectReference: {fileID: 0}
+      objectReference: {fileID: 413613912}
     - target: {fileID: 4682196273519260467, guid: 38344a668be135e4ba2e3e22c0eae82b,
         type: 3}
       propertyPath: Nametext
       value: 
-      objectReference: {fileID: 0}
+      objectReference: {fileID: 1473648442}
     - target: {fileID: 4682196273519260467, guid: 38344a668be135e4ba2e3e22c0eae82b,
         type: 3}
       propertyPath: Valuetext
       value: 
-      objectReference: {fileID: 0}
+      objectReference: {fileID: 44672538}
     - target: {fileID: 4682196273519260467, guid: 38344a668be135e4ba2e3e22c0eae82b,
         type: 3}
       propertyPath: Descriptiontext
       value: 
-      objectReference: {fileID: 0}
+      objectReference: {fileID: 469339047}
     - target: {fileID: 4682196273519260467, guid: 38344a668be135e4ba2e3e22c0eae82b,
         type: 3}
       propertyPath: informationCanvas
@@ -16407,27 +16461,27 @@ PrefabInstance:
         type: 3}
       propertyPath: WeightText
       value: 
-      objectReference: {fileID: 0}
+      objectReference: {fileID: 1524312072}
     - target: {fileID: 4682196273549305942, guid: 38344a668be135e4ba2e3e22c0eae82b,
         type: 3}
       propertyPath: informationBox
       value: 
-      objectReference: {fileID: 0}
+      objectReference: {fileID: 413613912}
     - target: {fileID: 4682196273549305942, guid: 38344a668be135e4ba2e3e22c0eae82b,
         type: 3}
       propertyPath: Nametext
       value: 
-      objectReference: {fileID: 0}
+      objectReference: {fileID: 1473648442}
     - target: {fileID: 4682196273549305942, guid: 38344a668be135e4ba2e3e22c0eae82b,
         type: 3}
       propertyPath: Valuetext
       value: 
-      objectReference: {fileID: 0}
+      objectReference: {fileID: 44672538}
     - target: {fileID: 4682196273549305942, guid: 38344a668be135e4ba2e3e22c0eae82b,
         type: 3}
       propertyPath: Descriptiontext
       value: 
-      objectReference: {fileID: 0}
+      objectReference: {fileID: 469339047}
     - target: {fileID: 4682196273549305942, guid: 38344a668be135e4ba2e3e22c0eae82b,
         type: 3}
       propertyPath: informationCanvas
@@ -16437,27 +16491,27 @@ PrefabInstance:
         type: 3}
       propertyPath: WeightText
       value: 
-      objectReference: {fileID: 0}
+      objectReference: {fileID: 1524312072}
     - target: {fileID: 4682196273667709800, guid: 38344a668be135e4ba2e3e22c0eae82b,
         type: 3}
       propertyPath: informationBox
       value: 
-      objectReference: {fileID: 0}
+      objectReference: {fileID: 413613912}
     - target: {fileID: 4682196273667709800, guid: 38344a668be135e4ba2e3e22c0eae82b,
         type: 3}
       propertyPath: Nametext
       value: 
-      objectReference: {fileID: 0}
+      objectReference: {fileID: 1473648442}
     - target: {fileID: 4682196273667709800, guid: 38344a668be135e4ba2e3e22c0eae82b,
         type: 3}
       propertyPath: Valuetext
       value: 
-      objectReference: {fileID: 0}
+      objectReference: {fileID: 44672538}
     - target: {fileID: 4682196273667709800, guid: 38344a668be135e4ba2e3e22c0eae82b,
         type: 3}
       propertyPath: Descriptiontext
       value: 
-      objectReference: {fileID: 0}
+      objectReference: {fileID: 469339047}
     - target: {fileID: 4682196273667709800, guid: 38344a668be135e4ba2e3e22c0eae82b,
         type: 3}
       propertyPath: informationCanvas
@@ -16467,27 +16521,27 @@ PrefabInstance:
         type: 3}
       propertyPath: WeightText
       value: 
-      objectReference: {fileID: 0}
+      objectReference: {fileID: 1524312072}
     - target: {fileID: 4682196274373704664, guid: 38344a668be135e4ba2e3e22c0eae82b,
         type: 3}
       propertyPath: informationBox
       value: 
-      objectReference: {fileID: 0}
+      objectReference: {fileID: 413613912}
     - target: {fileID: 4682196274373704664, guid: 38344a668be135e4ba2e3e22c0eae82b,
         type: 3}
       propertyPath: Nametext
       value: 
-      objectReference: {fileID: 0}
+      objectReference: {fileID: 1473648442}
     - target: {fileID: 4682196274373704664, guid: 38344a668be135e4ba2e3e22c0eae82b,
         type: 3}
       propertyPath: Valuetext
       value: 
-      objectReference: {fileID: 0}
+      objectReference: {fileID: 44672538}
     - target: {fileID: 4682196274373704664, guid: 38344a668be135e4ba2e3e22c0eae82b,
         type: 3}
       propertyPath: Descriptiontext
       value: 
-      objectReference: {fileID: 0}
+      objectReference: {fileID: 469339047}
     - target: {fileID: 4682196274373704664, guid: 38344a668be135e4ba2e3e22c0eae82b,
         type: 3}
       propertyPath: informationCanvas
@@ -16497,27 +16551,27 @@ PrefabInstance:
         type: 3}
       propertyPath: WeightText
       value: 
-      objectReference: {fileID: 0}
+      objectReference: {fileID: 1524312072}
     - target: {fileID: 4682196274509498102, guid: 38344a668be135e4ba2e3e22c0eae82b,
         type: 3}
       propertyPath: informationBox
       value: 
-      objectReference: {fileID: 0}
+      objectReference: {fileID: 413613912}
     - target: {fileID: 4682196274509498102, guid: 38344a668be135e4ba2e3e22c0eae82b,
         type: 3}
       propertyPath: Nametext
       value: 
-      objectReference: {fileID: 0}
+      objectReference: {fileID: 1473648442}
     - target: {fileID: 4682196274509498102, guid: 38344a668be135e4ba2e3e22c0eae82b,
         type: 3}
       propertyPath: Valuetext
       value: 
-      objectReference: {fileID: 0}
+      objectReference: {fileID: 44672538}
     - target: {fileID: 4682196274509498102, guid: 38344a668be135e4ba2e3e22c0eae82b,
         type: 3}
       propertyPath: Descriptiontext
       value: 
-      objectReference: {fileID: 0}
+      objectReference: {fileID: 469339047}
     - target: {fileID: 4682196274509498102, guid: 38344a668be135e4ba2e3e22c0eae82b,
         type: 3}
       propertyPath: informationCanvas
@@ -16527,27 +16581,27 @@ PrefabInstance:
         type: 3}
       propertyPath: WeightText
       value: 
-      objectReference: {fileID: 0}
+      objectReference: {fileID: 1524312072}
     - target: {fileID: 4682196274515441190, guid: 38344a668be135e4ba2e3e22c0eae82b,
         type: 3}
       propertyPath: informationBox
       value: 
-      objectReference: {fileID: 0}
+      objectReference: {fileID: 413613912}
     - target: {fileID: 4682196274515441190, guid: 38344a668be135e4ba2e3e22c0eae82b,
         type: 3}
       propertyPath: Nametext
       value: 
-      objectReference: {fileID: 0}
+      objectReference: {fileID: 1473648442}
     - target: {fileID: 4682196274515441190, guid: 38344a668be135e4ba2e3e22c0eae82b,
         type: 3}
       propertyPath: Valuetext
       value: 
-      objectReference: {fileID: 0}
+      objectReference: {fileID: 44672538}
     - target: {fileID: 4682196274515441190, guid: 38344a668be135e4ba2e3e22c0eae82b,
         type: 3}
       propertyPath: Descriptiontext
       value: 
-      objectReference: {fileID: 0}
+      objectReference: {fileID: 469339047}
     - target: {fileID: 4682196274515441190, guid: 38344a668be135e4ba2e3e22c0eae82b,
         type: 3}
       propertyPath: informationCanvas
@@ -16557,27 +16611,27 @@ PrefabInstance:
         type: 3}
       propertyPath: WeightText
       value: 
-      objectReference: {fileID: 0}
+      objectReference: {fileID: 1524312072}
     - target: {fileID: 4682196274678550027, guid: 38344a668be135e4ba2e3e22c0eae82b,
         type: 3}
       propertyPath: informationBox
       value: 
-      objectReference: {fileID: 0}
+      objectReference: {fileID: 413613912}
     - target: {fileID: 4682196274678550027, guid: 38344a668be135e4ba2e3e22c0eae82b,
         type: 3}
       propertyPath: Nametext
       value: 
-      objectReference: {fileID: 0}
+      objectReference: {fileID: 1473648442}
     - target: {fileID: 4682196274678550027, guid: 38344a668be135e4ba2e3e22c0eae82b,
         type: 3}
       propertyPath: Valuetext
       value: 
-      objectReference: {fileID: 0}
+      objectReference: {fileID: 44672538}
     - target: {fileID: 4682196274678550027, guid: 38344a668be135e4ba2e3e22c0eae82b,
         type: 3}
       propertyPath: Descriptiontext
       value: 
-      objectReference: {fileID: 0}
+      objectReference: {fileID: 469339047}
     - target: {fileID: 4682196274678550027, guid: 38344a668be135e4ba2e3e22c0eae82b,
         type: 3}
       propertyPath: informationCanvas
@@ -16587,27 +16641,27 @@ PrefabInstance:
         type: 3}
       propertyPath: WeightText
       value: 
-      objectReference: {fileID: 0}
+      objectReference: {fileID: 1524312072}
     - target: {fileID: 4682196274702144222, guid: 38344a668be135e4ba2e3e22c0eae82b,
         type: 3}
       propertyPath: informationBox
       value: 
-      objectReference: {fileID: 0}
+      objectReference: {fileID: 413613912}
     - target: {fileID: 4682196274702144222, guid: 38344a668be135e4ba2e3e22c0eae82b,
         type: 3}
       propertyPath: Nametext
       value: 
-      objectReference: {fileID: 0}
+      objectReference: {fileID: 1473648442}
     - target: {fileID: 4682196274702144222, guid: 38344a668be135e4ba2e3e22c0eae82b,
         type: 3}
       propertyPath: Valuetext
       value: 
-      objectReference: {fileID: 0}
+      objectReference: {fileID: 44672538}
     - target: {fileID: 4682196274702144222, guid: 38344a668be135e4ba2e3e22c0eae82b,
         type: 3}
       propertyPath: Descriptiontext
       value: 
-      objectReference: {fileID: 0}
+      objectReference: {fileID: 469339047}
     - target: {fileID: 4682196274702144222, guid: 38344a668be135e4ba2e3e22c0eae82b,
         type: 3}
       propertyPath: informationCanvas
@@ -16617,27 +16671,27 @@ PrefabInstance:
         type: 3}
       propertyPath: WeightText
       value: 
-      objectReference: {fileID: 0}
+      objectReference: {fileID: 1524312072}
     - target: {fileID: 4682196275296321905, guid: 38344a668be135e4ba2e3e22c0eae82b,
         type: 3}
       propertyPath: informationBox
       value: 
-      objectReference: {fileID: 0}
+      objectReference: {fileID: 413613912}
     - target: {fileID: 4682196275296321905, guid: 38344a668be135e4ba2e3e22c0eae82b,
         type: 3}
       propertyPath: Nametext
       value: 
-      objectReference: {fileID: 0}
+      objectReference: {fileID: 1473648442}
     - target: {fileID: 4682196275296321905, guid: 38344a668be135e4ba2e3e22c0eae82b,
         type: 3}
       propertyPath: Valuetext
       value: 
-      objectReference: {fileID: 0}
+      objectReference: {fileID: 44672538}
     - target: {fileID: 4682196275296321905, guid: 38344a668be135e4ba2e3e22c0eae82b,
         type: 3}
       propertyPath: Descriptiontext
       value: 
-      objectReference: {fileID: 0}
+      objectReference: {fileID: 469339047}
     - target: {fileID: 4682196275296321905, guid: 38344a668be135e4ba2e3e22c0eae82b,
         type: 3}
       propertyPath: informationCanvas
@@ -16647,27 +16701,27 @@ PrefabInstance:
         type: 3}
       propertyPath: WeightText
       value: 
-      objectReference: {fileID: 0}
+      objectReference: {fileID: 1524312072}
     - target: {fileID: 4682196275316421529, guid: 38344a668be135e4ba2e3e22c0eae82b,
         type: 3}
       propertyPath: informationBox
       value: 
-      objectReference: {fileID: 0}
+      objectReference: {fileID: 413613912}
     - target: {fileID: 4682196275316421529, guid: 38344a668be135e4ba2e3e22c0eae82b,
         type: 3}
       propertyPath: Nametext
       value: 
-      objectReference: {fileID: 0}
+      objectReference: {fileID: 1473648442}
     - target: {fileID: 4682196275316421529, guid: 38344a668be135e4ba2e3e22c0eae82b,
         type: 3}
       propertyPath: Valuetext
       value: 
-      objectReference: {fileID: 0}
+      objectReference: {fileID: 44672538}
     - target: {fileID: 4682196275316421529, guid: 38344a668be135e4ba2e3e22c0eae82b,
         type: 3}
       propertyPath: Descriptiontext
       value: 
-      objectReference: {fileID: 0}
+      objectReference: {fileID: 469339047}
     - target: {fileID: 4682196275316421529, guid: 38344a668be135e4ba2e3e22c0eae82b,
         type: 3}
       propertyPath: informationCanvas
@@ -16707,27 +16761,27 @@ PrefabInstance:
         type: 3}
       propertyPath: WeightText
       value: 
-      objectReference: {fileID: 0}
+      objectReference: {fileID: 1524312072}
     - target: {fileID: 4858160683259979762, guid: 38344a668be135e4ba2e3e22c0eae82b,
         type: 3}
       propertyPath: informationBox
       value: 
-      objectReference: {fileID: 0}
+      objectReference: {fileID: 413613912}
     - target: {fileID: 4858160683259979762, guid: 38344a668be135e4ba2e3e22c0eae82b,
         type: 3}
       propertyPath: Nametext
       value: 
-      objectReference: {fileID: 0}
+      objectReference: {fileID: 1473648442}
     - target: {fileID: 4858160683259979762, guid: 38344a668be135e4ba2e3e22c0eae82b,
         type: 3}
       propertyPath: Valuetext
       value: 
-      objectReference: {fileID: 0}
+      objectReference: {fileID: 44672538}
     - target: {fileID: 4858160683259979762, guid: 38344a668be135e4ba2e3e22c0eae82b,
         type: 3}
       propertyPath: Descriptiontext
       value: 
-      objectReference: {fileID: 0}
+      objectReference: {fileID: 469339047}
     - target: {fileID: 4858160683259979762, guid: 38344a668be135e4ba2e3e22c0eae82b,
         type: 3}
       propertyPath: informationCanvas
@@ -16908,6 +16962,11 @@ PrefabInstance:
       propertyPath: m_SizeDelta.y
       value: 0
       objectReference: {fileID: 0}
+    - target: {fileID: 6278746920450433247, guid: 38344a668be135e4ba2e3e22c0eae82b,
+        type: 3}
+      propertyPath: m_IsActive
+      value: 0
+      objectReference: {fileID: 0}
     - target: {fileID: 6292233353829900299, guid: 38344a668be135e4ba2e3e22c0eae82b,
         type: 3}
       propertyPath: m_AnchorMax.y
@@ -16917,27 +16976,27 @@ PrefabInstance:
         type: 3}
       propertyPath: WeightText
       value: 
-      objectReference: {fileID: 0}
+      objectReference: {fileID: 1524312072}
     - target: {fileID: 6380151673995634331, guid: 38344a668be135e4ba2e3e22c0eae82b,
         type: 3}
       propertyPath: informationBox
       value: 
-      objectReference: {fileID: 0}
+      objectReference: {fileID: 413613912}
     - target: {fileID: 6380151673995634331, guid: 38344a668be135e4ba2e3e22c0eae82b,
         type: 3}
       propertyPath: Nametext
       value: 
-      objectReference: {fileID: 0}
+      objectReference: {fileID: 1473648442}
     - target: {fileID: 6380151673995634331, guid: 38344a668be135e4ba2e3e22c0eae82b,
         type: 3}
       propertyPath: Valuetext
       value: 
-      objectReference: {fileID: 0}
+      objectReference: {fileID: 44672538}
     - target: {fileID: 6380151673995634331, guid: 38344a668be135e4ba2e3e22c0eae82b,
         type: 3}
       propertyPath: Descriptiontext
       value: 
-      objectReference: {fileID: 0}
+      objectReference: {fileID: 469339047}
     - target: {fileID: 6380151673995634331, guid: 38344a668be135e4ba2e3e22c0eae82b,
         type: 3}
       propertyPath: informationCanvas
@@ -17042,27 +17101,27 @@ PrefabInstance:
         type: 3}
       propertyPath: WeightText
       value: 
-      objectReference: {fileID: 0}
+      objectReference: {fileID: 1524312072}
     - target: {fileID: 7470717253939427323, guid: 38344a668be135e4ba2e3e22c0eae82b,
         type: 3}
       propertyPath: informationBox
       value: 
-      objectReference: {fileID: 0}
+      objectReference: {fileID: 413613912}
     - target: {fileID: 7470717253939427323, guid: 38344a668be135e4ba2e3e22c0eae82b,
         type: 3}
       propertyPath: Nametext
       value: 
-      objectReference: {fileID: 0}
+      objectReference: {fileID: 1473648442}
     - target: {fileID: 7470717253939427323, guid: 38344a668be135e4ba2e3e22c0eae82b,
         type: 3}
       propertyPath: Valuetext
       value: 
-      objectReference: {fileID: 0}
+      objectReference: {fileID: 44672538}
     - target: {fileID: 7470717253939427323, guid: 38344a668be135e4ba2e3e22c0eae82b,
         type: 3}
       propertyPath: Descriptiontext
       value: 
-      objectReference: {fileID: 0}
+      objectReference: {fileID: 469339047}
     - target: {fileID: 7470717253939427323, guid: 38344a668be135e4ba2e3e22c0eae82b,
         type: 3}
       propertyPath: informationCanvas
@@ -17173,6 +17232,11 @@ PrefabInstance:
       propertyPath: m_AnchorMax.y
       value: 0
       objectReference: {fileID: 0}
+    - target: {fileID: 8498431295170997934, guid: 38344a668be135e4ba2e3e22c0eae82b,
+        type: 3}
+      propertyPath: m_IsActive
+      value: 1
+      objectReference: {fileID: 0}
     - target: {fileID: 8498431295170997935, guid: 38344a668be135e4ba2e3e22c0eae82b,
         type: 3}
       propertyPath: m_AnchoredPosition.x
@@ -17181,7 +17245,7 @@ PrefabInstance:
     - target: {fileID: 8498431295804767500, guid: 38344a668be135e4ba2e3e22c0eae82b,
         type: 3}
       propertyPath: m_IsActive
-      value: 1
+      value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 8498431297279101216, guid: 38344a668be135e4ba2e3e22c0eae82b,
         type: 3}
@@ -17227,27 +17291,27 @@ PrefabInstance:
         type: 3}
       propertyPath: WeightText
       value: 
-      objectReference: {fileID: 0}
+      objectReference: {fileID: 1524312072}
     - target: {fileID: 8956127637326286773, guid: 38344a668be135e4ba2e3e22c0eae82b,
         type: 3}
       propertyPath: informationBox
       value: 
-      objectReference: {fileID: 0}
+      objectReference: {fileID: 413613912}
     - target: {fileID: 8956127637326286773, guid: 38344a668be135e4ba2e3e22c0eae82b,
         type: 3}
       propertyPath: Nametext
       value: 
-      objectReference: {fileID: 0}
+      objectReference: {fileID: 1473648442}
     - target: {fileID: 8956127637326286773, guid: 38344a668be135e4ba2e3e22c0eae82b,
         type: 3}
       propertyPath: Valuetext
       value: 
-      objectReference: {fileID: 0}
+      objectReference: {fileID: 44672538}
     - target: {fileID: 8956127637326286773, guid: 38344a668be135e4ba2e3e22c0eae82b,
         type: 3}
       propertyPath: Descriptiontext
       value: 
-      objectReference: {fileID: 0}
+      objectReference: {fileID: 469339047}
     - target: {fileID: 8956127637326286773, guid: 38344a668be135e4ba2e3e22c0eae82b,
         type: 3}
       propertyPath: informationCanvas
@@ -17322,27 +17386,27 @@ PrefabInstance:
         type: 3}
       propertyPath: WeightText
       value: 
-      objectReference: {fileID: 0}
+      objectReference: {fileID: 1524312072}
     - target: {fileID: 9060411027068108936, guid: 38344a668be135e4ba2e3e22c0eae82b,
         type: 3}
       propertyPath: informationBox
       value: 
-      objectReference: {fileID: 0}
+      objectReference: {fileID: 413613912}
     - target: {fileID: 9060411027068108936, guid: 38344a668be135e4ba2e3e22c0eae82b,
         type: 3}
       propertyPath: Nametext
       value: 
-      objectReference: {fileID: 0}
+      objectReference: {fileID: 1473648442}
     - target: {fileID: 9060411027068108936, guid: 38344a668be135e4ba2e3e22c0eae82b,
         type: 3}
       propertyPath: Valuetext
       value: 
-      objectReference: {fileID: 0}
+      objectReference: {fileID: 44672538}
     - target: {fileID: 9060411027068108936, guid: 38344a668be135e4ba2e3e22c0eae82b,
         type: 3}
       propertyPath: Descriptiontext
       value: 
-      objectReference: {fileID: 0}
+      objectReference: {fileID: 469339047}
     - target: {fileID: 9060411027068108936, guid: 38344a668be135e4ba2e3e22c0eae82b,
         type: 3}
       propertyPath: informationCanvas
