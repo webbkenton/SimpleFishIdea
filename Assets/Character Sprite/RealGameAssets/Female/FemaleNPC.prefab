@@ -14,7 +14,7 @@ GameObject:
   - component: {fileID: 6391738773026678812}
   - component: {fileID: 6391738773026678803}
   - component: {fileID: 966324085753312456}
-  - component: {fileID: 8549296932937568022}
+  - component: {fileID: 7663690144657312963}
   m_Layer: 0
   m_Name: FemaleNPC
   m_TagString: NPC
@@ -165,23 +165,23 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: ab82e2073ce2188469f6d31d518f29ed, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  dialogBox: {fileID: 0}
-  questDialog: {fileID: 0}
-  dialogText: {fileID: 0}
-  dialog: 
-  playerInRange: 0
---- !u!114 &8549296932937568022
+  Horizontal: 0
+  Vertical: 0
+  Speed: 1
+  Moving: 1
+  NPCtransform: {fileID: 6391738773026678801}
+--- !u!114 &7663690144657312963
 MonoBehaviour:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 6391738773026678806}
-  m_Enabled: 1
+  m_Enabled: 0
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: 46efeadd6bad7cc4cab0fa33f2bb7ef1, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  Follow: 0
-  Speed: 0
-  StoppingDistance: 0
+  Follow: 1
+  Speed: 2
+  StoppingDistance: 1

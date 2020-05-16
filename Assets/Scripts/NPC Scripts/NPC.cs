@@ -6,45 +6,74 @@ using TMPro;
 
 public class NPC : MonoBehaviour
 {
-    public float Horizontal;
-    public float Vertical;
-    public float Speed;
-    public bool Moving;
-    private Rigidbody2D ThisRigidBody;
-    public Transform NPCtransform;
-    private Vector2 Target1;
-    private Vector2 Target2;
-    private Vector2 Target3;
-    private Vector2 Target4;
-    
+    private Vector3 directionVector;
+    private Transform myTransform;
+    public float speed;
+    private Rigidbody2D myRigidbody2D;
+    private Animator animator;
+    public Collider2D bounds;
+    public float moveTime;
+    public bool Stand;
+    public float StoppingDistance;
+
     private void Start()
     {
-        Target1 = new Vector2(-10, 7);
-        NPCtransform = this.transform;
-        NPCtransform.position = transform.position;
-        ThisRigidBody = GetComponent<Rigidbody2D>();
+        animator = GetComponent<Animator>();
+        myTransform = GetComponent<Transform>();
+        myRigidbody2D = GetComponent<Rigidbody2D>();
+        ChangeDirection();
     }
-
     private void Update()
     {
-        if (NPCtransform.position.x == 10)
-        {
-            if (NPCtransform.position.y == 7)
-            {
-               
-            }
-        }
-        if (NPCtransform.position.x == -10)
-        {
-            if (NPCtransform.position.y == 7)
-            {
-                
-            }
-            
-        }
-        
+        Move();
     }
 
+    private void Move()
+    {
+        Vector3 temp = myTransform.position + directionVector * speed * Time.deltaTime;
+        myRigidbody2D.MovePosition(temp);
+    }
+    void ChangeDirection()
+    {
+        int direction = Random.Range(0, 4);
+        switch (direction)
+        {
+            case 0:
+                directionVector = Vector3.right;
+                break;
+            case 1:
+                directionVector = Vector3.up;
+                break;
+            case 2:
+                directionVector = Vector3.left;
+                break;
+            case 3:
+                directionVector = Vector3.down;
+                break;
+            default:
+                break;
+        }
+        UpdateAnimation();
+        
+    }
+    void UpdateAnimation()
+        {
+        animator.SetFloat("MoveX", directionVector.x);
+        animator.SetFloat("MoveY", directionVector.y);
+        animator.SetFloat("Speed", speed);
+        }
+    private void OnCollisionEnter2D(Collision2D collision)
+    {
+        Vector3 temp = directionVector;
+        ChangeDirection();
+        int loops = 0;
+
+        while (temp == directionVector && loops < 100)
+        {
+            loops++;
+            ChangeDirection();
+        }
+    }
     //All NPC's to walk in a square.
     //All NPC's should use their Animations
 }
