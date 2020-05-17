@@ -99,10 +99,10 @@ public class InventorySlot : MonoBehaviour
         if (furniture != null)
         {
             informationBox.SetActive(true);
-            WeightText.text = fish.FishWeight.ToString("F2");
-            Nametext.text = fish.FishName;
-            Valuetext.text = fish.FishValue.ToString();
-            Descriptiontext.text = fish.FishDescription;
+            WeightText.text = furniture.SellValue.ToString("F2");
+            Nametext.text = furniture.FurnitureName;
+            Valuetext.text = furniture.PurchaseValue.ToString();
+            Descriptiontext.text = furniture.Style;
         }
     }
     public void InformationReset()
