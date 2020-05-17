@@ -11,7 +11,7 @@ public class InventoryUI : MonoBehaviour
 
     public Transform itemsParent;
 
-    InventorySlot[] slots;
+    public InventorySlot[] slots;
     // Start is called before the first frame update
     void Start()
     {
@@ -37,11 +37,12 @@ public class InventoryUI : MonoBehaviour
     {
         for (int i = 0; i < slots.Length; i++)
         {
-            
+
             if (i < inventory.items.Count)
             {
                 slots[i].AddItem(inventory.items[i]);
                 //slots[i].newFish(inventory.fishs[i]);
+                //slots[i].NewFurniture(inventory.Furniture[i]);
             }
             else
             {
@@ -53,6 +54,14 @@ public class InventoryUI : MonoBehaviour
             if (i < inventory.fishs.Count)
             {
                 slots[i].newFish(inventory.fishs[i]);
+            }
+
+        }
+        for (int i = 0; i < slots.Length; i++)
+        {
+            if (i < inventory.Furniture.Count)
+            {
+                slots[i].NewFurniture(inventory.Furniture[i]);
             }
 
         }

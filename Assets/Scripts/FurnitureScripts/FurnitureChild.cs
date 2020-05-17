@@ -15,7 +15,7 @@ public class FurnitureChild : MonoBehaviour
     private void Start()
     {
         startingPosition = transform.position;
-        sR.sprite = furniture.Sprite;
+        sR.sprite = furniture.sprite;
         this.name = furniture.FurnitureName;
         //this.transform.localScale = new Vector2(20, 20);
     }
