@@ -13,6 +13,7 @@ public class InventorySlot : MonoBehaviour
     public TMP_Text Descriptiontext;
     Item item;
     Fish fish;
+    FurnitureScriptableObject furniture;
 
 
     public void AddItem(Item newItem)
@@ -25,16 +26,6 @@ public class InventorySlot : MonoBehaviour
 
     }
 
-
-    private void Update()
-    {
-        //if (fish != null)
-        //{ 
-        //    InformationUpdate();
-        //}
-        
-    }
-
     public void newFish(Fish aFish)
     {
         fish = aFish;
@@ -45,6 +36,13 @@ public class InventorySlot : MonoBehaviour
         //Valuetext.text = fish.FishValue.ToString();
         //Descriptiontext.text = fish.FishDescription;
 
+    }
+    public void NewFurniture(FurnitureScriptableObject newFurniture)
+    {
+        furniture = newFurniture;
+        icon.sprite = furniture.sprite;
+        icon.enabled = true;
+        removeButton.interactable = true;
     }
 
     public void ClearSlot()
@@ -79,6 +77,11 @@ public class InventorySlot : MonoBehaviour
             informationBox.SetActive(false);
             InformationReset();
         }
+        if (furniture != null)
+        {
+            furniture.Use();
+            InformationReset();
+        }
     }
 
     public void InformationUpdate()
@@ -91,10 +94,26 @@ public class InventorySlot : MonoBehaviour
             Valuetext.text = fish.FishValue.ToString();
             Descriptiontext.text = fish.FishDescription;
         }
+        if (furniture != null)
+        {
+            informationBox.SetActive(true);
+            WeightText.text = fish.FishWeight.ToString("F2");
+            Nametext.text = fish.FishName;
+            Valuetext.text = fish.FishValue.ToString();
+            Descriptiontext.text = fish.FishDescription;
+        }
     }
     public void InformationReset()
     {
         if (fish != null)
+        {
+            informationBox.SetActive(false);
+            WeightText.text = null;
+            Nametext.text = null;
+            Valuetext.text = null;
+            Descriptiontext.text = null;
+        }
+        if (furniture != null)
         {
             informationBox.SetActive(false);
             WeightText.text = null;

@@ -18,6 +18,8 @@ TagManager:
   - FishingSpotNight
   - ShopWindow
   - InventorySlot
+  - ChaseSquareY
+  - ChaseSquareX
   layers:
   - Default
   - TransparentFX
