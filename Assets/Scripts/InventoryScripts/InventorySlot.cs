@@ -49,6 +49,7 @@ public class InventorySlot : MonoBehaviour
     {
         item = null;
         fish = null;
+        furniture = null;
    
 
         icon.sprite = null;
@@ -61,6 +62,7 @@ public class InventorySlot : MonoBehaviour
     {
         Inventory.instance.remove(item);
         Inventory.instance.fishRemove(fish);
+        Inventory.instance.FurnitrueRemove(furniture);
         ClearSlot();
     }
 

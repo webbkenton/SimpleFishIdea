@@ -98,6 +98,12 @@ public class Inventory : MonoBehaviour
         fishs.Remove(fish);
         Callback();
     }
+    public void FurnitrueRemove(FurnitureScriptableObject furniture)
+    {
+        Furniture.Remove(furniture);
+        Callback();
+    }
+
     private void Callback()
     {
         if (onItemChangedCallBack != null)
