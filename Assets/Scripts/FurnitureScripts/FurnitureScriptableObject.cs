@@ -31,6 +31,11 @@ public class FurnitureScriptableObject : ScriptableObject
 
     public void Use()
     {
-        
+        CursorLock.instance.Furniture = this;
+        CursorLock.instance.SquareTracker.SetActive(true);
+        CursorLock.instance.cursorObject.SetActive(true);
+        CursorLock.instance.ObjectRenderer.sprite = this.sprite;
+        //on the mouse if Input // remove object from inventory
+        //instantiate object at PlacementObject.Transform
     }
 }
