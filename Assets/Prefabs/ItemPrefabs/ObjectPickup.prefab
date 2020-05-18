@@ -80,7 +80,7 @@ SpriteRenderer:
   m_SortingLayerID: 716811379
   m_SortingLayer: 12
   m_SortingOrder: 0
-  m_Sprite: {fileID: 21300096, guid: ef3a5ff462d14354f98c9b5b5ddbddc1, type: 3}
+  m_Sprite: {fileID: 21300172, guid: 51b8f517c5750c04d9c87704af873585, type: 3}
   m_Color: {r: 1, g: 1, b: 1, a: 1}
   m_FlipX: 0
   m_FlipY: 0
@@ -104,7 +104,7 @@ BoxCollider2D:
   m_IsTrigger: 1
   m_UsedByEffector: 0
   m_UsedByComposite: 0
-  m_Offset: {x: 0.000000059604645, y: -0.47014427}
+  m_Offset: {x: -0.020860523, y: 0.014862299}
   m_SpriteTilingProperty:
     border: {x: 0, y: 0, z: 0, w: 0}
     pivot: {x: 0.5, y: 0.5}
@@ -115,7 +115,7 @@ BoxCollider2D:
     adaptiveTiling: 0
   m_AutoTiling: 0
   serializedVersion: 2
-  m_Size: {x: 1.2294143, y: 2.3991165}
+  m_Size: {x: 0.8539253, y: 0.82414865}
   m_EdgeRadius: 0
 --- !u!114 &8467390330139540002
 MonoBehaviour:
@@ -129,7 +129,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: a70a9b4831b2cff4787de10b0f15ea77, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  furniture: {fileID: 11400000, guid: 8a188a1209e26e047acf3e9376c24710, type: 2}
+  furniture: {fileID: 11400000, guid: eb86094448f69a44a9c970792e5fee80, type: 2}
   bodyType: {fileID: 8467390330139540001}
   pickedUp: 0
   sR: {fileID: 8467390330139540007}
@@ -146,7 +146,7 @@ BoxCollider2D:
   m_IsTrigger: 0
   m_UsedByEffector: 0
   m_UsedByComposite: 0
-  m_Offset: {x: 0, y: 0}
+  m_Offset: {x: -0.020860463, y: 0.010430336}
   m_SpriteTilingProperty:
     border: {x: 0, y: 0, z: 0, w: 0}
     pivot: {x: 0.5, y: 0.5}
@@ -157,7 +157,7 @@ BoxCollider2D:
     adaptiveTiling: 0
   m_AutoTiling: 0
   serializedVersion: 2
-  m_Size: {x: 1, y: 1}
+  m_Size: {x: 0.833116, y: 0.83311653}
   m_EdgeRadius: 0
 --- !u!50 &8467390330139540001
 Rigidbody2D:

@@ -83,6 +83,53 @@ AudioListener:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1647223842}
   m_Enabled: 1
+--- !u!1 &2928813429835656330
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 3180157433193990745}
+  - component: {fileID: 1629902441023301319}
+  m_Layer: 0
+  m_Name: InvisibleMouseObject
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &3180157433193990745
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 2928813429835656330}
+  m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
+  m_LocalPosition: {x: 2.3238108, y: 3.0900002, z: 0}
+  m_LocalScale: {x: 0.175, y: 0.175, z: 1}
+  m_Children:
+  - {fileID: 2318361879764682762}
+  m_Father: {fileID: 4438474167547792908}
+  m_RootOrder: 1
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &1629902441023301319
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 2928813429835656330}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: aa4f959043d45134899c81a1ed5bf6f6, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  mousePosition: {x: 0, y: 0, z: 0}
+  overFurniture: 0
+  Furniture: {fileID: 0}
 --- !u!1 &3912907789492853256
 GameObject:
   m_ObjectHideFlags: 0
@@ -109,12 +156,12 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 3912907789492853256}
   m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
-  m_LocalPosition: {x: 2.5, y: 1.5, z: 0}
-  m_LocalScale: {x: 0.175, y: 0.175, z: 1}
+  m_LocalPosition: {x: 1.0067953, y: -9.085714, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children:
   - {fileID: 995664241425910216}
-  m_Father: {fileID: 4438474167547792908}
-  m_RootOrder: 1
+  m_Father: {fileID: 3180157433193990745}
+  m_RootOrder: 0
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!212 &7906593202297528261
 SpriteRenderer:
@@ -181,10 +228,11 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   SquareTracker: {fileID: 3912907789492853256}
   holdingItem: 0
-  touchingWall: 0
+  AllowPlace: 0
   FurniturePrefab: {fileID: 8467390330139540005, guid: 57eca331786ccc34da96bfd9f3164923,
     type: 3}
   ObjectRenderer: {fileID: 0}
+  greenCircle: {r: 0, g: 0, b: 0, a: 0}
   cursorObject: {fileID: 4937324329501725043}
   Furniture: {fileID: 0}
 --- !u!1 &4438474167547792896
@@ -220,7 +268,7 @@ Transform:
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children:
   - {fileID: 1647223845}
-  - {fileID: 2318361879764682762}
+  - {fileID: 3180157433193990745}
   m_Father: {fileID: 0}
   m_RootOrder: 0
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}

@@ -12,9 +12,10 @@ public class CursorLock : MonoBehaviour
     private float mouseSpeed = 1f;
     public GameObject SquareTracker;
     public bool holdingItem;
-    public bool touchingWall;
+    public bool AllowPlace;
     public GameObject FurniturePrefab;
     public SpriteRenderer ObjectRenderer;
+    public Color greenCircle;
     public GameObject cursorObject;
     public FurnitureScriptableObject Furniture = null;
 
@@ -26,6 +27,7 @@ public class CursorLock : MonoBehaviour
     void Start()
     {
         SquareTracker.SetActive(false);
+        greenCircle = SquareTracker.GetComponent<SpriteRenderer>().color;
         //Cursor.SetCursor(cursorArrow, Vector2.zero, CursorMode.ForceSoftware);
     }
     private void Update()
@@ -41,13 +43,14 @@ public class CursorLock : MonoBehaviour
         //    mousePosition.y = Mathf.Clamp(mousePosition.y, -5.75f, 5.75f);
         transform.position = mousePosition * mouseSpeed;
         FurniturePrefab.GetComponent<FurnitureChild>().furniture = Furniture;
-        if (Input.GetMouseButtonDown(0) && cursorObject.activeInHierarchy)
+        if (Input.GetMouseButtonDown(0) && AllowPlace == true)
         {
             ClickLocation = SquareTracker.transform.position;
             Debug.Log(ClickLocation);
             Instantiate(FurniturePrefab, ClickLocation, Quaternion.identity);
             cursorObject.SetActive(false);
             SquareTracker.SetActive(false);
+            AllowPlace = false;
             Inventory.instance.FurnitrueRemove(Furniture);
             Furniture = null;
             
@@ -61,18 +64,38 @@ public class CursorLock : MonoBehaviour
 
     private void OnTriggerEnter2D(Collider2D collision)
     {
+        //if(tag.Equals("WallFurniture"))
         if (collision.CompareTag("Furniture"))
         {
-            transform.position.Normalize();
+            AllowPlace = false;
+            SquareTracker.GetComponent<SpriteRenderer>().color = new Color(1, 0, 0, 1);
+            //transform.position.Normalize();
         }
-        if (collision.CompareTag("WallFurniture"))
+        if (collision.CompareTag("Wall"))
         {
-            mousePosition.x = Mathf.Round(mousePosition.x);
-            mousePosition.y = Mathf.Round(mousePosition.y);
-            touchingWall = true;
-
+            if (Furniture.furnitureType == FurnitureScriptableObject.FurnitureType.WallFurniture)
+            {
+                AllowPlace = true;
+            }
+            else
+            {
+                AllowPlace = false;
+                DenyPlace();
+            }
         }
     }
+    private void OnTriggerExit2D(Collider2D collision)
+    {
+        AllowPlace = true;
+        SquareTracker.GetComponent<SpriteRenderer>().color = greenCircle;
+
+    }
+
+    private void DenyPlace()
+    {
+        SquareTracker.GetComponent<SpriteRenderer>().color = new Color(1, 0, 0, 1);
+    }
+
 
 
 }
