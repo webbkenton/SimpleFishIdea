@@ -25,6 +25,7 @@ public class FurniturePlacementObject : MonoBehaviour
         PlacementTracker.transform.position = mousePosition;
         Furniture = CursorLock.instance.Furniture;
         thisSprite = CursorLock.instance.cursorObject.GetComponent<SpriteRenderer>();
+        thisSprite.sprite = Furniture.sprite;
         thisSprite.color = new Color(thisSprite.color.r, thisSprite.color.g, thisSprite.color.b, .5f);
 
     }
