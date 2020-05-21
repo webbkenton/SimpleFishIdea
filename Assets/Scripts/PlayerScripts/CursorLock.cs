@@ -55,45 +55,65 @@ public class CursorLock : MonoBehaviour
             Furniture = null;
             
         }
-        //}
-        // if the item is wall furniture
-        // Remove the clamp so the mouse can access outer wall
-        // When the item is dropped Place the clamp back on
               
     }
-
+    private void OnTriggerExit2D(Collider2D collision)
+    {
+        if (collision.CompareTag("Furniture"))
+        {
+            AllowPlace = true;
+            PermitPlace();
+            Debug.Log("LeftFurntiureTrigger");
+        }
+    }
     private void OnTriggerEnter2D(Collider2D collision)
     {
-        //if(tag.Equals("WallFurniture"))
         if (collision.CompareTag("Furniture"))
         {
             AllowPlace = false;
-            SquareTracker.GetComponent<SpriteRenderer>().color = new Color(1, 0, 0, 1);
-            //transform.position.Normalize();
+            DenyPlace();
+            Debug.Log("Furniture Denied");
         }
         if (collision.CompareTag("Wall"))
         {
             if (Furniture.furnitureType == FurnitureScriptableObject.FurnitureType.WallFurniture)
             {
                 AllowPlace = true;
+                PermitPlace();
+                Debug.Log("Wall Furniture Allowed");
             }
             else
             {
                 AllowPlace = false;
                 DenyPlace();
+                Debug.Log("Furntiure Not Allowed On Walls");
             }
         }
-    }
-    private void OnTriggerExit2D(Collider2D collision)
-    {
-        AllowPlace = true;
-        SquareTracker.GetComponent<SpriteRenderer>().color = greenCircle;
-
+        if (collision.CompareTag("Floor"))
+        {
+            if (Furniture.furnitureType != FurnitureScriptableObject.FurnitureType.WallFurniture)
+            {
+                AllowPlace = true;
+                PermitPlace();
+                Debug.Log("Floor Furniture Allowed");
+            }
+            else
+            {
+                AllowPlace = false;
+                DenyPlace();
+                Debug.Log("WallFurntiure Not Allowed On Floors");
+            }
+        }
+        
     }
 
     private void DenyPlace()
     {
         SquareTracker.GetComponent<SpriteRenderer>().color = new Color(1, 0, 0, 1);
+    }
+    private void PermitPlace()
+    {
+        SquareTracker.GetComponent<SpriteRenderer>().color = greenCircle;
     }
 
 
