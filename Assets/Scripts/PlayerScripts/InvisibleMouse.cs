@@ -11,7 +11,7 @@ public class InvisibleMouse : MonoBehaviour
     void Update()
     {
         mousePosition = Camera.main.ScreenToWorldPoint(Input.mousePosition);
-        mousePosition.z = 0f;
+        mousePosition.z = -1f;
         transform.position = mousePosition;
 
         if (Input.GetMouseButtonDown(0) && overFurniture == true)

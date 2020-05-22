@@ -26,7 +26,7 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1647223842}
   m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
-  m_LocalPosition: {x: 0, y: -0.29999995, z: -10}
+  m_LocalPosition: {x: 0, y: -1.46, z: -10}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children: []
   m_Father: {fileID: 4438474167547792908}
@@ -59,7 +59,7 @@ Camera:
   far clip plane: 1000
   field of view: 60
   orthographic: 1
-  orthographic size: 5
+  orthographic size: 6.2160506
   m_Depth: -1
   m_CullingMask:
     serializedVersion: 2
@@ -93,6 +93,7 @@ GameObject:
   m_Component:
   - component: {fileID: 3180157433193990745}
   - component: {fileID: 1629902441023301319}
+  - component: {fileID: 787153023}
   m_Layer: 0
   m_Name: InvisibleMouseObject
   m_TagString: Untagged
@@ -130,6 +131,33 @@ MonoBehaviour:
   mousePosition: {x: 0, y: 0, z: 0}
   overFurniture: 0
   Furniture: {fileID: 0}
+  FurnitureGameObject: {fileID: 0}
+--- !u!61 &787153023
+BoxCollider2D:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 2928813429835656330}
+  m_Enabled: 1
+  m_Density: 1
+  m_Material: {fileID: 0}
+  m_IsTrigger: 1
+  m_UsedByEffector: 0
+  m_UsedByComposite: 0
+  m_Offset: {x: 0, y: 0}
+  m_SpriteTilingProperty:
+    border: {x: 0, y: 0, z: 0, w: 0}
+    pivot: {x: 0, y: 0}
+    oldSize: {x: 0, y: 0}
+    newSize: {x: 0, y: 0}
+    adaptiveTilingThreshold: 0
+    drawMode: 0
+    adaptiveTiling: 0
+  m_AutoTiling: 0
+  serializedVersion: 2
+  m_Size: {x: 1, y: 1}
+  m_EdgeRadius: 0
 --- !u!1 &3912907789492853256
 GameObject:
   m_ObjectHideFlags: 0
@@ -141,13 +169,16 @@ GameObject:
   - component: {fileID: 2318361879764682762}
   - component: {fileID: 7906593202297528261}
   - component: {fileID: 2690628555481246418}
-  m_Layer: 0
+  - component: {fileID: 1744991508}
+  - component: {fileID: 1744991511}
+  - component: {fileID: 1744991513}
+  m_Layer: 2
   m_Name: 1x1TrackerSquare
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
-  m_IsActive: 0
+  m_IsActive: 1
 --- !u!4 &2318361879764682762
 Transform:
   m_ObjectHideFlags: 0
@@ -226,6 +257,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 654c734668aed3b4eba6ac02e30c1f51, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  mousePosition: {x: 0, y: 0, z: 0}
   SquareTracker: {fileID: 3912907789492853256}
   holdingItem: 0
   AllowPlace: 0
@@ -235,6 +267,65 @@ MonoBehaviour:
   greenCircle: {r: 0, g: 0, b: 0, a: 0}
   cursorObject: {fileID: 4937324329501725043}
   Furniture: {fileID: 0}
+--- !u!50 &1744991508
+Rigidbody2D:
+  serializedVersion: 4
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 3912907789492853256}
+  m_BodyType: 1
+  m_Simulated: 1
+  m_UseFullKinematicContacts: 0
+  m_UseAutoMass: 0
+  m_Mass: 1
+  m_LinearDrag: 0
+  m_AngularDrag: 0.05
+  m_GravityScale: 1
+  m_Material: {fileID: 0}
+  m_Interpolate: 0
+  m_SleepingMode: 1
+  m_CollisionDetection: 1
+  m_Constraints: 0
+--- !u!61 &1744991511
+BoxCollider2D:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 3912907789492853256}
+  m_Enabled: 1
+  m_Density: 1
+  m_Material: {fileID: 0}
+  m_IsTrigger: 1
+  m_UsedByEffector: 0
+  m_UsedByComposite: 0
+  m_Offset: {x: 0.12685227, y: -0.06342876}
+  m_SpriteTilingProperty:
+    border: {x: 0, y: 0, z: 0, w: 0}
+    pivot: {x: 0.5, y: 0.5}
+    oldSize: {x: 5.71875, y: 5.6875}
+    newSize: {x: 1, y: 1}
+    adaptiveTilingThreshold: 0.5
+    drawMode: 0
+    adaptiveTiling: 0
+  m_AutoTiling: 0
+  serializedVersion: 2
+  m_Size: {x: 4.1965213, y: 3.5310032}
+  m_EdgeRadius: 0
+--- !u!114 &1744991513
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 3912907789492853256}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: cbbafa8ebdd946d4797ee00ce9c21ed7, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
 --- !u!1 &4438474167547792896
 GameObject:
   m_ObjectHideFlags: 0
@@ -417,7 +508,8 @@ GameObject:
   - component: {fileID: 995664241425910216}
   - component: {fileID: 5914870969714214775}
   - component: {fileID: 412699422615794886}
-  m_Layer: 0
+  - component: {fileID: 1826039326}
+  m_Layer: 2
   m_Name: PlacementTracker
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -502,3 +594,24 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   PlacementTracker: {fileID: 4937324329501725043}
   Furniture: {fileID: 0}
+--- !u!50 &1826039326
+Rigidbody2D:
+  serializedVersion: 4
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 4937324329501725043}
+  m_BodyType: 1
+  m_Simulated: 1
+  m_UseFullKinematicContacts: 0
+  m_UseAutoMass: 0
+  m_Mass: 1
+  m_LinearDrag: 0
+  m_AngularDrag: 0.05
+  m_GravityScale: 1
+  m_Material: {fileID: 0}
+  m_Interpolate: 0
+  m_SleepingMode: 1
+  m_CollisionDetection: 1
+  m_Constraints: 4

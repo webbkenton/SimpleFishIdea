@@ -7,7 +7,7 @@ public class CursorLock : MonoBehaviour
 {
     public static CursorLock instance;
     //public Texture2D cursorArrow;
-    static Vector3 mousePosition;
+    public Vector3 mousePosition;
     private Vector3 ClickLocation;
     private float mouseSpeed = 1f;
     public GameObject SquareTracker;
@@ -32,6 +32,7 @@ public class CursorLock : MonoBehaviour
     }
     private void Update()
     {
+        
         mousePosition = Camera.main.ScreenToWorldPoint(Input.mousePosition);
         mousePosition.z = 0f;
         SquareTracker.transform.position = mousePosition;
@@ -43,6 +44,14 @@ public class CursorLock : MonoBehaviour
         //    mousePosition.y = Mathf.Clamp(mousePosition.y, -5.75f, 5.75f);
         transform.position = mousePosition * mouseSpeed;
         FurniturePrefab.GetComponent<FurnitureChild>().furniture = Furniture;
+        if (AllowPlace == true)
+        {
+            PermitPlace();
+        }
+        else
+        {
+            DenyPlace();
+        }
         if (Input.GetMouseButtonDown(0) && AllowPlace == true)
         {
             ClickLocation = SquareTracker.transform.position;
@@ -57,7 +66,7 @@ public class CursorLock : MonoBehaviour
         }
               
     }
-    private void OnTriggerExit2D(Collider2D collision)
+   /* private void OnTriggerExit2D(Collider2D collision)
     {
         if (collision.CompareTag("Furniture"))
         {
@@ -65,47 +74,7 @@ public class CursorLock : MonoBehaviour
             PermitPlace();
             Debug.Log("LeftFurntiureTrigger");
         }
-    }
-    private void OnTriggerEnter2D(Collider2D collision)
-    {
-        if (collision.CompareTag("Furniture"))
-        {
-            AllowPlace = false;
-            DenyPlace();
-            Debug.Log("Furniture Denied");
-        }
-        if (collision.CompareTag("Wall"))
-        {
-            if (Furniture.furnitureType == FurnitureScriptableObject.FurnitureType.WallFurniture)
-            {
-                AllowPlace = true;
-                PermitPlace();
-                Debug.Log("Wall Furniture Allowed");
-            }
-            else
-            {
-                AllowPlace = false;
-                DenyPlace();
-                Debug.Log("Furntiure Not Allowed On Walls");
-            }
-        }
-        if (collision.CompareTag("Floor"))
-        {
-            if (Furniture.furnitureType != FurnitureScriptableObject.FurnitureType.WallFurniture)
-            {
-                AllowPlace = true;
-                PermitPlace();
-                Debug.Log("Floor Furniture Allowed");
-            }
-            else
-            {
-                AllowPlace = false;
-                DenyPlace();
-                Debug.Log("WallFurntiure Not Allowed On Floors");
-            }
-        }
-        
-    }
+    }*/
 
     private void DenyPlace()
     {
