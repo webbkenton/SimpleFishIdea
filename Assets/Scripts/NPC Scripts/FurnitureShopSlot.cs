@@ -25,6 +25,26 @@ public class FurnitureShopSlot : MonoBehaviour
             Inventory.instance.AddFurnitue(Furniture);
             CurrencyManager.instance.CurrentGold -= Furniture.PurchaseValue;
             Instantiate(Furniture);
+            
         }
+    }
+    public void BuyBack()
+    {
+        if (CurrencyManager.instance.CurrentGold >= Furniture.SellValue)
+        {
+            Inventory.instance.AddFurnitue(Furniture);
+            CurrencyManager.instance.CurrentGold -= Furniture.PurchaseValue;
+            Instantiate(Furniture);
+            UIManager.instance.Shop.GetComponent<FurnitureShopWindow>().SoldItems.Remove(Furniture);
+            EmptySlot();
+        }
+    }
+
+    public void EmptySlot()
+    {
+        Furniture = null;
+        IconImage.enabled = false;
+        Icon = null;
+        
     }
 }

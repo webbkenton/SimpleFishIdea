@@ -31,12 +31,25 @@ public class FurnitureScriptableObject : ScriptableObject
 
     public void Use()
     {
-        CursorLock.instance.Furniture = this;
-        CursorLock.instance.SquareTracker.SetActive(true);
-        CursorLock.instance.cursorObject.SetActive(true);
-        CursorLock.instance.AllowPlace = true;
-        CursorLock.instance.ObjectRenderer.sprite = this.sprite;
-        //on the mouse if Input // remove object from inventory
-        //instantiate object at PlacementObject.Transform
+        if (UIManager.instance.Shop.activeInHierarchy)
+        {
+            CurrencyManager.instance.CurrentGold += SellValue;
+            Inventory.instance.FurnitrueRemove(this);
+            UIManager.instance.Shop.GetComponentInChildren<FurnitureShopWindow>().SoldItems.Add(this);
+        }
+        else
+        {
+            return;
+        }
+        if (!UIManager.instance.Shop.activeInHierarchy)
+        {
+            CursorLock.instance.Furniture = this;
+            CursorLock.instance.SquareTracker.SetActive(true);
+            CursorLock.instance.cursorObject.SetActive(true);
+            CursorLock.instance.AllowPlace = true;
+            CursorLock.instance.ObjectRenderer.sprite = this.sprite;
+            //on the mouse if Input // remove object from inventory
+            //instantiate object at PlacementObject.Transform
+        }
     }
 }
