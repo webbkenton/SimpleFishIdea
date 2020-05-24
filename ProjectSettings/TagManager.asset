@@ -75,6 +75,9 @@ TagManager:
   - name: Tree Wall
     uniqueID: 1491910489
     locked: 0
+  - name: Cliff Edges
+    uniqueID: 976240751
+    locked: 0
   - name: Upper_Ground
     uniqueID: 3743274767
     locked: 0
