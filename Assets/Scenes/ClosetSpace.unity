@@ -1863,6 +1863,7 @@ MonoBehaviour:
   nextCost: 1000
   Costbutton: {fileID: 1733650923}
   CostText: {fileID: 1416581562}
+  SpaceText: {fileID: 541767911}
   closetFurniture: []
 --- !u!1 &541767909
 GameObject:
@@ -1927,7 +1928,7 @@ MonoBehaviour:
     m_BestFit: 0
     m_MinSize: 10
     m_MaxSize: 40
-    m_Alignment: 0
+    m_Alignment: 4
     m_AlignByGeometry: 0
     m_RichText: 1
     m_HorizontalOverflow: 0
