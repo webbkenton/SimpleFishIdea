@@ -108,3 +108,6 @@ TagManager:
   - name: Accessories
     uniqueID: 3180065211
     locked: 0
+  - name: TreeGameObject
+    uniqueID: 4115611031
+    locked: 0
