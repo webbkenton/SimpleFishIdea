@@ -39,7 +39,7 @@ public class ClosetSpace : MonoBehaviour
         Upgrades++;
         closetSpace += 20;
         nextSpace += 20;
-        nextCost += nextCost;
+        nextCost += 1000 * Upgrades;
         Debug.Log(nextCost + "NextCost");
         Debug.Log(closetSpace + "ClosetSpace");
         Debug.Log(nextSpace + "nextSpace");

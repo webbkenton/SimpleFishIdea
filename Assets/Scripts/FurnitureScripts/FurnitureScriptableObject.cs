@@ -31,16 +31,16 @@ public class FurnitureScriptableObject : ScriptableObject
 
     public void Use()
     {
-        if (UIManager.instance.Shop.activeInHierarchy)
-        {
-            CurrencyManager.instance.CurrentGold += SellValue;
-            Inventory.instance.FurnitrueRemove(this);
-            UIManager.instance.Shop.GetComponentInChildren<FurnitureShopWindow>().SoldItems.Add(this);
-        }
-        else
-        {
-            return;
-        }
+        //if (UIManager.instance.Shop.activeInHierarchy)
+        //{
+        //    CurrencyManager.instance.CurrentGold += SellValue;
+        //    Inventory.instance.FurnitrueRemove(this);
+        //    UIManager.instance.Shop.GetComponentInChildren<FurnitureShopWindow>().SoldItems.Add(this);
+        //}
+        //else
+        //{
+        //    return;
+        //}
         if (!UIManager.instance.Shop.activeInHierarchy)
         {
             CursorLock.instance.Furniture = this;

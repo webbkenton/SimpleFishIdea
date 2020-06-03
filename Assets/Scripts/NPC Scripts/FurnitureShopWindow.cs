@@ -35,6 +35,10 @@ public class FurnitureShopWindow : MonoBehaviour
     // Update is called once per frame
     void Update()
     {
+        if (Input.GetButtonDown("CloseShop"))
+        {
+            UIManager.instance.Shop.SetActive(!UIManager.instance.Shop.activeSelf);
+        }
         for (int i = 0; i < BuySlotChild.Length; i++)
         {
             BuySlotChild[i].Furniture = ShopItems[i];

@@ -17,6 +17,10 @@ public class UIManager : MonoBehaviour
     // Update is called once per frame
     void Update()
     {
+        if (Input.GetButtonDown("CloseShop"))
+        {
+            UIManager.instance.Shop.SetActive(!UIManager.instance.Shop.activeSelf);
+        }
         if (Shop.activeInHierarchy)
         {
             shopwindow = true;
