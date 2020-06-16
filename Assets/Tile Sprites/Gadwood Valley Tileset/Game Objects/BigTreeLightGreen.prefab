@@ -13,7 +13,7 @@ GameObject:
   - component: {fileID: 4287159854475996257}
   - component: {fileID: 4287159854475996270}
   m_Layer: 0
-  m_Name: BigTree
+  m_Name: BigTreeLightGreen
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -69,8 +69,8 @@ SpriteRenderer:
   m_AutoUVMaxDistance: 0.5
   m_AutoUVMaxAngle: 89
   m_LightmapParameters: {fileID: 0}
-  m_SortingLayerID: 1426864667
-  m_SortingLayer: 12
+  m_SortingLayerID: -1273057575
+  m_SortingLayer: 5
   m_SortingOrder: 0
   m_Sprite: {fileID: -5378170882546213701, guid: d928d3b9157c0164a8b1edda0fe39c5c,
     type: 3}

@@ -12,7 +12,7 @@ GameObject:
   - component: {fileID: 9177201632356277858}
   - component: {fileID: 3230778502618834619}
   m_Layer: 0
-  m_Name: Automatic Slice - Gadwood_6
+  m_Name: Plant
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -68,8 +68,8 @@ SpriteRenderer:
   m_AutoUVMaxDistance: 0.5
   m_AutoUVMaxAngle: 89
   m_LightmapParameters: {fileID: 0}
-  m_SortingLayerID: 0
-  m_SortingLayer: 0
+  m_SortingLayerID: -1273057575
+  m_SortingLayer: 5
   m_SortingOrder: 0
   m_Sprite: {fileID: 2480288053317131449, guid: d928d3b9157c0164a8b1edda0fe39c5c,
     type: 3}

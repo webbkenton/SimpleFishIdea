@@ -16,6 +16,6 @@ MonoBehaviour:
   PurchaseValue: 100
   SellValue: 75
   Style: Default
-  sprite: {fileID: 21300022, guid: 51b8f517c5750c04d9c87704af873585, type: 3}
+  sprite: {fileID: 21300000, guid: 46569af23bba5624e8e2fb1e770e405c, type: 3}
   furnitureSize: 0
   furnitureType: 3

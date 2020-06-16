@@ -12,7 +12,7 @@ GameObject:
   - component: {fileID: 6671885877005239975}
   - component: {fileID: 5253210932202381373}
   m_Layer: 0
-  m_Name: Static 32 Slice - Gadwood_138
+  m_Name: PlantBlue
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -68,8 +68,8 @@ SpriteRenderer:
   m_AutoUVMaxDistance: 0.5
   m_AutoUVMaxAngle: 89
   m_LightmapParameters: {fileID: 0}
-  m_SortingLayerID: 0
-  m_SortingLayer: 0
+  m_SortingLayerID: -1273057575
+  m_SortingLayer: 5
   m_SortingOrder: 0
   m_Sprite: {fileID: 8730458642724027573, guid: dbee119c03cf4f64290463aa8241a96c,
     type: 3}

@@ -12,7 +12,7 @@ GameObject:
   - component: {fileID: 249040210257683505}
   - component: {fileID: 8158194183103143814}
   m_Layer: 0
-  m_Name: Static 32 Slice - Gadwood_149
+  m_Name: BarrelBoi
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -68,8 +68,8 @@ SpriteRenderer:
   m_AutoUVMaxDistance: 0.5
   m_AutoUVMaxAngle: 89
   m_LightmapParameters: {fileID: 0}
-  m_SortingLayerID: 0
-  m_SortingLayer: 0
+  m_SortingLayerID: -1273057575
+  m_SortingLayer: 5
   m_SortingOrder: 0
   m_Sprite: {fileID: -1933596061444163195, guid: dbee119c03cf4f64290463aa8241a96c,
     type: 3}

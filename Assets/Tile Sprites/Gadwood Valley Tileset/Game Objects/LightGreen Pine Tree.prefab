@@ -12,7 +12,7 @@ GameObject:
   - component: {fileID: 5881449160493770802}
   - component: {fileID: 3691726550670900510}
   m_Layer: 0
-  m_Name: Automatic Slice - Gadwood_39
+  m_Name: LightGreen Pine Tree
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -68,8 +68,8 @@ SpriteRenderer:
   m_AutoUVMaxDistance: 0.5
   m_AutoUVMaxAngle: 89
   m_LightmapParameters: {fileID: 0}
-  m_SortingLayerID: 0
-  m_SortingLayer: 0
+  m_SortingLayerID: -1273057575
+  m_SortingLayer: 5
   m_SortingOrder: 0
   m_Sprite: {fileID: 5940055773498318767, guid: d928d3b9157c0164a8b1edda0fe39c5c,
     type: 3}

@@ -12,7 +12,7 @@ GameObject:
   - component: {fileID: 8712767809167488343}
   - component: {fileID: 7887639899748204453}
   m_Layer: 0
-  m_Name: Automatic Slice - Gadwood_31
+  m_Name: Mushroom Object
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -68,8 +68,8 @@ SpriteRenderer:
   m_AutoUVMaxDistance: 0.5
   m_AutoUVMaxAngle: 89
   m_LightmapParameters: {fileID: 0}
-  m_SortingLayerID: 0
-  m_SortingLayer: 0
+  m_SortingLayerID: -1273057575
+  m_SortingLayer: 5
   m_SortingOrder: 0
   m_Sprite: {fileID: -5632251931991565101, guid: d928d3b9157c0164a8b1edda0fe39c5c,
     type: 3}

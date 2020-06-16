@@ -66,23 +66,29 @@ TagManager:
   - name: Water_Objects
     uniqueID: 3821520461
     locked: 0
-  - name: Path
-    uniqueID: 2799936525
-    locked: 0
-  - name: Ground_Objects
-    uniqueID: 3021909721
-    locked: 0
   - name: Tree Wall
     uniqueID: 1491910489
     locked: 0
-  - name: Cliff Edges
-    uniqueID: 976240751
+  - name: Light Grass
+    uniqueID: 627591383
+    locked: 0
+  - name: Dark Grass
+    uniqueID: 1522070939
+    locked: 0
+  - name: Path
+    uniqueID: 2799936525
     locked: 0
   - name: Upper_Ground
     uniqueID: 3743274767
     locked: 0
   - name: Upper_Ground_Objects
     uniqueID: 232261661
+    locked: 0
+  - name: Cliff Edges
+    uniqueID: 976240751
+    locked: 0
+  - name: Ground_Objects
+    uniqueID: 3021909721
     locked: 0
   - name: House
     uniqueID: 1477356307
@@ -113,4 +119,7 @@ TagManager:
     locked: 0
   - name: TreeGameObject
     uniqueID: 4115611031
+    locked: 0
+  - name: TopOfWallObjects
+    uniqueID: 2222045337
     locked: 0
