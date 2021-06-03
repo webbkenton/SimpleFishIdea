@@ -45,7 +45,7 @@ public class CameraMovement : MonoBehaviour
                // minPosition.y =-6f;
                 //maxPosition.x =4.45f;
                 //maxPosition.y =4.85f;
-            //}
-        }
+            }
+       // }
     }
 }

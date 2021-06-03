@@ -6,14 +6,14 @@ public class TreeTransparent : MonoBehaviour
 {
     private SpriteRenderer Spriter;
     private Color StartingColor;
-    private float full;
-    private float forty;
+   // private float full;
+  //  private float forty;
     
     // Start is called before the first frame update
     void Start()
     {
-        full = 100;
-        forty = 40;
+        //full = 100;
+        //forty = 40;
 
         Spriter = this.GetComponent<SpriteRenderer>();
         StartingColor = Spriter.color;

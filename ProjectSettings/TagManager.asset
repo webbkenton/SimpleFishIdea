@@ -20,6 +20,11 @@ TagManager:
   - InventorySlot
   - ChaseSquareY
   - ChaseSquareX
+  - BrokenRock1
+  - BrokenRock2
+  - BrokenRock0
+  - TimeLineManager
+  - Camera
   layers:
   - Default
   - TransparentFX
@@ -66,9 +71,6 @@ TagManager:
   - name: Water_Objects
     uniqueID: 3821520461
     locked: 0
-  - name: Tree Wall
-    uniqueID: 1491910489
-    locked: 0
   - name: Light Grass
     uniqueID: 627591383
     locked: 0
@@ -86,9 +88,6 @@ TagManager:
     locked: 0
   - name: Cliff Edges
     uniqueID: 976240751
-    locked: 0
-  - name: Ground_Objects
-    uniqueID: 3021909721
     locked: 0
   - name: House
     uniqueID: 1477356307
@@ -122,4 +121,13 @@ TagManager:
     locked: 0
   - name: TopOfWallObjects
     uniqueID: 2222045337
+    locked: 0
+  - name: Ground_Objects
+    uniqueID: 3021909721
+    locked: 0
+  - name: Tree Wall
+    uniqueID: 1491910489
+    locked: 0
+  - name: Clouds
+    uniqueID: 2296994179
     locked: 0

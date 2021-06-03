@@ -13,7 +13,7 @@ MonoBehaviour:
   m_Name: 32x32_map_tile v3.1 [MARGINLESS]_24
   m_EditorClassIdentifier: 
   m_Sprite: {fileID: 21300048, guid: fb27f47558754cc48ae629bba0952e36, type: 3}
-  m_Color: {r: 1, g: 1, b: 1, a: 1}
+  m_Color: {r: 0.38855973, g: 0.5754717, b: 0.40095726, a: 1}
   m_Transform:
     e00: 1
     e01: 0

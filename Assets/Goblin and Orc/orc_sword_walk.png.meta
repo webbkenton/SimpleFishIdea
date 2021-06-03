@@ -1,0 +1,707 @@
+fileFormatVersion: 2
+guid: a4b1f9ab078e81f449682916a09c86bc
+TextureImporter:
+  internalIDToNameTable:
+  - first:
+      213: -7161537217064651569
+    second: orc_sword_walk_0
+  - first:
+      213: -7116907858751796927
+    second: orc_sword_walk_1
+  - first:
+      213: 6855589862342840268
+    second: orc_sword_walk_2
+  - first:
+      213: -2364411780222251850
+    second: orc_sword_walk_3
+  - first:
+      213: 3133935119416565986
+    second: orc_sword_walk_4
+  - first:
+      213: -6274086595302327066
+    second: orc_sword_walk_5
+  - first:
+      213: 9031712402791106981
+    second: orc_sword_walk_6
+  - first:
+      213: 8848733129473641289
+    second: orc_sword_walk_7
+  - first:
+      213: 2286442093918831220
+    second: orc_sword_walk_8
+  - first:
+      213: 7916403967376432741
+    second: orc_sword_walk_9
+  - first:
+      213: 2516402789857076750
+    second: orc_sword_walk_10
+  - first:
+      213: -4694710414970389203
+    second: orc_sword_walk_11
+  - first:
+      213: -6899437035056459317
+    second: orc_sword_walk_12
+  - first:
+      213: 685565410078086514
+    second: orc_sword_walk_13
+  - first:
+      213: 7191922087133690317
+    second: orc_sword_walk_14
+  - first:
+      213: -6029788196536283993
+    second: orc_sword_walk_15
+  - first:
+      213: -991967746070925153
+    second: orc_sword_walk_16
+  - first:
+      213: -2633539818008334355
+    second: orc_sword_walk_17
+  - first:
+      213: -2423005717413883439
+    second: orc_sword_walk_18
+  - first:
+      213: -219114449221906844
+    second: orc_sword_walk_19
+  - first:
+      213: 7373694908458747132
+    second: orc_sword_walk_20
+  - first:
+      213: -4400530450415823565
+    second: orc_sword_walk_21
+  - first:
+      213: -4765171395435145156
+    second: orc_sword_walk_22
+  - first:
+      213: -9036503421416053196
+    second: orc_sword_walk_23
+  - first:
+      213: -8344445504171617870
+    second: orc_sword_walk_24
+  - first:
+      213: 9022703013441844227
+    second: orc_sword_walk_25
+  - first:
+      213: 6216645158163937243
+    second: orc_sword_walk_26
+  - first:
+      213: -7805272869503274467
+    second: orc_sword_walk_27
+  - first:
+      213: 7185064086702038920
+    second: orc_sword_walk_28
+  - first:
+      213: -3520380143632503340
+    second: orc_sword_walk_29
+  - first:
+      213: 8406397518485167043
+    second: orc_sword_walk_30
+  - first:
+      213: -2107139658697319121
+    second: orc_sword_walk_31
+  - first:
+      213: 7337374464023445211
+    second: orc_sword_walk_32
+  - first:
+      213: -4493002421732319057
+    second: orc_sword_walk_33
+  - first:
+      213: 2408089280885798524
+    second: orc_sword_walk_34
+  - first:
+      213: 151101102499783837
+    second: orc_sword_walk_35
+  - first:
+      213: 3844755862662247886
+    second: orc_sword_walk_36
+  - first:
+      213: 7825581391624049409
+    second: orc_sword_walk_37
+  - first:
+      213: -1886449985833219570
+    second: orc_sword_walk_38
+  - first:
+      213: -5285017493777027881
+    second: orc_sword_walk_39
+  - first:
+      213: 5209167877840738297
+    second: orc_sword_walk_40
+  - first:
+      213: -486866776935848519
+    second: orc_sword_walk_41
+  - first:
+      213: -646310775244055994
+    second: orc_sword_walk_42
+  - first:
+      213: 8253325972229084098
+    second: orc_sword_walk_43
+  - first:
+      213: 6708368666010400411
+    second: orc_sword_walk_44
+  - first:
+      213: 7521244864722723997
+    second: orc_sword_walk_45
+  - first:
+      213: -6584186008601790996
+    second: orc_sword_walk_46
+  - first:
+      213: 4452589615075809270
+    second: orc_sword_walk_47
+  - first:
+      213: 774404159527800542
+    second: orc_sword_walk_48
+  - first:
+      213: 6260541442809849031
+    second: orc_sword_walk_49
+  - first:
+      213: -4897783832780461405
+    second: orc_sword_walk_50
+  - first:
+      213: -7082116873243189377
+    second: orc_sword_walk_51
+  - first:
+      213: 7527572057475537690
+    second: orc_sword_walk_52
+  - first:
+      213: -4278256196968750515
+    second: orc_sword_walk_53
+  - first:
+      213: 7690315125497659001
+    second: orc_sword_walk_54
+  - first:
+      213: -8951883204361025654
+    second: orc_sword_walk_55
+  - first:
+      213: 937436473789897981
+    second: orc_sword_walk_56
+  - first:
+      213: -7591752628280137038
+    second: orc_sword_walk_57
+  - first:
+      213: 2668356378068341422
+    second: orc_sword_walk_58
+  - first:
+      213: -6099871583087380238
+    second: orc_sword_walk_59
+  - first:
+      213: -5880993511443947983
+    second: orc_sword_walk_60
+  - first:
+      213: -62775405129133166
+    second: orc_sword_walk_61
+  - first:
+      213: 7926598258110424966
+    second: orc_sword_walk_62
+  - first:
+      213: 3260028082101389520
+    second: orc_sword_walk_63
+  - first:
+      213: -3554573112319331583
+    second: orc_sword_walk_64
+  - first:
+      213: 5144447071157479450
+    second: orc_sword_walk_65
+  - first:
+      213: -7561822009621087230
+    second: orc_sword_walk_66
+  - first:
+      213: -3497464246061625105
+    second: orc_sword_walk_67
+  - first:
+      213: 3069083250313044755
+    second: orc_sword_walk_68
+  - first:
+      213: -3543771597918958015
+    second: orc_sword_walk_69
+  - first:
+      213: -7546389235805481184
+    second: orc_sword_walk_70
+  - first:
+      213: 2770787329282588398
+    second: orc_sword_walk_71
+  - first:
+      213: -900138102177084522
+    second: orc_sword_walk_72
+  - first:
+      213: -1906153362864950626
+    second: orc_sword_walk_73
+  - first:
+      213: 4040386213054781010
+    second: orc_sword_walk_74
+  - first:
+      213: -8579362361626869424
+    second: orc_sword_walk_75
+  - first:
+      213: -3809051484881796859
+    second: orc_sword_walk_76
+  - first:
+      213: -7906981370035454893
+    second: orc_sword_walk_77
+  - first:
+      213: -8006536081595728699
+    second: orc_sword_walk_78
+  - first:
+      213: 5277907362824856007
+    second: orc_sword_walk_79
+  - first:
+      213: 773797431572851543
+    second: orc_sword_walk_80
+  - first:
+      213: -8875638325349024997
+    second: orc_sword_walk_81
+  - first:
+      213: -5245146613560530938
+    second: orc_sword_walk_82
+  - first:
+      213: -5314595261327851483
+    second: orc_sword_walk_83
+  - first:
+      213: -758551772431541310
+    second: orc_sword_walk_84
+  - first:
+      213: 8173073399925759242
+    second: orc_sword_walk_85
+  - first:
+      213: 4079452945368174759
+    second: orc_sword_walk_86
+  - first:
+      213: -3455804122427187129
+    second: orc_sword_walk_87
+  - first:
+      213: 386353257272307271
+    second: orc_sword_walk_88
+  - first:
+      213: 3592030109400064158
+    second: orc_sword_walk_89
+  - first:
+      213: -150597735832671886
+    second: orc_sword_walk_90
+  - first:
+      213: 1187794029964676948
+    second: orc_sword_walk_91
+  - first:
+      213: -1193646961214662986
+    second: orc_sword_walk_92
+  - first:
+      213: -3318800470040142789
+    second: orc_sword_walk_93
+  - first:
+      213: 4813000694082177585
+    second: orc_sword_walk_94
+  - first:
+      213: -212093460584580721
+    second: orc_sword_walk_95
+  externalObjects: {}
+  serializedVersion: 11
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+  isReadable: 0
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: -1
+    aniso: -1
+    mipBias: -100
+    wrapU: 1
+    wrapV: 1
+    wrapW: 1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 32
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 1
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  singleChannelComponent: 0
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  applyGammaDecoding: 0
+  platformSettings:
+  - serializedVersion: 3
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: Standalone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: orc_sword_walk_0
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 145
+        width: 24
+        height: 38
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: fc43f1338db1d9c90800000000000000
+      internalID: -7161537217064651569
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: orc_sword_walk_1
+      rect:
+        serializedVersion: 2
+        x: 25
+        y: 145
+        width: 24
+        height: 38
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 149c9eb620aab3d90800000000000000
+      internalID: -7116907858751796927
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: orc_sword_walk_2
+      rect:
+        serializedVersion: 2
+        x: 48
+        y: 145
+        width: 24
+        height: 38
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ccfc6b648a2f32f50800000000000000
+      internalID: 6855589862342840268
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: orc_sword_walk_3
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 145
+        width: 24
+        height: 38
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 6bc8a19530cef2fd0800000000000000
+      internalID: -2364411780222251850
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: orc_sword_walk_4
+      rect:
+        serializedVersion: 2
+        x: 24
+        y: 145
+        width: 24
+        height: 38
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2e022f50369fd7b20800000000000000
+      internalID: 3133935119416565986
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: orc_sword_walk_5
+      rect:
+        serializedVersion: 2
+        x: 48
+        y: 145
+        width: 24
+        height: 38
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 6ecf6fcab77fde8a0800000000000000
+      internalID: -6274086595302327066
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: orc_sword_walk_6
+      rect:
+        serializedVersion: 2
+        x: 1
+        y: 96
+        width: 24
+        height: 38
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5a98ad90496175d70800000000000000
+      internalID: 9031712402791106981
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: orc_sword_walk_7
+      rect:
+        serializedVersion: 2
+        x: 25
+        y: 96
+        width: 24
+        height: 38
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 94bc18e06e30dca70800000000000000
+      internalID: 8848733129473641289
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: orc_sword_walk_8
+      rect:
+        serializedVersion: 2
+        x: 48
+        y: 96
+        width: 24
+        height: 38
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 472488768f21bbf10800000000000000
+      internalID: 2286442093918831220
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: orc_sword_walk_9
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 48
+        width: 24
+        height: 38
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 56e17f52777bcdd60800000000000000
+      internalID: 7916403967376432741
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: orc_sword_walk_10
+      rect:
+        serializedVersion: 2
+        x: 24
+        y: 48
+        width: 24
+        height: 38
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e06ab31410f0ce220800000000000000
+      internalID: 2516402789857076750
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: orc_sword_walk_11
+      rect:
+        serializedVersion: 2
+        x: 48
+        y: 48
+        width: 24
+        height: 38
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d2dfc5050c909deb0800000000000000
+      internalID: -4694710414970389203
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: orc_sword_walk_12
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 0
+        width: 24
+        height: 39
+      alignment: 9
+      pivot: {x: 0.47390744, y: 0.291259}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: bc1194742964040a0800000000000000
+      internalID: -6899437035056459317
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: orc_sword_walk_13
+      rect:
+        serializedVersion: 2
+        x: 24
+        y: 1
+        width: 24
+        height: 38
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 275dff1bb1e938900800000000000000
+      internalID: 685565410078086514
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: orc_sword_walk_14
+      rect:
+        serializedVersion: 2
+        x: 48
+        y: 0
+        width: 24
+        height: 39
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: dc9b3e7a807dec360800000000000000
+      internalID: 7191922087133690317
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    outline: []
+    physicsShape: []
+    bones: []
+    spriteID: 5e97eb03825dee720800000000000000
+    internalID: 0
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+    secondaryTextures: []
+  spritePackingTag: 
+  pSDRemoveMatte: 0
+  pSDShowRemoveMatteOption: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
