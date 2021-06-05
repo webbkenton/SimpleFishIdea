@@ -1,22 +1,34 @@
 fileFormatVersion: 2
-guid: 5c8eedd7778fefa4bab7d520625ff4f9
+guid: de6ae65b070236849b842e11aa6cc70d
 TextureImporter:
   internalIDToNameTable:
   - first:
-      213: 1002920984047814594
-    second: RedSlimeIdleSprite_0
+      213: 7590773567338163496
+    second: PinkyMunch_0
   - first:
-      213: -8341278743661115334
-    second: RedSlimeIdleSprite_1
+      213: -4264413701073956489
+    second: PinkyMunch_1
   - first:
-      213: 7910963917030573154
-    second: RedSlimeIdleSprite_2
+      213: -549776392672096408
+    second: PinkyMunch_2
   - first:
-      213: -7072961091804514183
-    second: RedSlimeIdleSprite_3
+      213: 6164385459738648839
+    second: PinkyMunch_3
   - first:
-      213: -5363410215278249590
-    second: RedSlimeIdleSprite_4
+      213: 4469517327131674317
+    second: PinkyMunch_4
+  - first:
+      213: 4068158435402557368
+    second: PinkyMunch_5
+  - first:
+      213: -2213366947143058037
+    second: PinkyMunch_6
+  - first:
+      213: 2166345811469928022
+    second: PinkyMunch_7
+  - first:
+      213: -8359226244662393521
+    second: PinkyMunch_8
   externalObjects: {}
   serializedVersion: 11
   mipmaps:
@@ -106,7 +118,7 @@ TextureImporter:
     serializedVersion: 2
     sprites:
     - serializedVersion: 2
-      name: RedSlimeIdleSprite_0
+      name: PinkyMunch_0
       rect:
         serializedVersion: 2
         x: 0
@@ -120,14 +132,14 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 2c784ff32571bed00800000000000000
-      internalID: 1002920984047814594
+      spriteID: 82dad938758d75960800000000000000
+      internalID: 7590773567338163496
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: RedSlimeIdleSprite_1
+      name: PinkyMunch_1
       rect:
         serializedVersion: 2
         x: 32
@@ -141,14 +153,14 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: a3800973d23dd3c80800000000000000
-      internalID: -8341278743661115334
+      spriteID: 7719d2c2552c1d4c0800000000000000
+      internalID: -4264413701073956489
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: RedSlimeIdleSprite_2
+      name: PinkyMunch_2
       rect:
         serializedVersion: 2
         x: 64
@@ -162,14 +174,14 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 2644a89b4c369cd60800000000000000
-      internalID: 7910963917030573154
+      spriteID: 86f42e0a84dce58f0800000000000000
+      internalID: -549776392672096408
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: RedSlimeIdleSprite_3
+      name: PinkyMunch_3
       rect:
         serializedVersion: 2
         x: 96
@@ -183,14 +195,14 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 97835d47c5bc7dd90800000000000000
-      internalID: -7072961091804514183
+      spriteID: 7012e425aeb4c8550800000000000000
+      internalID: 6164385459738648839
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: RedSlimeIdleSprite_4
+      name: PinkyMunch_4
       rect:
         serializedVersion: 2
         x: 128
@@ -204,8 +216,92 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: a8973a563d65195b0800000000000000
-      internalID: -5363410215278249590
+      spriteID: dc60329145ae60e30800000000000000
+      internalID: 4469517327131674317
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PinkyMunch_5
+      rect:
+        serializedVersion: 2
+        x: 160
+        y: 0
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8b7ad200b80057830800000000000000
+      internalID: 4068158435402557368
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PinkyMunch_6
+      rect:
+        serializedVersion: 2
+        x: 192
+        y: 0
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b8d72fd0d7a8841e0800000000000000
+      internalID: -2213366947143058037
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PinkyMunch_7
+      rect:
+        serializedVersion: 2
+        x: 224
+        y: 0
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 6560259a908601e10800000000000000
+      internalID: 2166345811469928022
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PinkyMunch_8
+      rect:
+        serializedVersion: 2
+        x: 256
+        y: 0
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f4586c105001efb80800000000000000
+      internalID: -8359226244662393521
       vertices: []
       indices: 
       edges: []

@@ -9,18 +9,47 @@ public class EnemyAI : MonoBehaviour
 
     public float speed = 2f;
     public float stoppingDistance;
+    public int MaxHealth = 50;
+    private int currentHealth;
+
+    private Animator animator;
 
     void Start()
     {
+        animator = this.GetComponent<Animator>();
+        currentHealth = MaxHealth;
         target = GameObject.FindGameObjectWithTag("Player").GetComponent<Transform>();
     }
 
+    public void TakeDamage(int damage)
+    { 
+        currentHealth -= damage;
+
+        animator.SetTrigger("Hurt");
+
+        if (currentHealth <= 0)
+        {
+            Die();
+        }
+    }
+
+    void Die()
+    {
+        animator.SetBool("Isdead", true);
+        GetComponent<CircleCollider2D>().enabled = false;
+        GetComponent<Collider2D>().enabled = false;
+        GetComponent<WakeUpRock>().enabled = false;
+        this.enabled = false;
+    }
     // Update is called once per frame
     void Update()
     {
-        if (Vector2.Distance(transform.position, target.position) > stoppingDistance)
+        if (animator.GetBool("Isdead") == false)
         {
-            transform.position = Vector2.MoveTowards(transform.position, target.position, speed * Time.deltaTime);
+            if (Vector2.Distance(transform.position, target.position) > stoppingDistance)
+            {
+                transform.position = Vector2.MoveTowards(transform.position, target.position, speed * Time.deltaTime);
+            }
         }
     }
 }

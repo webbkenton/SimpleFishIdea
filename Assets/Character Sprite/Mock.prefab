@@ -16,7 +16,7 @@ GameObject:
   - component: {fileID: 3269799590631235671}
   - component: {fileID: 3269799590631235690}
   - component: {fileID: 3269799590631235691}
-  m_Layer: 0
+  m_Layer: 6
   m_Name: Mock
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -156,7 +156,6 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: a2d1c8bc2a8285c44a907bf45144bd28, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  animator: {fileID: 3269799590631235670}
 --- !u!58 &3269799590631235690
 CircleCollider2D:
   m_ObjectHideFlags: 0
