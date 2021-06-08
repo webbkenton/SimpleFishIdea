@@ -16,14 +16,17 @@ public class EnemyAI : MonoBehaviour
 
     void Start()
     {
+        this.GetComponent<WakeUpRock>().enabled = false;
         animator = this.GetComponent<Animator>();
         currentHealth = MaxHealth;
         target = GameObject.FindGameObjectWithTag("Player").GetComponent<Transform>();
+        this.GetComponent<Rigidbody2D>().constraints = RigidbodyConstraints2D.FreezeAll;
     }
 
     public void TakeDamage(int damage)
     { 
         currentHealth -= damage;
+        Debug.Log(currentHealth);
 
         animator.SetTrigger("Hurt");
 

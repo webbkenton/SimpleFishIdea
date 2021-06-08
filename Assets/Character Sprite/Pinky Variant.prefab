@@ -1,5 +1,35 @@
 %YAML 1.1
 %TAG !u! tag:unity3d.com,2011:
+--- !u!1 &36253456
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 36253457}
+  m_Layer: 0
+  m_Name: AttackPointDown
+  m_TagString: AttackPointDown
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &36253457
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 36253456}
+  m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
+  m_LocalPosition: {x: 0, y: -0.8, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children: []
+  m_Father: {fileID: 7982186291943706498}
+  m_RootOrder: 4
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1 &554654795
 GameObject:
   m_ObjectHideFlags: 0
@@ -4871,6 +4901,36 @@ ParticleSystemRenderer:
   m_Mesh2: {fileID: 0}
   m_Mesh3: {fileID: 0}
   m_MaskInteraction: 0
+--- !u!1 &642472238
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 642472239}
+  m_Layer: 0
+  m_Name: AttackPointCenter
+  m_TagString: AttackPointCenter
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &642472239
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 642472238}
+  m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
+  m_LocalPosition: {x: 0, y: -0.2, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children: []
+  m_Father: {fileID: 7982186291943706498}
+  m_RootOrder: 5
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1 &960686130
 GameObject:
   m_ObjectHideFlags: 0
@@ -4881,8 +4941,8 @@ GameObject:
   m_Component:
   - component: {fileID: 960686131}
   m_Layer: 0
-  m_Name: AttackPoint
-  m_TagString: Untagged
+  m_Name: AttackPointRight
+  m_TagString: AttackPointRight
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -4895,11 +4955,71 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 960686130}
   m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
-  m_LocalPosition: {x: 0.5249529, y: -0.27951574, z: 0}
+  m_LocalPosition: {x: 0.5, y: -0.275, z: 0}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children: []
   m_Father: {fileID: 7982186291943706498}
   m_RootOrder: 1
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!1 &1328807110
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 1328807111}
+  m_Layer: 0
+  m_Name: AttackPointUp
+  m_TagString: AttackPointUp
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &1328807111
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1328807110}
+  m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
+  m_LocalPosition: {x: 0, y: 0.2, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children: []
+  m_Father: {fileID: 7982186291943706498}
+  m_RootOrder: 3
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!1 &2027238023
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 2027238024}
+  m_Layer: 0
+  m_Name: AttackPointLeft
+  m_TagString: AttackPointLeft
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &2027238024
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 2027238023}
+  m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
+  m_LocalPosition: {x: -0.8, y: -0.27951574, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children: []
+  m_Father: {fileID: 7982186291943706498}
+  m_RootOrder: 2
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!58 &1077641402
 CircleCollider2D:
@@ -4930,9 +5050,23 @@ CircleCollider2D:
   m_IsTrigger: 1
   m_UsedByEffector: 0
   m_UsedByComposite: 0
-  m_Offset: {x: -0.008069277, y: -0.104899764}
+  m_Offset: {x: 0.006482482, y: -0.104899764}
   serializedVersion: 2
-  m_Radius: 0.5968307
+  m_Radius: 0.87331474
+--- !u!114 &131368271
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 7982186291943706497}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 8f65a42fdc6b460438aa80325a90395a, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  thrustForce: 25
+  knockTime: 0.5
 --- !u!1001 &228563445900663233
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -5067,14 +5201,39 @@ PrefabInstance:
       objectReference: {fileID: 960686131}
     - target: {fileID: 7920258455741421133, guid: be75749b9d6f4d34fad6e4f34cd82c75,
         type: 3}
+      propertyPath: attackPointUp
+      value: 
+      objectReference: {fileID: 1328807110}
+    - target: {fileID: 7920258455741421133, guid: be75749b9d6f4d34fad6e4f34cd82c75,
+        type: 3}
       propertyPath: plungeCollider
       value: 
       objectReference: {fileID: 1159964994}
     - target: {fileID: 7920258455741421133, guid: be75749b9d6f4d34fad6e4f34cd82c75,
         type: 3}
+      propertyPath: attackPointDown
+      value: 
+      objectReference: {fileID: 36253456}
+    - target: {fileID: 7920258455741421133, guid: be75749b9d6f4d34fad6e4f34cd82c75,
+        type: 3}
+      propertyPath: attackPointLeft
+      value: 
+      objectReference: {fileID: 2027238023}
+    - target: {fileID: 7920258455741421133, guid: be75749b9d6f4d34fad6e4f34cd82c75,
+        type: 3}
+      propertyPath: attackPointRight
+      value: 
+      objectReference: {fileID: 960686130}
+    - target: {fileID: 7920258455741421133, guid: be75749b9d6f4d34fad6e4f34cd82c75,
+        type: 3}
       propertyPath: EnvObjects.m_Bits
       value: 128
       objectReference: {fileID: 0}
+    - target: {fileID: 7920258455741421133, guid: be75749b9d6f4d34fad6e4f34cd82c75,
+        type: 3}
+      propertyPath: attackPointCenter
+      value: 
+      objectReference: {fileID: 642472238}
     - target: {fileID: 7920258455741421133, guid: be75749b9d6f4d34fad6e4f34cd82c75,
         type: 3}
       propertyPath: enemyLayers.m_Bits

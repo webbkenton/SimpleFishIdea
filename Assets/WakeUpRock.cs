@@ -8,6 +8,7 @@ public class WakeUpRock : MonoBehaviour
 
     private void Start()
     {
+        this.GetComponent<Rigidbody2D>().constraints = RigidbodyConstraints2D.FreezeAll;
         animator = this.GetComponent<Animator>();
     }
     private void OnTriggerEnter2D(Collider2D collision)

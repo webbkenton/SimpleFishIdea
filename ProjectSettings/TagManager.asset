@@ -25,6 +25,14 @@ TagManager:
   - BrokenRock0
   - TimeLineManager
   - Camera
+  - AttackPointLeft
+  - AttackPointRight
+  - AttackPointUp
+  - AttackPointDown
+  - AttackPointCenter
+  - Enemy
+  - Consumable
+  - ConsumableGrass
   layers:
   - Default
   - TransparentFX
@@ -106,6 +114,9 @@ TagManager:
     locked: 0
   - name: Player
     uniqueID: 1426864667
+    locked: 0
+  - name: Consumables
+    uniqueID: 3325869915
     locked: 0
   - name: GroundFurniture
     uniqueID: 1005056471
