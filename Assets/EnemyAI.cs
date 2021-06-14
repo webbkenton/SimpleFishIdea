@@ -11,11 +11,13 @@ public class EnemyAI : MonoBehaviour
     public float stoppingDistance;
     public int MaxHealth = 50;
     private int currentHealth;
+    private GameObject SceneProgressTracker;
 
     private Animator animator;
 
     void Start()
     {
+        SceneProgressTracker = GameObject.FindGameObjectWithTag("SceneProgressTracker");
         this.GetComponent<WakeUpRock>().enabled = false;
         animator = this.GetComponent<Animator>();
         currentHealth = MaxHealth;
@@ -30,7 +32,7 @@ public class EnemyAI : MonoBehaviour
 
         animator.SetTrigger("Hurt");
 
-        if (currentHealth <= 0)
+        if (currentHealth == 0)
         {
             Die();
         }
@@ -38,11 +40,20 @@ public class EnemyAI : MonoBehaviour
 
     void Die()
     {
+        if (SceneProgressTracker != null)
+        {
+            SceneProgressTracker.GetComponent<SceneProgressTracker>().UpdateMockDeaths();
+            SceneProgressTracker.GetComponent<SceneProgressTracker>().transforms.Add(this.transform);
+            SceneProgressTracker.GetComponent<SceneProgressTracker>().animators.Add(this.animator);
+        }
         animator.SetBool("Isdead", true);
+        this.tag = "DeadEnemy";
+        GameObject.FindGameObjectWithTag("Player").GetComponent<KnockBack>().EnemyNull();
         GetComponent<CircleCollider2D>().enabled = false;
         GetComponent<Collider2D>().enabled = false;
         GetComponent<WakeUpRock>().enabled = false;
-        this.enabled = false;
+        this.GetComponent<Rigidbody2D>().constraints = RigidbodyConstraints2D.FreezeAll;
+        //this.enabled = false;
     }
     // Update is called once per frame
     void Update()

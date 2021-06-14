@@ -4,34 +4,46 @@ using UnityEngine;
 
 public class Interact : MonoBehaviour
 {
+    public string[] Sentences;
     public GameObject InteractableIcon;
+    public UIManager uIManager;
+    public bool inRange = false;
     // Start is called before the first frame update
     void Start()
     {
-        
+        uIManager = GameObject.FindGameObjectWithTag("UIManager").GetComponent<UIManager>();
     }
 
     // Update is called once per frame
     void Update()
     {
-        MoveIcon();
+        EToInteract();
     }
 
     private void OnTriggerEnter2D(Collider2D collision)
     {
         if (collision.CompareTag("Player"))
         {
-            Instantiate(InteractableIcon);
-            
-            
+            InteractableIcon.SetActive(true);
+            uIManager.sentences = Sentences;
+            inRange = true;
             
         }
     }
-    private void MoveIcon()
+
+    private void OnTriggerExit2D(Collider2D collision)
     {
-        if (InteractableIcon.activeInHierarchy)
+        inRange = false;
         {
-            InteractableIcon.transform.position = new Vector2(this.transform.position.x, this.transform.position.y);
+            InteractableIcon.SetActive(false);
+        }
+    }
+    private void EToInteract()
+    {
+        if (inRange && Input.GetKeyDown(KeyCode.E))
+        {
+            uIManager.UpdateTyping();
+            uIManager.dialogText.gameObject.SetActive(true);
         }
     }
 }

@@ -12,6 +12,9 @@ EditorBuildSettings:
     path: Assets/Stage1.unity
     guid: a0b9a890f3721c54bb74d10e34a15186
   - enabled: 1
+    path: Assets/PathToGrove.unity
+    guid: 042bdc4c7a028f84bbf3eaf2580373e0
+  - enabled: 1
     path: Assets/Scenes/RockGrove.unity
     guid: 1ae0e67d1050104419199a7a8446c5c5
   m_configObjects: {}

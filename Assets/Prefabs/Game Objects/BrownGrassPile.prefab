@@ -25,7 +25,7 @@ PrefabInstance:
     - target: {fileID: 1141228066876253405, guid: d0481a884a58e204c99890df316c011c,
         type: 3}
       propertyPath: m_LocalPosition.x
-      value: 7.2
+      value: 0.5148926
       objectReference: {fileID: 0}
     - target: {fileID: 1141228066876253405, guid: d0481a884a58e204c99890df316c011c,
         type: 3}
@@ -35,12 +35,17 @@ PrefabInstance:
     - target: {fileID: 2149244660470052280, guid: d0481a884a58e204c99890df316c011c,
         type: 3}
       propertyPath: m_Name
-      value: TallGrassObjectHolder
+      value: BrownGrassPile (1)
+      objectReference: {fileID: 0}
+    - target: {fileID: 2235383302246693167, guid: d0481a884a58e204c99890df316c011c,
+        type: 3}
+      propertyPath: m_LocalPosition.x
+      value: 1.0886383
       objectReference: {fileID: 0}
     - target: {fileID: 2879871693820460831, guid: d0481a884a58e204c99890df316c011c,
         type: 3}
       propertyPath: m_LocalPosition.x
-      value: 7.31
+      value: 0.6248927
       objectReference: {fileID: 0}
     - target: {fileID: 2879871693820460831, guid: d0481a884a58e204c99890df316c011c,
         type: 3}
@@ -92,6 +97,11 @@ PrefabInstance:
       propertyPath: m_Color.r
       value: 0.8392157
       objectReference: {fileID: 0}
+    - target: {fileID: 6052138493033279646, guid: d0481a884a58e204c99890df316c011c,
+        type: 3}
+      propertyPath: m_LocalPosition.x
+      value: 1.5978136
+      objectReference: {fileID: 0}
     - target: {fileID: 6168163094901911142, guid: d0481a884a58e204c99890df316c011c,
         type: 3}
       propertyPath: m_Color.b
@@ -130,12 +140,12 @@ PrefabInstance:
     - target: {fileID: 7545788052254287818, guid: d0481a884a58e204c99890df316c011c,
         type: 3}
       propertyPath: m_LocalPosition.x
-      value: -4.71
+      value: 9.804221
       objectReference: {fileID: 0}
     - target: {fileID: 7545788052254287818, guid: d0481a884a58e204c99890df316c011c,
         type: 3}
       propertyPath: m_LocalPosition.y
-      value: 0
+      value: -3.2521558
       objectReference: {fileID: 0}
     - target: {fileID: 7545788052254287818, guid: d0481a884a58e204c99890df316c011c,
         type: 3}
@@ -177,6 +187,16 @@ PrefabInstance:
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
       objectReference: {fileID: 0}
+    - target: {fileID: 7759373439322544574, guid: d0481a884a58e204c99890df316c011c,
+        type: 3}
+      propertyPath: m_LocalPosition.x
+      value: 1.0501847
+      objectReference: {fileID: 0}
+    - target: {fileID: 8216744432777245907, guid: d0481a884a58e204c99890df316c011c,
+        type: 3}
+      propertyPath: m_LocalPosition.x
+      value: 1.73
+      objectReference: {fileID: 0}
     - target: {fileID: 8386698407495936555, guid: d0481a884a58e204c99890df316c011c,
         type: 3}
       propertyPath: m_Color.b
@@ -195,7 +215,7 @@ PrefabInstance:
     - target: {fileID: 9089767069472623797, guid: d0481a884a58e204c99890df316c011c,
         type: 3}
       propertyPath: m_LocalPosition.x
-      value: 7.75
+      value: 1.0648928
       objectReference: {fileID: 0}
     - target: {fileID: 9089767069472623797, guid: d0481a884a58e204c99890df316c011c,
         type: 3}

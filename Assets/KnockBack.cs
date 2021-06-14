@@ -7,18 +7,18 @@ public class KnockBack : MonoBehaviour
     public float thrustForce;
     public float knockTime;
     private bool EnemyInRange = false;
-    private Rigidbody2D enemy;
+    public Rigidbody2D enemy;
 
     private void Update()
     {
         if (enemy != null && Input.GetKeyDown(KeyCode.X))
         {
-            Debug.Log("XPress");
+            //Debug.Log("XPress");
             Vector2 difference = enemy.transform.position - transform.position;
             difference = difference.normalized * thrustForce;
             enemy.constraints = RigidbodyConstraints2D.FreezeRotation;
             enemy.AddForce(difference, mode: ForceMode2D.Impulse);
-            Debug.Log("Yeet");
+            //Debug.Log("Yeet");
             StartCoroutine(Knock(enemy));
         }
     }
@@ -32,6 +32,11 @@ public class KnockBack : MonoBehaviour
             enemy = collision.GetComponent<Rigidbody2D>();
             EnemyInRange = true;
         }
+    }
+
+    public void EnemyNull()
+    {
+        enemy = null;
     }
 
     private IEnumerator Knock(Rigidbody2D enemy)

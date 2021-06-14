@@ -33,6 +33,12 @@ TagManager:
   - Enemy
   - Consumable
   - ConsumableGrass
+  - UIManager
+  - Golem
+  - SceneProgressTracker
+  - DeadEnemy
+  - EnemyAttackPointLeft
+  - EnemyAttackPointRight
   layers:
   - Default
   - TransparentFX
@@ -42,7 +48,7 @@ TagManager:
   - UI
   - Enemy
   - BreakableEnv
-  - 
+  - Player
   - 
   - 
   - 

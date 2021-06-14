@@ -14,7 +14,8 @@ public class PlayerMovement : MonoBehaviour
     private float holdTime;
     private float holdStart;
     public CircleCollider2D plungeCollider;
-    public GameObject ripple;
+    //public GameObject ripple;
+    public int PlayerHealth;
 
     private SpriteRenderer spriteRenderer;
     public Sprite Grasssprite;
@@ -49,6 +50,7 @@ public class PlayerMovement : MonoBehaviour
 
     public bool noForm;
     public bool grassForm;
+    private int currentHealth;
 
     private void MaterialComposition()
     {
@@ -69,12 +71,25 @@ public class PlayerMovement : MonoBehaviour
 
     }
 
+    public void TakeDamage(int damage)
+    {
+        currentHealth -= damage;
+        Debug.Log(currentHealth);
+        StartCoroutine(DamageFlash());
+    }
+    private IEnumerator DamageFlash()
+    {
+        spriteRenderer.color = new Color(1, 1, 1, .5f);
+        yield return new WaitForSeconds(1f);
+        spriteRenderer.color = new Color(1, 1, 1, 1);
+    }
+
     private void Start()
     {
         noForm = true;
         animator = this.GetComponent<Animator>();
         spriteRenderer = this.GetComponent<SpriteRenderer>();
-        transform.position = startingPosition.initalValue;
+        //transform.position = startingPosition.initalValue;
     }
     private void AttackPointMovement()
     {
@@ -119,7 +134,14 @@ public class PlayerMovement : MonoBehaviour
 
             foreach (Collider2D enemy in hitEnemies)
             {
-                enemy.GetComponent<EnemyAI>().TakeDamage(attackDamage);
+                if (enemy.GetComponent<EnemyAI>() != null)
+                {
+                    enemy.GetComponent<EnemyAI>().TakeDamage(attackDamage);
+                }
+                if (enemy.GetComponent<GolemMovements>() != null)
+                {
+                    enemy.GetComponent<GolemMovements>().TakeDamage(attackDamage);
+                }
             }
 
             Collider2D[] hitObjects = Physics2D.OverlapCircleAll(attackPoint.position, attackRange, EnvObjects);
@@ -160,7 +182,14 @@ public class PlayerMovement : MonoBehaviour
 
             foreach (Collider2D enemy in hitEnemies)
             {
-                enemy.GetComponent<EnemyAI>().TakeDamage(attackDamage);
+                if (enemy.GetComponent<EnemyAI>() != null)
+                {
+                    enemy.GetComponent<EnemyAI>().TakeDamage(attackDamage);
+                }
+                if (enemy.GetComponent<GolemMovements>() != null)
+                {
+                    enemy.GetComponent<GolemMovements>().TakeDamage(attackDamage);
+                }
             }
 
             Collider2D[] hitObjects = Physics2D.OverlapCircleAll(attackPoint.position, attackRange, EnvObjects);
@@ -305,7 +334,7 @@ public class PlayerMovement : MonoBehaviour
             StartCoroutine(StopForAnimation());
             animator.Play("PinkyLungeAndPlungeDown");
             //StartCoroutine(WaitForThePlunge());
-            plungeCollider.enabled = true;
+            //plungeCollider.enabled = true;
             animator.SetBool("Held", false);
             attackPoint = attackPointCenter.transform.transform;
             if (movement.x <= -.01f)
@@ -361,10 +390,10 @@ public class PlayerMovement : MonoBehaviour
     {
         Debug.Log("Starting");
         yield return new WaitForSeconds(.5f);
-        ripple.SetActive(true);
+        //ripple.SetActive(true);
         //animator.SetBool("LPComplete", false);
         yield return new WaitForSeconds(1f);
         animator.SetBool("Held", false);
-        ripple.SetActive(false);
+        //ripple.SetActive(false);
     }
 }
